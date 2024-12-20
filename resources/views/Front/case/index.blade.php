@@ -12,12 +12,12 @@
   <body class="bg-secondary">
     @include('components.header')
      <main>
-      <section class="bg-secondary rounded md:mt-0">
+      <section class="bg-secondary rounded md:mt-0 mt-6">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4">
           <!-- Container flex -->
           <div class="flex lg:flex-row-reverse flex-col-reverse gap-4 md:mt-4">
             <!-- Image Section -->
-            <div class="lg:w-1/2 h-auto md:h-[30rem] text-xl">
+            <div class="lg:w-1/2 h-auto md:h-[30rem]">
               <img
                 src="{{ asset($blog->cover_image) }}"
                 alt="climate change advocacy"
@@ -25,20 +25,20 @@
               />
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 md:p-12">
+            <div class="lg:w-2/3 md:p-6">
               <div>
             <div class="flex gap-3 items-center mb-2 text-[16px] font-[400]">
-              <a href="{{ url('Insights-Case') }}" class="flex items-center gap-1">
+              <a href="{{ url('Insights-Case') }}" class="flex items-center gap-1 font-opensans font-[400]" style="line-height: normal; letter-spacing: -0.32px;">
                Case Study 
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <polyline points="8 4 16 12 8 20" />
                 </svg>
               </a>
-              <p class="text-primary font-[600]">{{ $blog->sub_title }}</p>
+              <p class="text-primary font-[600] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">{{ $blog->sub_title }}</p>
             </div>
                 <h1
-                 class="md:text-5xl lg:text-[3.5rem] text-[40px] md:mb-6 mb-2 font-playfair font-[00] leading-normal"
-                >
+                 class="md:text-[56px] lg:text-[56px] text-[40px] md:mb-6 mb-2 font-playfair font-[500] leading-normal"
+                style="line-height: normal;">
                   {{ $blog->title }}
                 </h1>
               </div>
@@ -46,7 +46,7 @@
           </div>
         </div>
       </section>
-      <section class="bg-accentTextLight py-12 rounded">
+      <section class="bg-accentTextLight py-12 md:py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <!-- Container grid -->
           <div
@@ -79,32 +79,32 @@
             >
               <div class="divide-y-2 divide-[#353535] px-6 font-opensans">
                 <div class="py-4">
-                  <h2 class="text-[16px] font-opensans font-[600] leading-normal">Client Name</h2>
-                  <p class="font-opensans font-[400] text-[14px] leading-normal">{{ $blog->sub_title }}</p>
+                  <h2 class="text-[16px] font-opensans font-[600]" style="line-height: normal;">Client Name</h2>
+                  <p class="font-opensans font-[400] text-[14px] mt-1" style="line-height: normal;">{{ $blog->sub_title }}</p>
                 </div>
                 <div class="flex-1 py-4">
-                  <h2 class="text-[16px] font-opensans font-[600] leading-normal">Project Timeline</h3>
-                  <p class="font-opensans font-[400] text-[14px] leading-normal">{{ $blog->project_timeline }}</p>
+                  <h2 class="text-[16px] font-opensans font-[600]" style="line-height: normal;">Project Timeline</h3>
+                  <p class="font-opensans font-[400] text-[14px] mt-1" style="line-height: normal;">{{ $blog->project_timeline }}</p>
                 </div>
                 <div class="flex-1 py-4">
-                  <h2 class="text-[16px] font-opensans font-[600] leading-normal">Our Service</h3>
-                  <p class="font-opensans font-[400] text-[14px] leading-normal">{{ $blog->our_service }}</p>
+                  <h2 class="text-[16px] font-opensans font-[600]" style="line-height: normal;">Our Service</h3>
+                  <p class="font-opensans font-[400] text-[14px] mt-1" style="line-height: normal;">{{ $blog->our_service }}</p>
                 </div>
                 <div class="py-4">
-                  <h2 class="text-[16px] font-opensans font-[600] leading-normal">Other Case Studies:</h3>
+                  <h2 class="text-[16px] font-opensans font-[600]" style="line-height: normal;">Other Case Studies:</h3>
                   <ul class="list-disc">
                    @foreach($blogs as $blogging)
                   <a href="{{ url('client/blog', $blogging->id) }}">
-                    <p class="font-opensans font-[400] text-[14px] leading-normal">
+                    <p class="font-opensans font-[400] text-[14px] mt-1" style="line-height: normal;">
                      {{ $blogging->title }}
                     </p>
                   </a>.
                     @endforeach
                   </ul>
                   <a
-                    href="#"
-                    class="text-primary font-[400] text-[14px] underline justify-center flex"
-                    >View all case studies</a
+                    href="{{ url('Insights-Case') }}"
+                    class="font-[400] text-[14px] justify-center flex"
+                    style="line-height: normal;">View all case studies</a
                   >
                 </div>
               </div>
@@ -167,101 +167,9 @@
     </main>
 
       <!-- Section for Clients & Partners -->
-      <section class="py-8 bg-accentTextLight">
-        <div class="max-w-7xl h-80 mx-auto px-4 sm:px-6">
-          <h2 class="md:text-6xl text-[40px] mb-6 font-playfair font-medium leading-normal">
-            Our clients & partners
-          </h2>
-          <div class="relative overflow-hidden mt-12">
-            <div
-              id="clients"
-              class="flex space-x-8 items-center animate-scroll whitespace-nowrap"
-            >
-              <img
-                src="{{ asset('Images/c-1.png') }}"
-                alt="Client 1"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-2.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-3.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-4.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-5.png') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-6.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-7.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-8.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-9.jpeg') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-10.png') }}"
-                alt="Client "
-                class="h-16 fade-in-out"
-              />
-            </div>
-
-            <div
-              class="absolute inset-y-0 left-0 w-12 fade-left pointer-events-none"
-            ></div>
-            <div
-              class="absolute inset-y-0 right-0 w-12 fade-right pointer-events-none"
-            ></div>
-          </div>
-        </div>
-      </section>
-      <!-----Six Section--->
-
+          @include('components.clients')
       <!-- Section Seven -->
- <section class="flex flex-col items-center bg-miscellanous py-16">
-       <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
-          <h2
-            class="text-3xl md:text-5xl lg:text-6xl font-medium mb-4 font-playfair"
-          >
-            We don’t just tell stories
-          </h2>
-          <h2
-            class="text-3xl md:text-5xl lg:text-6xl font-medium mb-4 font-playfair"
-          >
-            We drive change
-          </h2>
-          <p class="text-[24px] mb-6 font-medium font-opensans">
-            Let's Make Impact Together
-          </p>
-          <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
-      </button>
-        </div>
-      </section>
-      </section>
+      @include('components.section-one')
     </main>
    @include('components.footer')
   </body>

@@ -64,7 +64,7 @@ class BlogController extends Controller
             'project_timeline' => "required|max:250",
             'our_service' => "required|max:250",
             'content' => 'required',
-            'cover_image' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'cover_image' => 'required|image|mimes:jpeg,png,jpg,gif',
         ]);
 
         // Check if an ID is provided for updating an existing blog post
