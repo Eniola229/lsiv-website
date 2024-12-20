@@ -251,76 +251,9 @@
           </div>
         </div>
       </section>
-      <!-- Section for Clients & Partners -->
-      <section class="py-8 bg-accentTextLight">
-        <div class="max-w-7xl h-80 mx-auto px-4 sm:px-6">
-          <h2
-            class="md:text-6xl text-4xl mb-6 font-playfair font-medium leading-normal"
-          >
-            Clients & Partners
-          </h2>
-          <div class="relative overflow-hidden mt-12">
-            <div
-              id="clients"
-              class="flex space-x-8 items-center animate-scroll whitespace-nowrap"
-            >
-              <img
-                src="{{ asset('Images/c-1.png') }}"
-                alt="Client 1"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-2.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-3.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-4.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-5.png') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-            </div>
-
-            <div
-              class="absolute inset-y-0 left-0 w-12 fade-left pointer-events-none"
-            ></div>
-            <div
-              class="absolute inset-y-0 right-0 w-12 fade-right pointer-events-none"
-            ></div>
-          </div>
-        </div>
-      </section>
+           @include('components.clients')
       <!-- Section Seven -->
-      <section class="flex flex-col items-center bg-miscellanous py-16">
-        <div class="text-center w-full h-52 sm:h-52 md:text-6xl lg:h-72">
-          <h2
-            class="text-3xl md:text-5xl lg:text-6xl font-meduim mb-4 font-playfair"
-          >
-            We don’t just tell stories
-          </h2>
-          <h2
-          class="text-3xl md:text-5xl lg:text-6xl font-meduim mb-4 font-playfair"
-          >
-            We drive change
-          </h2>
-         <p class="md:text-[24px] text-[16px] font-[400] mb-4 font-medium font-opensans"> 
-            Let's Make Impact Together
-          </p>
-      <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
-      </button>
-        </div>
-      </section>
+      @include('components.section-one')
     </main>
 @include('components.footer')
   </body>

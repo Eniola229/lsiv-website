@@ -42,23 +42,23 @@
       </section>
 
       <!-- discussion session 1 -->
-      <section class="bg-secondary py-16 rounded">
+      <section class="bg-secondary md:py-0 py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <!-- COnatainner flex -->
           <div class="flex items-center lg:flex-row flex-col gap-4 md:mt-[-40px] mt-0">
             <!-- flex card 1 -->
 
             <!-- Image Section -->
-            <div class="lg:mt-20 lg:w-1/2 h-auto md:h-[38rem]">
+            <div class="lg:mt-0 lg:w-1/2 h-auto md:h-[38rem]">
               <img
-                src="{{ asset('Images/gender.jpeg') }}"
+                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653236/959192906101dc997360ba4328e8f28c_cjmpnm.jpg') }}"
                 alt="Gender Equality and Empowerment: Building a More Equitable
                 World (SDG 5)"
                 class="w-full h-full object-cover rounded-md"
               />
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 md:p-12 md:mt-[90px]">
+            <div class="lg:w-2/3 md:p-12 md:mt-0">
               <div>
                 <h2
                   class="md:text-[32px] text-[24px] mb-6 font-opensans font-[600] leading-normal font-opensans text-accentTextDark"
@@ -155,16 +155,16 @@
         </div>
       </section>
       <!-- discussion section 2 -->
-      <section class="bg-miscellanous py-16 rounded">
+      <section class="bg-miscellanous  md:py-12 py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <!-- Container flex -->
          <div class="flex items-center lg:flex-row flex-col gap-4 md:mt-[-40px] mt-0">
             <!-- flex card 1 -->
 
             <!-- Image Section -->
-            <div class="lg:mt-20 lg:w-1/2 h-auto md:h-[38rem] text-xl">
+            <div class="lg:mt-16 lg:w-1/2 h-auto md:h-[38rem] text-xl">
               <img
-                src="{{ asset('Images/health.jpeg') }}"
+                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350092/70195222_2378336455591485_5319670050997665792_n_zul9pe.jpg') }}"
                 alt=" Health and Well-Being: Promoting Positive Social and
                 Behavioral Change (SDG 3)"
                 class="w-full h-full object-cover rounded-md"
@@ -250,20 +250,20 @@
         </div>
       </section>
       <!-- discussion section 3 -->
-      <section class="bg-accentTextLight py-16 rounded">
+      <section class="bg-accentTextLight md:py-16 py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <!-- Container flex -->
          <div class="flex items-center lg:flex-row flex-col gap-4 md:mt-[-40px] mt-0">
             <!-- Image Section -->
-            <div class="lg:mt-20 lg:w-1/2 h-auto md:h-[38rem] text-xl">
+            <div class="lg:mt-0 lg:w-1/2 h-auto md:h-[38rem] text-xl">
               <img
-                src="{{ asset('Images/ta-2.png') }}"
+                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349991/43207440_1858496167575519_5673215072856440832_n_e4ao8m.jpg') }}"
                 alt="education and social development"
                 class="w-full h-full object-cover rounded-md"
               />
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 md:p-12 md:mt-[50px]">
+            <div class="lg:w-2/3 md:p-12 md:mt-0">
               <div>
                 <h2
                   class="md:text-[32px] text-[24px] mb-6 font-opensans font-[600] leading-normal font-opensans text-accentTextDark"
@@ -358,14 +358,14 @@
         </div>
       </section>
       <!-- discussion section 4 -->
-      <section class="bg-[#FFDED0] py-16 rounded font-opensans">
+      <section class="bg-[#FFDED0] md:py-16 py-16 rounded font-opensans">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <!-- Container flex -->
          <div class="flex items-center lg:flex-row flex-col gap-4 md:mt-[-40px] mt-0">
             <!-- Image Section -->
-            <div class="lg:mt-20 lg:w-1/2 h-auto md:h-[38rem] text-xl">
+            <div class="lg:mt-12 lg:w-1/2 h-auto md:h-[38rem] text-xl">
               <img
-                src="{{ asset('Images/ta-1.png') }}"
+                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350331/IMG_6548_stgyc7.jpg') }}"
                 alt="sustainable livelihoods"
                 class="w-full h-full object-cover rounded-md"
               />
@@ -438,7 +438,7 @@
             <!-- Image Section -->
             <div class="lg:mt-20 lg:w-1/2 h-auto md:h-[38rem] text-xl">
               <img
-                src="{{ asset('Images/climate.jpeg') }}"
+                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653809/6ab738988f8bd42af33dbbc5ba99243b_eibfw4.jpg') }}"
                 alt="climate change advocacy"
                 class="w-full h-full object-cover rounded-md"
               />
@@ -500,102 +500,9 @@
           </div>
         </div>
       </section>
-
-      <!-- Section for Clients & Partners -->
-      <section class="py-8 bg-accentTextLight">
-        <div class="max-w-7xl h-80 mx-auto px-4 sm:px-6">
-          <h2
-            class="md:text-6xl text-4xl mb-6 font-playfair font-medium leading-normal"
-          >
-            Clients & Partners
-          </h2>
-          <div class="relative overflow-hidden mt-12">
-            <div
-              id="clients"
-              class="flex space-x-8 items-center animate-scroll whitespace-nowrap"
-            >
-              <img
-                src="{{ asset('Images/c-1.png') }}"
-                alt="Client 1"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-2.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-3.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-4.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-5.png') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-6.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-7.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-8.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-9.jpeg') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-10.png') }}"
-                alt="Client "
-                class="h-16 fade-in-out"
-              />
-            </div>
-
-            <div
-              class="absolute inset-y-0 left-0 w-12 fade-left pointer-events-none"
-            ></div>
-            <div
-              class="absolute inset-y-0 right-0 w-12 fade-right pointer-events-none"
-            ></div>
-          </div>
-        </div>
-      </section>
+      @include('components.clients')
       <!-- Section Seven -->
- <section class="flex flex-col items-center bg-miscellanous py-16">
-       <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
-          >
-            We don’t just tell stories
-          </h2>
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair"
-          >
-            We drive change
-          </h2>
-          <p class="md:text-lg text-[24px] font-[400] mb-4 font-medium font-opensans"> 
-            Let's Make Impact Together
-          </p>
-           <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
-      </button>
-        </div>
-      </section>
+      @include('components.section-one')
     </main>
       @include('components.footer')
   </body>

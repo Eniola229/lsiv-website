@@ -484,17 +484,17 @@
               <!-- Team Member Card 1 -->
               <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
                 <img
-                  src="{{ asset('Images/ceo-lolo.png') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710333/Ellipse_20_ptje7f.png') }}"
                   alt="Team member photo"
                   class="w-24 h-24 mx-auto rounded-full mb-4 object-cover object-center"
                 />
                 <h2
                   class="text-xl font-[600] font-opensans "
-                  
+                  style="line-height: normal; letter-spacing: 0.4px;"
                 >
                   Lolo Cynthia
                 </h2>
-                <p class="font-[400] mb-4 mt-4 font-opensans font-[400]">Executive Director</p>
+                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Executive Director</p>
                 <a
                   href="https://www.linkedin.com/in/lolocynthia/ "
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -509,17 +509,17 @@
               <!-- Team Member Card 2 -->
               <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
                 <img
-                  src="{{ asset('Images/team-2.png') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710427/image_1_qcjudm.png') }}"
                   alt="Team member photo"
                   class="w-24 h-24 mx-auto rounded-full mb-4 object-cover object-center"
                 />
                 <h2
-                  class="text-xl font-[600] font-opensans"
-                  
+                  class="text-xl font-[600] font-opensans "
+                  style="line-height: normal; letter-spacing: 0.4px;"
                 >
                 Bumai Blessing
                 </h2>
-                <p class="font-[400] mb-4 mt-4 font-opensans">Social Media and Communications Officer</p>
+                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Social Media and Communications Officer</p>
                 <a
                   href="https://bumaiblessing.com/"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -535,17 +535,17 @@
               <!-- Team Member Card 3 -->
               <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
                 <img
-                   src="{{ asset('Images/team-3.png') }}"
+                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710468/image_2_syq20p.png') }}"
                   alt="Team member photo"
                   class="w-24 h-24 mx-auto rounded-full mb-4 object-cover object-center"
                 />
                 <h2
-                  class="text-xl font-[600] font-opensans"
-                  
+                  class="text-xl font-[600] font-opensans "
+                  style="line-height: normal; letter-spacing: 0.4px;"
                 >
                   Sherine Achieng
                 </h2>
-                <p class="font-[400] mb-4 mt-4 font-opensans">Senior Advocacy Officer</p>
+                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Senior Advocacy Officer</p>
                 <a
                   href="https://www.linkedin.com/in/sherine-achieng-96bb602a7/?trk=people-guest_people_search-card&originalSubdomain=ke"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -559,17 +559,17 @@
               <!-- Team Member Card 5 -->
               <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
                 <img
-                   src="{{ asset('Images/team-4.png') }}"
+                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710502/image_3_whmfja.png') }}"
                   alt="Team member photo"
                   class="w-24 h-24 mx-auto rounded-full mb-4 object-cover object-center"
                 />
                 <h2
-                  class="text-xl font-[600] font-opensans"
-                  
+                  class="text-xl font-[600] font-opensans "
+                  style="line-height: normal; letter-spacing: 0.4px;"
                 >
                   Eunice Gatonye
                 </h2>
-                <p class="font-[400] mb-4 mt-4 font-opensans">PR and Media Specialist</p>
+                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">PR and Media Specialist</p>
                 <a
                   href="https://www.linkedin.com/in/eunice-gatonye/"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -583,17 +583,17 @@
               <!-- Team Member Card 6 -->
               <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
                 <img
-                   src="{{ asset('Images/team-5.png') }}"
+                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710536/image_4_hfhb0p.png') }}"
                   alt="Team member photo"
                   class="w-24 h-24 mx-auto rounded-full mb-4 object-cover object-center"
                 />
                 <h2
-                  class="text-xl font-[600] font-opensans"
-                  
+                  class="text-xl font-[600] font-opensans "
+                  style="line-height: normal; letter-spacing: 0.4px;"
                 >
                   Martha Aosa
                 </h2>
-                <p class="font-[400] mb-4 mt-4 font-opensans">Digital Communications Manager</p>
+                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Digital Communications Manager</p>
                 <a
                   href="https://www.linkedin.com/in/martha-aosa-9a1b64163/?originalSubdomain=ke"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -606,17 +606,17 @@
               </div>
                 <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
                 <img
-                  src="{{ asset('Images/p-d-lolo.png') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710569/Ellipse_20_1_nolgw2.png') }}"
                   alt="Team member photo"
                   class="w-24 h-24 mx-auto rounded-full mb-4 object-cover object-center"
                 />
                 <h2
-                  class="text-xl font-[600] font-opensans"
-                  
+                  class="text-xl font-[600] font-opensans "
+                  style="line-height: normal; letter-spacing: 0.4px;"
                 >
                  Akogun Elizabeth
                 </h2>
-                <p class="font-[400] mb-4 mt-4 font-opensans">Product Designer</p>
+                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Product Designer</p>
                 <a
                   href="https://www.linkedin.com/in/akogun-elizabeth/"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -673,100 +673,9 @@
           </div>
         </div>
       </section>
-
-      <!-- Section for Clients & Partners -->
-   <section class="py-8 bg-[#F8F8FF]">
-        <div class="max-w-7xl h-80 mx-auto px-4 sm:px-4">
-          <h2 class="text-4xl md:text-6xl mb-6 font-playfair font-medium leading-normal" style="font-weight: 500;">
-            Our clients & partners
-          </h2>
-          <div class="relative overflow-hidden mt-12">
-            <div
-              id="clients"
-              class="flex space-x-8 items-center animate-scroll whitespace-nowrap"
-            >
-              <img
-                src="{{ asset('Images/c-1.png') }}"
-                alt="Client 1"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-2.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-3.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-4.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-5.png') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-6.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-7.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-8.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-9.jpeg') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-10.png') }}"
-                alt="Client "
-                class="h-16 fade-in-out"
-              />
-            </div>
-
-            <div
-              class="absolute inset-y-0 left-0 w-12 fade-left pointer-events-none"
-            ></div>
-            <div
-              class="absolute inset-y-0 right-0 w-12 fade-right pointer-events-none"
-            ></div>
-          </div>
-        </div>
-      </section>
+       @include('components.clients')
       <!-- Section Seven -->
- <section class="flex flex-col items-center bg-miscellanous py-16">
-       <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
-          >
-            We don’t just tell stories
-          </h2>
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair"
-          >
-            We drive change
-          </h2>
-          <p class="md:text-[24px] text-[16px] font-[400] mb-4 font-medium font-opensans"> 
-            Let's Make Impact Together
-          </p>
-           <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
-      </button>
-        </div>
-      </section>
+      @include('components.section-one')
     </main>
     @include('components.footer')
   </body>
