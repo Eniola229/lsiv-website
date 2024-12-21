@@ -460,13 +460,13 @@
       <section class="bg-accentTextLight py-16 rounded">
           <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
           <!-- IMPACTS List -->
-          <div class="mt-2">
+          <div class="max-w-full mx-auto px-6 sm:px-6 md:px-6 md:p-4 p-1 mt-2">
             <h2
             class="md:text-[48px] text-[32px] md:mb-2 m-2 font-playfair font-[500] leading-normal md:p-2"
           style="line-height: normal;">
               Impact
             </h3>
-            <ul class="custom-bullet-list md:p-4 md:mt-[-30px]">
+            <ul class="custom-bullet-list md:p-4 md:mt-[-30px] font-opensans">
                  <li class="flex items-start gap-2 text-[20px] font-[400]" style="line-height: 31px">
                     <span class="flex-shrink-0 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -503,7 +503,7 @@
 
             </ul>
             <div class=" mt-4 text-base text-[20px] md:p-4">
-              <p class="text-[20px]">
+              <p class="text-[20px] font-opensans" style="line-height: 31px;">
                 <span class="font-[600]"> MyBodyIsMine</span> equips young people with the
                 knowledge and confidence to navigate the complexities of
                 adolescence and make informed choices about their sexual and
@@ -521,17 +521,11 @@
       <!-- Section Six -->
       <section class="flex flex-col items-center bg-miscellanous py-16">
        <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
-         <h2 class="text-3xl md:text-[60px] font-medium mb-2 md:mb-6 font-playfair">
-            Learn more about how you can partner with 
+         <h2 class="text-3xl md:text-[60px] font-medium mb-4 md:mb-2 font-playfair leading-normal" >
+            Learn more about how you can partner with <br> with MyBodyIsMine to empower young <br> people in your community.
           </h2>
-          <h2 class="text-3xl md:text-[60px] font-medium mb-2 md:mb-6 font-playfair">
-          with MyBodyIsMine to empower young
-        </h2>
-        <h2 class="text-3xl md:text-[60px] font-medium mb-2 md:mb-6 font-playfair">
-          people in your community.
-        </h2>
            <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+          <span class="btn-text font-opensans" style="line-height: 20px;">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
       </button>
         </div>
       </section>

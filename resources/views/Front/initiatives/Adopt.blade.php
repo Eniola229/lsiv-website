@@ -17,31 +17,27 @@
     <section class="md:p-6 p-2 rounded md:mt-0 mt-[-10px]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
             <div class="flex gap-3 items-center mb-2 text-[16px] font-[400]">
-              <a href="{{ url('Initiatives-Initiatives') }}" class="flex items-center gap-1">
-                Our initiative
+               <a href="{{ url('Initiatives-Initiatives') }}" class="flex items-center gap-1 font-opensans font-[400] text-[16px]" style="line-height: normal; letter-spacing: -0.32px;"> Our initiative
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <polyline points="8 4 16 12 8 20" />
                 </svg>
               </a>
-              <p class="text-primary font-[600]">Adopt a Community</p>
+               <p class="text-primary font-[600] text-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">Adopt a Community</p>
             </div>
 
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
-              <h1
+               <h1
                 class="md:text-5xl lg:text-[3.5rem] text-[40px] md:mb-6 mb-2 font-playfair font-[00] leading-normal"
-              >
-                Building stronger communities:
-                <span class="text-primary">
-                  the adopt a community initiative</span
-                >
+              style="line-height: 80px;">
+              The Adopt A Community Initiative
               </h1>
             </div>
             <!-- Text Section -->
             <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
               <p
-                class="text-accentTextDark font-[400] md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
-              >
+                class="text-accentTextDark md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
+              style="line-height: 31px; ">
                 Through the Adopt a Community Initiative, we empower grassroots
                 communities to identify critical needs and co-create sustainable
                 solutions that address the root causes of poverty, neglect, and
@@ -71,7 +67,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/ad-1.jpg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734761528/Frame_1618873201_lkyhg7.png') }}"
                     alt="the founder of LSIV"
                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -83,7 +79,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/a-3.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734698859/Frame_1618873174_telomb.png') }}"
                     alt="the founder of LSIV"
                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -95,7 +91,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/a-4.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734761590/Frame_1618873209_pmizvz.png') }}"
                     alt="the founder of LSIV"
                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -107,7 +103,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/a-5.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350045/64210562_1112114112305099_789105012625113088_n_rc81jr.jpg') }}"
                     alt="the founder of LSIV"
                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -412,11 +408,11 @@
           <!-- Our Approach List -->
        <h2
             class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
-          >
+          style="line-height: normal;">
             Our Approach
           </h2>
-             <ul class="custom-bullet-list md:pl-5">
-            <li class="flex items-start gap-2 mb-4 text-[20px]">
+             <ul class="custom-bullet-list md:pl-5 font-opensans" style="line-height: 31px">
+            <li class="flex items-start gap-2 mb-4 text-[20px] font-[400]" style="line-height: 31px">
               <span class="flex-shrink-0 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -430,7 +426,7 @@
               </div>
             </li>
 
-            <li class="flex items-start gap-2 mb-4 text-[20px] ">
+            <li class="flex items-start gap-2 mb-4 text-[20px] font-[400]" style="line-height: 31px">
               <span class="flex-shrink-0 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -471,14 +467,13 @@
       <section class="bg-accentTextLight py-16 rounded">
   
           <!-- IMPACTS List -->
-          <div class="mt-2">
-            <div class="max-w-full mx-auto px-6 sm:px-6 md:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
-             <h2
+           <div class="max-w-full mx-auto px-6 sm:px-6 md:px-6 md:p-4 p-1 mt-2">
+            <h2
             class="md:text-[48px] text-[32px] md:mb-2 m-2 font-playfair font-[500] leading-normal md:p-2"
-          >
+          style="line-height: normal;">
               Impact
             </h3>
-            <ul class="custom-bullet-list md:p-4">
+            <ul class="custom-bullet-list md:p-4 font-opensans" style="line-height: normal;">
              <li class="flex items-start gap-2 mb-4 text-[20px]">
                 <span class="flex-shrink-0 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -538,48 +533,13 @@
       <section class="flex flex-col items-center bg-miscellanous py-16">
        <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
           <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
+            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
           >
-           Join us in building a more 
-          </h2>
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair"
-          >
-           just and equitable world.
+           Join us in building a more <br> just and equitable world.
           </h2>
            <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+          <span class="btn-text font-opensans" style="line-height: 20px; ">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
       </button>
-        </div>
-      </section>
-
-
-      <!-- Section Eight -->
-      <section class="w-full px-4 py-16 bg-gray-50 relative bg-[#F8F8FF]">
-        <div
-          class="flex mx-auto max-w-7xl p-2 md:p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 relative"
-        >
-          <!-- Left Section: Heading and Subtext -->
-          <div class="w-full md:w-lg">
-            <h2
-              class="text-[40px] md:text-[96px] lg:text-[96px] font-playfair font-medium text-gray-900 leading-tight text-left md:text-left tracking-tight"
-            >
-              Ready to Amplify <br />
-              Your Impact?
-            </h2> 
-          </div>
-            <div
-              class="flex items-center justify-center w-full md:w-auto mt-8 md:mt-0 rounded-full"
-            >
-              <button
-                class="md:h-52 md:w-52 w-52 h-52 text-white p-4 rounded-full flex items-center justify-center orange-round-down"
-              >
-               <svg xmlns="http://www.w3.org/2000/svg" width="70" height="108" viewBox="0 0 70 108" fill="none">
-                  <path d="M37.8284 1.17157C36.2663 -0.390526 33.7337 -0.390526 32.1716 1.17157L6.71573 26.6274C5.15363 28.1895 5.15363 30.7222 6.71573 32.2843C8.27783 33.8464 10.8105 33.8464 12.3726 32.2843L35 9.65685L57.6274 32.2843C59.1895 33.8464 61.7222 33.8464 63.2843 32.2843C64.8464 30.7222 64.8464 28.1895 63.2843 26.6274L37.8284 1.17157ZM39 104L39 4H31L31 104H39Z" fill="white"/>
-                </svg>
-              </button>
-            </div>
-
         </div>
       </section>
     </main>

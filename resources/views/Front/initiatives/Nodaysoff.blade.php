@@ -13,30 +13,30 @@
        @include('components.header')
     <main>
       <!-- our innitiantives insider -->
-      <section class="md:p-6 p-2 bg-white rounded md:mt-0 mt-[20px]">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-6 p-6 md:mt-0 mt-[-50px]">
+      <section class="md:p-6 p-2 bg-white rounded md:mt-0 mt-[30px]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 p-6 md:mt-0 mt-[-50px]">
             <div class="flex gap-3 items-center mb-2 text-[16px] font-[400]">
-              <a href="{{ url('Initiatives-Initiatives') }}" class="flex items-center gap-1">
+             <a href="{{ url('Initiatives-Initiatives') }}" class="flex items-center gap-1 font-opensans font-[400] text-[16px]" style="line-height: normal; letter-spacing: -0.32px;">
                 Our initiative
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <polyline points="8 4 16 12 8 20" />
                 </svg>
               </a>
-              <p class="text-primary font-[600]">No Day Off</p>
+               <p class="text-primary font-[600] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">No Day Off</p>
             </div>
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
               <h1
                 class="md:text-5xl lg:text-[3.5rem] text-[40px] md:mb-6 mb-2 font-playfair font-[00] leading-normal"
-              >
+              style="line-height: 80px;">
                 The No Day Off Initiative
               </h1>
             </div>
             <!-- Text Section -->
             <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
               <p
-                class="text-accentTextDark font-[400] md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
-              >
+                class="text-accentTextDark md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
+              style="line-height: 31px; ">
                 <strong> The No Day Off</strong> Initiative empowers girls to
                 stay in school and manage their periods with dignity by
                 providing them with reusable sanitary pads and menstrual hygiene
@@ -66,7 +66,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/n-1.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734734920/Frame_1618873260_kaogz9.png') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -78,7 +78,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/n-2.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734762402/Frame_1618873212_qg3xem.png') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -90,7 +90,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/n-3.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734762424/Frame_1618873209_1_smclvy.png') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -102,7 +102,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/n-4.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734762496/d692d1d9bf096bc8457fd9c7b234a7b9_a4oe5k.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -403,13 +403,13 @@
         <section class="bg-secondary py-16 rounded">
         <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
           <!-- Our Approach List -->
-      <h2
+       <h2
             class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
-          >
+          style="line-height: normal;">
             Breaking the Cycle of Period Poverty
           </h2>
             <ul class="custom-bullet-list md:pl-5">
-              <li class="flex items-start gap-2 mb-4 text-[20px]">
+              <li class="flex items-start gap-2 mb-4 text-[20px] font-opensans" style="line-height: normal;">
                 <span class="flex-shrink-0 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                     <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -420,7 +420,7 @@
                 </div>
               </li>
 
-              <li class="flex items-start gap-2 mb-4 text-[20px]">
+              <li class="flex items-start gap-2 mb-4 text-[20px] font-opensans">
                 <span class="flex-shrink-0 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                     <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -428,7 +428,7 @@
                 </span>
                 <div>
                   <span class="font-[600]">Menstrual Hygiene Education:</span> We go beyond distribution by offering comprehensive workshops on:
-                  <ul class="list-disc pl-5 space-y-2 mt-2">
+                  <ul class="list-disc pl-5 space-y-2 mt-2 font-opensans">
                     <li><span class="font-[600]">Making reusable sanitary pads:</span> Empowering self-sufficiency.</li>
                     <li><span class="font-[600]">Proper menstrual hygiene practices:</span> Promoting health and well-being.</li>
                   </ul>
@@ -443,13 +443,13 @@
           <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
 
           <!-- IMPACTS List -->
-          <div class="md:mt-4 mt-2">
-         <h2
-            class="md:text-[48px] text-[32px] md:mb-2 m-2 font-playfair font-[500] leading-normal md:p-2"
-          >
+          <div class="max-w-full mx-auto px-6 sm:px-6 md:px-6 md:p-4 p-1 mt-2">
+          <h2
+            class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
+          style="line-height: normal;">
               Impact
             </h3>
-               <ul class="custom-bullet-list md:p-4 md:mt-[-30px]">
+               <ul class="custom-bullet-list md:p-4 md:mt-[-30px] font-opensans">
                   <li class="flex items-start gap-2 mb-4 text-[20px]">
                     <span class="flex-shrink-0 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -500,7 +500,7 @@
             Invest in girls' education.
           </h2>
           <!-- NOTE in the first 2 before this there is no paragrah so handle them dynamically too -->
-          <p class="text-center text-[24px] lg:w-1/2 mx-auto font-opensans">
+          <p class=" lg:w-1/2 mx-auto md:text-[24px] text-[16px] font-[400] md:mb-0 mb-6 font-medium font-opensans">
             Partner with the No Day Off Initiative to keep girls in school and
             break the cycle of period poverty.
           </p>
