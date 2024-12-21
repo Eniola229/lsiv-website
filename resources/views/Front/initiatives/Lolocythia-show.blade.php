@@ -16,19 +16,19 @@
       <section class="py-16 rounded md:mt-0 mt-[-30px]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
             <div class="flex gap-3 items-center mb-2 text-[16px] font-[400]">
-              <a href="{{ url('Initiatives-Initiatives') }}" class="flex items-center gap-1">
+             <a href="{{ url('Initiatives-Initiatives') }}" class="flex items-center gap-1 font-opensans font-[400] text-[16px]" style="line-height: normal; letter-spacing: -0.32px;">
                 Our initiative
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                   <polyline points="8 4 16 12 8 20" />
                 </svg>
               </a>
-              <p class="text-primary font-[600]">The Lolo Cynthia Show</p>
+               <p class="text-primary font-[600] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">The Lolo Cynthia Show</p>
             </div>
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
              <h1
                 class="md:text-5xl lg:text-[3.5rem] text-[40px] md:mb-6 mb-2 font-playfair font-[00] leading-normal"
-              >
+              style="line-height: 80px;">
                <!--  Empowering Change Through Storytelling:
                 <span class="text-primary"> The lolo cynthia show </span> -->
                 The lolo cynthia show
@@ -37,8 +37,8 @@
             <!-- Text Section -->
             <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
                 <p
-                class="text-accentTextDark font-[400] md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
-              >
+                class="text-accentTextDark md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
+              style="line-height: 31px; ">
                 <!-- note also how some start wiht boldness why some dont  -->
                 <strong> The Lolo Cynthia Show </strong> is a powerful 30-minute
                 program that blends education and entertainment to spark
@@ -66,7 +66,7 @@
             >
               <!-- card 1 -->
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -81,7 +81,7 @@
               </div>
               <!-- card 2 -->
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -96,7 +96,7 @@
               </div>
               <!-- card 3 -->
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -111,7 +111,7 @@
               </div>
               <!-- card 4 -->
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -126,7 +126,7 @@
               </div>
               <!-- card 4 -->
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -141,7 +141,7 @@
               </div>
             <!-- card 5 -->
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -155,7 +155,7 @@
                 </div>
               </div>
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -170,7 +170,7 @@
               </div>
 
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -184,7 +184,7 @@
                 </div>
               </div>
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -198,7 +198,7 @@
                 </div>
               </div>
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -212,7 +212,7 @@
                 </div>
               </div>
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -226,7 +226,7 @@
                 </div>
               </div> 
         <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -241,7 +241,7 @@
               </div>
               <!-- card 3 -->
               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+                class="flex-shrink-0 md:p-4 p-2 md:w-[532.191px] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                  <iframe
@@ -273,12 +273,12 @@
       <section class="bg-secondary py-16 rounded">
         <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
           <!-- Our Approach List -->
-          <h2
-            class="md:text-[48px] text-[32px] md:mb-4 m-2 font-playfair font-[500] leading-normal md:p-2"
-          >
+            <h2
+            class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
+          style="line-height: normal;">
             Our Approach
           </h2>
-         <ul class="custom-bullet-list md:pl-5 pl-3">
+         <ul class="custom-bullet-list md:pl-5 pl-3 font-opensans" style="line-height: normal;">
           <li class="flex items-start flex-wrap gap-1 text-[20px]">
             <span class="flex-shrink-0 mt-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -311,15 +311,15 @@
         </div>
       </section>
       <!-- Images of Impact -->
-      <section class="bg-accentTextLight py-16 rounded p-6">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-
+      <section class="bg-accentTextLight py-12 rounded">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 md:mt-[-30px] mt-[-40px]">
           <!-- IMPACTS List -->
-          <div class="mt-4">
-            <h3 class="md:text-5xl text-3xl mb-6 font-playfair font-[500] leading-normal">
+              <h2
+            class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
+          style="line-height: normal;">
               Impact
             </h3>
-           <ul class="custom-bullet-list">
+           <ul class="custom-bullet-list font-opensans" style="line-height: normal;">
           <li class="flex items-start gap-2 text-[20px] mt-4">
             <span class="flex-shrink-0 mt-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -396,26 +396,16 @@
       </section>
         <section class="flex flex-col items-center bg-miscellanous py-16">
        <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
+        <h2
+            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair" style="line-height: normal;"
           >
-            Join us in using storytelling
+            Join us in using storytelling to create <br> a more just and equitable world.
           </h2>
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
-          >
-            to create a more just and
-          </h2>
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
-          >
-           equitable world.
-          </h2>
-          <p class="md:text-[24px] text-[16px] font-[400] mb-4 font-medium font-opensans"> 
-                   Learn more about The Conversation and how you can connect young people with experienced mentors.
+         <p class="md:text-[24px] text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
+                   Learn more about The Conversation and how you <br> can connect young people with experienced mentors.
           </p>
            <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+          <span class="btn-text font-opensans" style="line-height: 20px;">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
       </button>
         </div>
       </section>
