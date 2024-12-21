@@ -20,28 +20,28 @@
       <section class="md:p-6 p-2 bg-white rounded md:mt-0 mt-[10px]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <div class="flex gap-3 items-center mb-2 text-[16px] font-[400]">
-            <a href="{{ url('Initiatives-Initiatives') }}" class="flex items-center gap-1">
+            <a href="{{ url('Initiatives-Initiatives') }}" class="flex items-center gap-1 font-opensans font-[400] text-[16px]" style="line-height: normal; letter-spacing: -0.32px;">
               Our initiative
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="8 4 16 12 8 20" />
               </svg>
             </a>
-            <p class="text-primary font-[600]">MyBodyIsMine</p>
+            <p class="text-primary font-[600] text-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">MyBodyIsMine</p>
           </div>
 
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
               <h1
                 class="md:text-5xl lg:text-[3.5rem] text-[40px] md:mb-6 mb-2 font-playfair font-[00] leading-normal"
-              >
+              style="line-height: 80px;">
                MyBodyIsMine Initiative
               </h1>
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
+            <div class="lg:w-2/3 lg:pl-10 lg:ml-60">
               <p
-                class="text-accentTextDark font-[400] md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
-              >
+                class="text-accentTextDark md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
+              style="line-height: 31px; ">
                 MyBodyIsMine is a comprehensive sexuality education program
                 designed to empower young people with the knowledge, values, and
                 life skills they need to make informed choices about their
@@ -52,7 +52,7 @@
       
         </div>
       </section>
-      <section class="md:p-6 p-2 md:mt-0 mt-[-30px]">
+      <section class="md:p-6 p-2 md:mt-0 mt-[-20px]">
           <div class="overflow-hidden w-full">
             <div
               class="flex transition-transform duration-500 ease-in-out p-4 w-max"
@@ -64,7 +64,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-1.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350093/121108236_1502163333300173_7582746925688065409_n_rmcjfs.jpg') }}"
                     alt="the founder of LSIV"
                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -76,7 +76,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-2.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350003/46853392_1928145910610544_4383844110818082816_n_nmumxl.jpg') }}"
                     alt="the founder of LSIV"
                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -88,7 +88,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-3.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350192/DSC_0819_x5ayjr.jpg') }}"
                     alt="the founder of LSIV"
                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -100,7 +100,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-4.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350127/19800101001947_IMG_3708_b0bfnp.jpg') }}"
                     alt="the founder of LSIV"
                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -405,11 +405,11 @@
           <!-- Our Approach List -->
           <h2
             class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
-          >
+          style="line-height: normal;">
             Our Approach
           </h2>
           <ul class="custom-bullet-list md:pl-5 font-opensans">
-             <li class="flex items-start gap-2 text-[20px]">
+             <li class="flex items-start gap-2 text-[20px] font-[400]" style="line-height: 31px">
               <span class="flex-shrink-0 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -421,7 +421,7 @@
                 fostering self-esteem and promoting respectful relationships.
               </div>
             </li>
-             <li class="flex items-start gap-2 mt-4 text-[20px]">
+             <li class="flex items-start gap-2 text-[20px] font-[400]" style="line-height: 31px">
               <span class="flex-shrink-0 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -441,7 +441,7 @@
               </div>
             </li>
 
-            <li class="flex items-start gap-2 mt-4 text-[20px]">
+            <li class="flex items-start gap-2 text-[20px] font-[400]" style="line-height: 31px">
               <span class="flex-shrink-0 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -463,11 +463,11 @@
           <div class="mt-2">
             <h2
             class="md:text-[48px] text-[32px] md:mb-2 m-2 font-playfair font-[500] leading-normal md:p-2"
-          >
+          style="line-height: normal;">
               Impact
             </h3>
             <ul class="custom-bullet-list md:p-4 md:mt-[-30px]">
-                 <li class="flex items-start gap-2 mt-4 text-[20px]">
+                 <li class="flex items-start gap-2 text-[20px] font-[400]" style="line-height: 31px">
                     <span class="flex-shrink-0 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -479,7 +479,7 @@
                     </div>
                   </li>
 
-                  <li class="flex items-start gap-2 mt-4 text-[20px]">
+                  <li class="flex items-start gap-2 text-[20px] font-[400]" style="line-height: 31px">
                     <span class="flex-shrink-0 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -490,7 +490,7 @@
                     </div>
                   </li>
 
-                  <li class="flex items-start gap-2 mt-4 text-[20px]">
+                  <li class="flex items-start gap-2 text-[20px] font-[400]" style="line-height: 31px">
                     <span class="flex-shrink-0 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
