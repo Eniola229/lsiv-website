@@ -20,7 +20,7 @@
             <div class="w-full">
            <h1
               class="md:text-5xl lg:text-7xl text-[40px] font-playfair font-medium leading-normal"
-            >
+            style="line-height: normal;">
                 Your Partner in Building a More Just and Equitable World
               </h1>
             </div>
@@ -28,7 +28,7 @@
             <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
               <p
                 class="text-accentTextDark font-normal leading-[2.1675rem] mb-2 text-xl font-opensans"
-              >
+              style="line-height: 33px; ">
                 We are dedicated to fostering a world where everyone can thrive
                 by driving positive change. Our diverse services empower
                 individuals, organizations, and communities with the tools and
@@ -47,12 +47,12 @@
               <div class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer">
                 <h3
                   class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]"
-                >
+                style="line-height: normal;">
                   Communications & Storytelling
                 </h3>
               </div>
               <div class="mt-10 text-accentTextDark font-normal mb-2 flex flex-col gap">
-                <p class="leading-7 mb-2 text-base font-opensans min-h-[8rem]">
+                <p class="leading-7 mb-2 text-base font-opensans min-h-[8rem]" style="line-height: line-height: 28px;">
                   <strong class="italic font-semibold">
                     Stories have the power to drive change.
                   </strong>
@@ -69,7 +69,7 @@
                   href="{{ url('Work-Communication') }}"
                   class="hover-effect-arrow font-[600] text-[1.125rem] flex items-center space-x-2"
                 >
-                  <span class="btn-text">Learn more</span>
+                  <span class="btn-text font-[600] font-opensans text-[18px]" style="line-height: 20px; ">Learn more</span>
                   <span class="hover-arrow" style="color: orange;">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -93,14 +93,14 @@
               class="border-b bg-[#FFC6DB] rounded-[16px] transition-[all] duration-700 md:p-12 p-6 flex flex-col justify-between"
             >
               <div class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer">
-                <h3
+               <h3
                   class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]"
-                >
+                style="line-height: normal;">
                   Branding & Design Services
                 </h3>
               </div>
               <div class="mt-10 text-accentTextDark font-normal mb-2 flex flex-col gap">
-                <p class="leading-7 mb-2 text-base font-opensans min-h-[8rem]">
+                <p class="leading-7 mb-2 text-base font-opensans min-h-[8rem]" style="line-height: line-height: 28px;">
                   <strong class="italic font-semibold">
                     A compelling brand identity is key to driving your mission forward and
                     making a lasting impression.
@@ -119,7 +119,7 @@
                   href="{{ url('Work-Branding') }}"
                   class="hover-effect-arrow font-[600] text-[1.125rem] flex items-center space-x-2"
                 >
-                  <span class="btn-text">Learn more</span>
+                  <span class="btn-text font-[600] font-opensans text-[18px]" style="line-height: 20px; ">Learn more</span>
                   <span class="hover-arrow" style="color: orange;">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -142,12 +142,14 @@
           <!-- Section 1: Strategy Development And Implementation -->
           <div class="border-b bg-[#F1DAB7] md:p-12 p-6 rounded-[16px] transition-all duration-700 md:mt-4 flex flex-col h-full">
             <div class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer">
-              <h3 class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]">
+             <h3
+                  class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]"
+                style="line-height: normal;">
                 Strategy Development And Implementation
               </h3>
             </div>
             <div class="mt-10 text-accentTextDark font-normal mb-2 flex flex-col gap-4 flex-grow">
-              <p class="leading-7 mb-2 text-base font-opensans">
+               <p class="leading-7 mb-2 text-base font-opensans min-h-[8rem]" style="line-height: line-height: 28px;">
                 <strong class="italic font-semibold">
                   Strategic planning is key to achieving long-term social change.
                 </strong><br />
@@ -155,7 +157,7 @@
               </p>
               <div class="md:mt-12 mt-4 flex-grow flex items-end">
                 <a href="{{ url('Work-Strategy') }}" class="hover-effect-arrow font-[600] text-[1.125rem] flex items-center space-x-2">
-                  <span class="btn-text">Learn more</span>
+                  <span class="btn-text font-[600] font-opensans text-[18px]" style="line-height: 20px; ">Learn more</span>
                   <span class="hover-arrow text-orange-500">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                       <path d="M11.293 8.707a1 1 0 0 0 0-1.414L7.707 4.707a1 1 0 1 0-1.414 1.414L8.586 7H3a1 1 0 1 0 0 2h5.586l-2.293 2.293a1 1 0 1 0 1.414 1.414l4-4z" />
@@ -169,12 +171,14 @@
           <!-- Section 2: Training & Capacity Building -->
           <div class="border-b bg-[#DDC2FF] md:p-12 p-6 rounded-[16px] transition-all duration-700 md:mt-4 flex flex-col h-full">
             <div class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer">
-              <h3 class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]">
+             <h3
+                  class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]"
+                style="line-height: normal;">
                 Training & Capacity Building
               </h3>
             </div>
             <div class="mt-10 text-accentTextDark font-normal mb-2 flex flex-col gap-4 flex-grow">
-              <p class="leading-7 mb-2 text-base font-opensans">
+               <p class="leading-7 mb-2 text-base font-opensans min-h-[8rem]" style="line-height: line-height: 28px;">
                 <strong class="italic font-semibold">
                   A skilled and empowered workforce is crucial for social change.
                 </strong><br />
@@ -182,7 +186,7 @@
               </p>
               <div class="md:mt-12 mt-4 flex-grow flex items-end">
                 <a href="{{ url('Work-Traning') }}" class="hover-effect-arrow font-[600] text-[1.125rem] flex items-center space-x-2">
-                  <span class="btn-text">Learn more</span>
+                  <span class="btn-text font-[600] font-opensans text-[18px]" style="line-height: 20px; ">Learn more</span>
                   <span class="hover-arrow text-orange-500">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                       <path d="M11.293 8.707a1 1 0 0 0 0-1.414L7.707 4.707a1 1 0 1 0-1.414 1.414L8.586 7H3a1 1 0 1 0 0 2h5.586l-2.293 2.293a1 1 0 1 0 1.414 1.414l4-4z" />
@@ -196,12 +200,14 @@
           <!-- Section 3: Engagement Events -->
           <div class="border-b bg-[#FFE4BB] md:p-12 p-6 rounded-[16px] transition-all duration-700 md:mt-6 flex flex-col h-full">
             <div class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer">
-              <h3 class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]">
+             <h3
+                  class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]"
+                style="line-height: normal;">
                 Engagement Events
               </h3>
             </div>
             <div class="mt-10 text-accentTextDark font-normal mb-2 flex flex-col gap-4 flex-grow">
-              <p class="leading-7 mb-2 text-base font-opensans">
+               <p class="leading-7 mb-2 text-base font-opensans min-h-[8rem]" style="line-height: line-height: 28px;">
                 <strong class="italic font-semibold">
                   Meaningful change thrives on connection and collaboration.
                 </strong><br />
@@ -209,7 +215,7 @@
               </p>
               <div class="md:mt-12 mt-4 lg:mt-28 flex-grow flex items-end">
                 <a href="{{ url('Work-Engagement') }}" class="hover-effect-arrow font-[600] text-[1.125rem] flex items-center space-x-2">
-                  <span class="btn-text">Learn more</span>
+                  <span class="btn-text font-[600] font-opensans text-[18px]" style="line-height: 20px; ">Learn more</span>
                   <span class="hover-arrow text-orange-500">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                       <path d="M11.293 8.707a1 1 0 0 0 0-1.414L7.707 4.707a1 1 0 1 0-1.414 1.414L8.586 7H3a1 1 0 1 0 0 2h5.586l-2.293 2.293a1 1 0 1 0 1.414 1.414l4-4z" />
@@ -223,12 +229,14 @@
           <!-- Section 4: Program Design and Implementation -->
           <div class="border-b bg-[#FFDED0] md:p-12 p-6 rounded-[16px] transition-all duration-700 md:mt-6 flex flex-col h-full">
             <div class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer">
-              <h3 class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]">
+             <h3
+                  class="capitalize font-semibold text-left md:leading-[2.72375rem] text-[24px] md:text-[2rem]"
+                style="line-height: normal;">
                 Program Design and Implementation
               </h3>
             </div>
             <div class="mt-10 text-accentTextDark font-normal mb-2 flex flex-col gap-4 flex-grow">
-              <p class="leading-7 mb-2 text-base font-opensans">
+               <p class="leading-7 mb-2 text-base font-opensans min-h-[8rem]" style="line-height: line-height: 28px;">
                 <strong class="italic font-semibold">
                   Effective social impact requires innovative program design and flawless execution.
                 </strong><br />
@@ -236,7 +244,7 @@
               </p>
               <div class="md:mt-12 mt-4 flex-grow flex items-end">
                 <a href="{{ url('Work-Program') }}" class="hover-effect-arrow font-[600] text-[1.125rem] flex items-center space-x-2">
-                  <span class="btn-text">Learn more</span>
+                  <span class="btn-text font-[600] font-opensans text-[18px]" style="line-height: 20px; ">Learn more</span>
                   <span class="hover-arrow text-orange-500">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                       <path d="M11.293 8.707a1 1 0 0 0 0-1.414L7.707 4.707a1 1 0 1 0-1.414 1.414L8.586 7H3a1 1 0 1 0 0 2h5.586l-2.293 2.293a1 1 0 1 0 1.414 1.414l4-4z" />

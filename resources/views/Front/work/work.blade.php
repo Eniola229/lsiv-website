@@ -21,7 +21,7 @@
           <div class="mb-6 space-y-2">
             <h1
               class="md:text-5xl lg:text-7xl text-[40px] font-playfair font-medium leading-normal"
-            >
+            style="line-height: normal;">
                 How we work with our clients
               </h1>
             </div>
@@ -35,9 +35,9 @@
                 collaborative approach, tailoring our services to meet your
                 specific requirements.
               </p>
-              <p
-                class="text-primary leading-[2.1675rem] mb-6 md:text-xl text-[16px] font-normal font-opensans"
-              >
+             <p
+                class="text-accentTextDark font-normal leading-[2.1675rem] mb-2 text-xl font-opensans"
+              style="line-height: 33px; ">
                 Here's a peek into our partnerships with different change-makers
                 and our key client groups
               </p>
