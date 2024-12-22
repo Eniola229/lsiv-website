@@ -20,11 +20,11 @@
         >
           <!-- Left Section: Heading and Subtext -->
           <div class="w-lg">
-            <h1 class="text-6xl sm:text-5xl md:text-6xl lg:text-7xl text-accentTextDark font-playfair font-semibold md:mt-0 mt-[-30px]" style="font-weight: 500;">
+            <h1 class="text-6xl sm:text-5xl md:text-[72px] lg:text-[72px] text-accentTextDark font-playfair font-semibold md:mt-0 mt-[-30px]" style="font-weight: 500; line-height: normal;">
               Designing <span class="text-primary">Campaigns</span> <br />
               For a Better <span class="text-primary">Tomorrow</span>
             </h1>
-           <p class="mt-4 text-[16px] sm:text-base md:text-xl font-opensans w-full md:w-9/12 text-[#0B0B0B]">
+           <p class="mt-4 text-[16px] sm:text-base md:text-xl font-opensans w-full md:w-9/12 text-[#0B0B0B] font-[400]" style="line-height: normal;">
               We craft compelling advocacy, multimedia, and community campaigns
               for organizations committed to social impact and lasting change.
             </p>
@@ -77,39 +77,39 @@
             <!-- Image Section -->
             <div class="mb-8 lg:mb-0 lg:w-1/3 text-xl">
               <h2
-               class="text-[32px] md:text-6xl font-[500] font-playfair text-gray-900 text-left mb-16">
+               class="text-[32px] md:text-[64px] font-[500] font-playfair text-gray-900 text-left mb-6" style="line-height: normal;">
                 Driving Social Justice
               </h2>
               <div class="flex justify-center md:justify-start">
                 <img
                   src="https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350351/Lolo_Social_Impact_Venture_LSIV_3_gyhmwr.png"
                   alt="Social Justice Image"
-                  class="h-[230px] w-[230px] md:w-80 md:h-auto"
+                  class="h-[230px] w-[230px] md:w-[366px] md:h-auto"
                 />
               </div>
             </div>
             <!-- Text Section -->
             <div class="lg:w-2/3 lg:pl-10">
               <p
-                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-6 text-[16px] sm:text-base md:text-xl font-opensans"
-              >
+                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 text-[16px] sm:text-base md:text-[20px] font-opensans"
+              style="line-height: 34px;">
                 LSIV is a strategic advocacy and communications agency dedicated to creating a more equitable world. Our approach combines the energy of grassroots activism with the strategic expertise of high-level advocacy to ensure that our communication efforts are practical and grounded in real-world experiences.
               </p>
               <p
-                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-6 text-[16px] sm:text-base md:text-xl font-opensans"
-              >
+                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 text-[16px] sm:text-base md:text-[20px] font-opensans"
+              style="line-height: 34px;">
                We empower organizations to achieve social change goals through innovative solutions, compelling storytelling, and community-focused initiatives.
                 By integrating education, advocacy, and storytelling, we help our clients convey their impact in inspiring ways.
               </p>
               <p
-                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-6 text-[16px] sm:text-base md:text-xl font-opensans"
-              >
+                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 text-[16px] sm:text-base md:text-[20px] font-opensans"
+              style="line-height: 34px;">
               So, whether you're a nonprofit seeking to expand your reach, a corporation aiming to enhance its social responsibility, or a government agency striving for positive impact, LSIV is your partner in building a better future. Let's create lasting change together.
               </p>
              
               <a
                 href="#"
-                class="hover-text-underline font-opensans leading-[2.5rem] font-bold text-xl"
+                class="hover-text-underline font-opensans font-bold text-[24px]" style="line-height: 38px;"
                 >Learn more about us</a
               >
             </div>
@@ -121,12 +121,12 @@
       <section class="py-16 bg-secondary">
         <div class="container mx-auto text-center md:text-center">
           <h2
-            class="text-[32px] md:text-6xl text-accentTextDark p-2 font-playfair font-[600]">
+            class="text-[32px] md:text-6xl text-accentTextDark p-2 font-playfair font-[600]"  style="line-height: normal;">
             What Makes Us Unique?
           </h2>
           <p
-            class="text-[18px] md:text-xl text-[#0B0B0B] w-11/12 md:w-3/5 mx-auto leading-relaxed font-opensans font-[400]"
-            style="font-weight: 400"
+            class="text-[18px] md:text-[24px] text-[#0B0B0B] w-11/12 md:w-3/5 mx-auto font-opensans font-[400]"
+            style="font-weight: 400; line-height: normal;"
           >
             Unlike traditional communications agencies, our team possesses
             in-depth knowledge of the subject matters we advocate for, allowing
@@ -156,12 +156,12 @@
           <div class="container mx-auto text-center md:text-center">
             <h2
               class="text-[32px] md:text-[60px] text-accentTextDark p-2 font-playfair font-[600]"
-            >
+            style="line-height: normal;">
               OUR THEMATIC AREAS
             </h2>
             <p
-              class="text-[18px] md:text-[20px] text-[#0B0B0B] w-full md:w-4/5 mx-auto leading-relaxed text-accentTextDark font-opensans"
-              style="font-weight: 400"
+              class="text-[18px] md:text-[20px] text-[#0B0B0B] w-full md:w-4/5 mx-auto text-accentTextDark font-opensans"
+              style="font-weight: 400; line-height: normal;"
             >
               Our organization is dedicated to advancing the United Nations
               Sustainable Development Goals (SDGs) and working with our partners
@@ -180,7 +180,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653236/959192906101dc997360ba4328e8f28c_cjmpnm.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans">
+              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
                 Gender Equality & Empowerment
               </h3>
             </div>
@@ -192,7 +192,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350092/70195222_2378336455591485_5319670050997665792_n_zul9pe.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans">
+              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
                 Health and Well-Being
               </h3>
             </div>
@@ -204,7 +204,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349991/43207440_1858496167575519_5673215072856440832_n_e4ao8m.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans">
+              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
                 Social Development & Education
               </h3>
             </div>
@@ -216,7 +216,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350331/IMG_6548_stgyc7.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans">
+              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
                 Sustainable Livelihoods & Poverty Alleviation
               </h3>
             </div>
@@ -228,7 +228,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653809/6ab738988f8bd42af33dbbc5ba99243b_eibfw4.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans">
+              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
                 Climate Change & Environmental Sustainability
               </h3>
             </div>

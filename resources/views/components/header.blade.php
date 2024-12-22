@@ -24,6 +24,7 @@
         class="flex items-center gap-x-1 font-[600] leading-6 text-[16px] font-opensans"
         onmouseenter="showDropdown('aboutDropdown')"
         onmouseleave="scheduleHideDropdown('aboutDropdown')"
+        style="line-height: 20px;"
       >
         About us
       </button>
@@ -51,6 +52,7 @@
         class="flex items-center gap-x-1 font-[600] leading-6 text-[16px] font-opensans"
         onmouseenter="showDropdown('workDropdown')"
         onmouseleave="scheduleHideDropdown('workDropdown')"
+         style="line-height: 20px;"
       >
         Work with us
       </button>
@@ -61,6 +63,7 @@
         style="border-radius: 20px;"
         onmouseenter="showDropdown('workDropdown')"
         onmouseleave="scheduleHideDropdown('workDropdown')"
+         style="line-height: 20px;"
       >
         <ul class="py-1 text-gray-700 font-opensans">
           <li><a href="{{ url('Work-Services') }}" class="block font-[600] leading-6 text-[16px] px-4 py-2 hover-effect-arrow font-opensans">Services <span class="hover-arrow">&rarr;</span></a></li>
@@ -80,6 +83,7 @@
         class="flex items-center gap-x-1 font-[600] leading-6 text-[16px] font-opensans"
         onmouseenter="showDropdown('insightsDropdown')"
         onmouseleave="scheduleHideDropdown('insightsDropdown')"
+         style="line-height: 20px;"
       >
         Insights
       </button>

@@ -41,7 +41,7 @@
 
           <div class="md:w-1/3">
             <img
-              src="{{ asset('Images/i-4.png') }}"
+              src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654157/OBJECTS_xyogj8.png') }}"
               alt="Illustration"
               class="w-full md:w-2/3 lg:w-full h-auto mt-6"
             />
@@ -66,21 +66,21 @@
             <div class="grid font-opensans md:grid-cols-2 grid-cols-1 gap-6">
               <!-- disscuss 1 -->
               <div
-                class="border-b bg-[#FFC6DB] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#FFC6DB] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                  style="line-height: normal;">
                     Advocacy Training
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-[400] mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                  <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We empower individuals and organizations to become effective
                     advocates for social change. Our advocacy training programs
                     cover topics such as advocacy strategies, digital advocacy,
@@ -93,21 +93,21 @@
 
               <!-- disscuss 2 -->
               <div
-                class="border-b bg-secondary p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-secondary md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                  style="line-height: normal;">
                     Communication Training
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-[400] mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                 <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We provide individuals and organizations with the skills to
                     effectively communicate with diverse audiences across
                     various channels. This includes training on crafting
@@ -119,21 +119,21 @@
               <!-- disscuss 3 -->
 
               <div
-                class="border-b bg-[#F1DAB7] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#F1DAB7] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                  style="line-height: normal;">
                     Impact Storytelling Training
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-[400] mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                 <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We teach participants how to craft compelling narratives
                     that showcase the impact of their work and inspire action.
                     Our impact storytelling training delves into techniques for
@@ -144,21 +144,21 @@
               </div>
               <!-- disscuss 4-->
               <div
-                class="border-b bg-[#DDC2FF] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#DDC2FF] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                  style="line-height: normal;">
                     Campaign Development
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-[400] mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                 <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We provide training on all aspects of campaign development,
                     from concept creation and target audience identification to
                     strategic planning, implementation, and evaluation.
@@ -167,21 +167,21 @@
               </div>
               <!-- disscuss 5-->
               <div
-                class="border-b bg-[#FFDED0] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#FFDED0] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
                     class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
-                  >
+                  style="line-height: normal;">
                     Social and Behavioral Change (SBC) Training
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                 <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We offer specialized training programs focused on applying
                     social science insights and nudge theory to design
                     interventions that promote positive behaviour change.
@@ -190,21 +190,21 @@
               </div>
               <!-- disscuss 6-->
               <div
-                class="border-b bg-[#FFE4BB] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#FFE4BB] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
                     class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
-                  >
+                  style="line-height: normal;">
                     Community Training
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                 <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We believe in empowering communities to take ownership of
                     their own development. We design and deliver training
                     programs tailored to the specific needs of local
@@ -221,21 +221,23 @@
       </section>
 
       <!-- Section Seven -->
- <section class="flex flex-col items-center bg-miscellanous py-16">
+      <section class="flex flex-col items-center bg-miscellanous py-16">
        <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
           <h2
-            class="text-3xl md:text-5xl lg:text-[4rem] font-[500] mb-4 font-playfair md:w-2/3 mx-auto"
+            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
           >
-          Empower your team with the knowledge and tools to drive positive change.
+         Empower your team with the knowledge <br> and tools to drive positive change.
           </h2>
-          <p class="text-[24px] mb-2 font-[400] font-opensans">
-            Let's Make Impact Together
+          <p class="md:text-[24px] text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
+           Let's Make Impact Together
           </p>
-      <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+           <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
+          <span class="btn-text font-opensans" style="line-height: 20px; ">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
       </button>
         </div>
       </section>
+
+</main>
 </main>
 @include('components.footer')
         <script>

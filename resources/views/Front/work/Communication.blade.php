@@ -20,7 +20,7 @@
           <div class="md:w-3/5">
             <h1
               class="md:text-[48px] text-[32px] capitalize md:leading-normal text-accentTextDark font-playfair font-[500] "
-            >
+            style="line-height: normal;">
               Shaping your narrative for social impact: Our Communication and
               storytelling services
             </h1>
@@ -38,7 +38,7 @@
 
           <div class="md:w-1/3">
             <img
-              src="{{ asset('Images/i-1.png') }}"
+              src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653963/5573511_2929905_1_gznlwy.png') }}"
               alt="Illustration"
               class="w-full md:w-2/3 lg:w-full h-auto mt-6"
             />
@@ -51,8 +51,8 @@
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
               <h2
-                class="md:text-[48px] lg:text-[3.5rem] text-center text-[32px] mb-2 font-playfair font-[500] leading-normal"
-              >
+                class="md:text-[48px] lg:text-[3.5rem] text-center text-[32px] mb-2 font-playfair font-[500]"
+              style="line-height: normal;">
                 Our Media campaign services
               </h2>
             </div>
@@ -70,14 +70,14 @@
                 >
                   <h3
                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[32px]"
-                  >
+                  style="line-height: normal;">
                     Human-Angle & Impact Storytelling
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base font-[400] text-[16px]">
+                  <p class="leading-7 mb-2 text-base font-[400] text-[16px]" style="line-height: 28px;">
                     We craft powerful narratives that go beyond statistics. We
                     humanize the issues you address, highlighting the real
                     stories of people impacted by your work to foster empathy,
@@ -95,14 +95,14 @@
                 >
                   <h3
                    class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[32px]"
-                  >
+                  style="line-height: normal;">
                     Digital Media Campaigns
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                 <p class="leading-7 mb-2 text-base font-[400] text-[16px]">
+                 <p class="leading-7 mb-2 text-base font-[400] text-[16px]" style="line-height: 28px;">
                     We leverage the power of social media platforms and online
                     advertising to reach diverse audiences, raise awareness of
                     your social impact work, and drive online engagement.
@@ -118,14 +118,14 @@
                 >
                     <h3
                    class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[32px]"
-                  >
+                  style="line-height: normal;">
                     Social-Behavioral Media Campaigns
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                 <p class="leading-7 mb-2 text-base font-[400] text-[16px]">
+                 <p class="leading-7 mb-2 text-base font-[400] text-[16px]" style="line-height: 28px;">
                     We go beyond awareness-raising. We design targeted
                     social-behavioural media campaigns that integrate social
                     science insights and nudge theory to promote positive
@@ -142,14 +142,14 @@
                 >
                    <h3
                    class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[32px]"
-                  >
+                  style="line-height: normal;">
                     Corporate and Plain Language Communications
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                 <p class="leading-7 mb-2 text-base font-[400] text-[16px]">
+                 <p class="leading-7 mb-2 text-base font-[400] text-[16px]" style="line-height: 28px;">
                     We help you communicate effectively with diverse
                     stakeholders by translating complex jargon into clear,
                     concise, and easy-to-understand language.
@@ -168,7 +168,7 @@
             <div class="w-full">
               <h2
                 class="md:text-5xl lg:text-[3.5rem] text-center text-[32px] mb-2 font-playfair font-[500] leading-normal"
-              >
+              style="line-height: normal;">
                 Our Multi-Media Storytelling Services
               </h2>
             </div>
@@ -186,12 +186,12 @@
                 >
                   <h3
                     class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-2xl font-[600]"
-                  >
+                  style="line-height: normal;">
                     Video & Audio Productions
                   </h3>
                 </div>
                 <div class="mt-4 text-accentTextDark font-normal mb-2">
-                  <p class="leading-7 text-base font-[400]">
+                  <p class="leading-7 text-base font-[400]" style="line-height: 26px;">
                     We produce high-quality documentaries, talk shows, podcasts,
                     and radio features that delve deep into social issues to
                     amplify the voices of those affected. Our productions aim to
@@ -210,12 +210,12 @@
                 >
                    <h3
                     class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-2xl font-[600]"
-                  >
+                  style="line-height: normal;">
                     Photojournalism & Photo Bank
                   </h3>
                 </div>
                 <div class="mt-4 text-accentTextDark mb-2 font-normal">
-                  <p class="leading-7 text-base font-[400]">
+                  <p class="leading-7 text-base font-[400]" style="line-height: 26px;">
                     Our talented photojournalists capture powerful images that
                     showcase the human stories behind your cause. We also
                     maintain a comprehensive photo bank for your communication
@@ -232,12 +232,12 @@
                 >
                   <h3
                     class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-2xl font-[600]"
-                  >
+                  style="line-height: normal;">
                     Graphic Design
                   </h3>
                 </div>
                 <div class="mt-4 text-accentTextDark font-normal mb-2">
-                  <p class="leading-7 text-base font-[400]">
+                  <p class="leading-7 text-base font-[400]" style="line-height: 26px;">
                     Our team of graphic designers creates visually compelling
                     materials, such as infographics, posters, brochures, reports
                     and social media graphics, that effectively communicate your
@@ -255,19 +255,17 @@
       <section class="flex flex-col items-center bg-miscellanous py-16">
        <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
           <h2
-            class="text-3xl md:text-5xl lg:text-[4rem] font-normal mb-4 font-playfair md:w-3/4 mx-auto"
+            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
           >
-            Transform your social impact stories into powerful tools for change.
+          Transform your social impact stories <br> into powerful tools for change.
           </h2>
-          <p class="text-[24px] mb-6 font-[400] font-opensans md:w-1/2 mx-auto">
-            Contact us today to discuss how our communications and storytelling
-            services can propel your mission forward.
+          <p class="md:text-[24px] text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
+            Contact us today to discuss how our communications and storytelling services <br> can propel your mission forward.
           </p>
-      <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+           <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
+          <span class="btn-text font-opensans" style="line-height: 20px; ">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
       </button>
         </div>
-      </section>
     </main>
 @include('components.footer')
         <script>

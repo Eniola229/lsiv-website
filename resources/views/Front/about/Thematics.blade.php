@@ -121,7 +121,7 @@
                       Economic Empowerment of Women
                       <span class="icon text-accentTextDark">+</span>
                     </button>
-                    <div class="disscuss-answer hidden mt-4 text-[16px] font-opensans">
+                    <div class="faq-answer hidden mt-4 text-[16px] font-opensans">
                       Recognizing that economic independence is crucial for
                       empowerment, we support our partners in delivering
                       training programs focused on financial literacy,
@@ -140,7 +140,7 @@
                       Promoting Women’s Leadership
                       <span class="icon text-accentTextDark">+</span>
                     </button>
-                    <div class="disscuss-answer hidden mt-4 text-[16px] font-opensans">
+                    <div class="faq-answer hidden mt-4 text-[16px] font-opensans">
                       We support our partners in encouraging women's
                       participation in leadership roles across all sectors. Our
                       leadership development programs and mentorship
@@ -234,7 +234,7 @@
                       Adolescent Health
                       <span class="icon text-accentTextDark">+</span>
                     </button>
-                    <div class="disscuss-answer hidden mt-4 text-gray-700 font-opensans">
+                    <div class="faq-answer hidden mt-4 text-gray-700 font-opensans">
                       We equip adolescents with the knowledge and skills to
                       navigate physical, emotional, and social challenges. We
                       provide education on healthy relationships, responsible
@@ -509,113 +509,32 @@
 </html>
 <script type="text/javascript">
 function toggleAnswer(button) {
-  const answer = button.nextElementSibling;
-  answer.classList.toggle('hidden');
-  const icon = button.querySelector('.icon');
-  icon.textContent = answer.classList.contains('hidden') ? '+' : '-';
-}
+  // Get the parent .disscuss-item
+  const parentItem = button.closest(".disscuss-item");
 
+  // Find the .faq-answer within the same .disscuss-item
+  const answer = parentItem.querySelector(".faq-answer");
 
-const scrollButton = document.getElementById("scrollBtn");
-const carouselTrack = document.getElementById("carouselTrack");
+  // Collapse all other open answers
+  document.querySelectorAll(".faq-answer").forEach((openAnswer) => {
+    if (openAnswer !== answer) {
+      openAnswer.classList.add("hidden"); // Hide other answers
+      const otherIcon = openAnswer
+        .closest(".disscuss-item")
+        .querySelector(".icon");
+      otherIcon.textContent = "+"; // Reset icon
+    }
+  });
 
-let startX;
-let isDragging = false;
-let initialScrollPosition = 0;
-
-// Function to determine the number of visible cards based on screen width
-function getVisibleCards() {
-  if (window.innerWidth >= 1024) {
-    return 3;
-  } else if (window.innerWidth >= 768) {
-    return 2;
+  // Toggle the current answer's visibility
+  if (answer.classList.contains("hidden")) {
+    answer.classList.remove("hidden");
+    button.querySelector(".icon").textContent = "-"; // Change to minus
   } else {
-    return 1;
+    answer.classList.add("hidden");
+    button.querySelector(".icon").textContent = "+"; // Change to plus
   }
 }
 
-const totalCards = document.querySelectorAll(".card-image-container").length;
-let visibleCards = getVisibleCards();
-const cardWidth = document.querySelector(".card-image-container").offsetWidth;
-let maxScroll = (totalCards - visibleCards) * cardWidth;
-let scrollPosition = 0;
 
-function updateMaxScroll() {
-  visibleCards = getVisibleCards();
-  maxScroll = (totalCards - visibleCards) * cardWidth;
-}
-
-function scrollOn() {
-  scrollPosition += cardWidth;
-
-  if (scrollPosition > maxScroll) {
-    scrollPosition = 0;
-  }
-
-  carouselTrack.style.transition = "transform 0.5s ease-in-out";
-  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
-}
-
-scrollButton.addEventListener("click", scrollOn);
-document.addEventListener("keyup", (e) => {
-  if (e.key === "ArrowRight") {
-    scrollOn();
-  }
-});
-
-window.addEventListener("resize", updateMaxScroll);
-
-// Drag and Swipe Functionality
-carouselTrack.addEventListener("mousedown", (e) => {
-  isDragging = true;
-  startX = e.pageX;
-  initialScrollPosition = scrollPosition;
-  carouselTrack.style.transition = "none";
-});
-
-carouselTrack.addEventListener("mousemove", (e) => {
-  if (!isDragging) return;
-  const deltaX = e.pageX - startX;
-  scrollPosition = initialScrollPosition - deltaX;
-  
-  // Clamp the scroll position
-  if (scrollPosition < 0) scrollPosition = 0;
-  if (scrollPosition > maxScroll) scrollPosition = maxScroll;
-
-  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
-});
-
-carouselTrack.addEventListener("mouseup", () => {
-  isDragging = false;
-  carouselTrack.style.transition = "transform 0.5s ease-in-out";
-});
-
-carouselTrack.addEventListener("mouseleave", () => {
-  isDragging = false;
-  carouselTrack.style.transition = "transform 0.5s ease-in-out";
-});
-
-// Touch events for mobile
-carouselTrack.addEventListener("touchstart", (e) => {
-  startX = e.touches[0].pageX;
-  initialScrollPosition = scrollPosition;
-  isDragging = true;
-  carouselTrack.style.transition = "none";
-});
-
-carouselTrack.addEventListener("touchmove", (e) => {
-  if (!isDragging) return;
-  const deltaX = e.touches[0].pageX - startX;
-  scrollPosition = initialScrollPosition - deltaX;
-
-  if (scrollPosition < 0) scrollPosition = 0;
-  if (scrollPosition > maxScroll) scrollPosition = maxScroll;
-
-  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
-});
-
-carouselTrack.addEventListener("touchend", () => {
-  isDragging = false;
-  carouselTrack.style.transition = "transform 0.5s ease-in-out";
-});
 </script>

@@ -39,7 +39,7 @@
 
           <div class="md:w-1/3">
             <img
-              src="{{ asset('Images/i-5.png') }}"
+              src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654201/Frame_46_tfwyqr.png') }}"
               alt="Illustration"
               class="w-full md:w-2/3 lg:w-full h-auto mt-6"
             />
@@ -57,34 +57,34 @@
                 Impact Summits & Forums
               </h2>
               <p
-                class="mt-4 font-[400] md:w-3/4 mx-auto text-center text-xl leading-[2.1rem] font-opensans"
-              >
+                class="mt-4 font-[400] md:w-3/4 mx-auto text-center text-[20px]  font-opensans"
+              style="line-height: 33px;">
                 Our event services are meticulously crafted to align with your
                 social impact goals.
               </p>
             </div>
           </div>
           <!-- discussion Section -->
-          <<div class="md:mt-12 mt-2 w-full">
+          <div class="md:mt-12 mt-2 w-full">
             <!-- more discussion -->
             <div class="grid font-opensans md:grid-cols-2 grid-cols-1 gap-6">
               <!-- disscuss 1 -->
               <div
-                class="border-b bg-secondary p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-secondary md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                  style="line-height: normal;">
                     Conferences & Seminars
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                  <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We curate thought-provoking conferences and seminars that
                     bring together diverse stakeholders - policymakers,
                     community leaders, activists, and social impact
@@ -95,21 +95,21 @@
               </div>
               <!-- disscuss 2 -->
               <div
-                class="border-b bg-[#FFC6DB] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#FFC6DB] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
-                  <h3
-                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                   <h3
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                  style="line-height: normal;">
                     Focus Group Discussions
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                   <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We facilitate intimate focus group discussions to gather
                     qualitative data, gain deep insights into specific social
                     issues, and inform the development of effective
@@ -121,21 +121,21 @@
               <!-- disscuss 3 -->
 
               <div
-                class="border-b bg-[#F1DAB7] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#F1DAB7] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
-                  <h3
-                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                   <h3
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                  style="line-height: normal;">
                     Webinars & Online Forums
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                   <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We leverage the power of technology to host engaging
                     webinars and online forums that connect participants across
                     geographical boundaries, promote knowledge sharing, and
@@ -145,21 +145,21 @@
               </div>
               <!-- disscuss 4-->
               <div
-                class="border-b bg-[#DDC2FF] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#DDC2FF] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
-                  <h3
-                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                   <h3
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                  style="line-height: normal;">
                     Community Dialogues
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                   <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We organize community dialogues that bring together diverse
                     voices to discuss social issues and co-create solutions.
                   </p>
@@ -173,7 +173,7 @@
       </section>
 
       <!--Multi-Media Engagement  -->
-      <section class="py-16 rounded bg-accentTextLight">
+      <section class="md:py-16 rounded bg-accentTextLight">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
@@ -183,8 +183,8 @@
                 Multi-Media Engagement
               </h2>
               <p
-                class="mt-4 font-[400] md:w-3/4 mx-auto text-center text-xl leading-[2.1rem] font-opensans"
-              >
+                class="mt-4 font-[400] md:w-3/4 mx-auto text-center text-[20px]  font-opensans"
+             style="line-height: 33px;" >
                 We believe in pushing the boundaries of traditional event
                 formats. In addition to the options above, we offer:
               </p>
@@ -196,21 +196,21 @@
             <div class="grid font-opensans md:grid-cols-2 grid-cols-1 gap-6">
               <!-- disscuss 1-->
               <div
-                class="border-b bg-[#FFE4BB] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#FFE4BB] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
-                  <h3
-                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                   <h3
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                  style="line-height: normal;">
                     Art Exhibitions & Multi-Media Experiences
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                   <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We curate impactful art exhibitions and immersive
                     multi-media experiences that raise awareness, spark
                     dialogue, and mobilize communities around social issues.
@@ -223,21 +223,21 @@
               </div>
               <!-- disscuss 2-->
               <div
-                class="border-b bg-[#FFDED0] p-12 rounded-[16px] transition-[all] duration-700"
+                class="border-b bg-[#FFDED0] md:p-12 p-6 rounded-[16px] transition-[all] duration-700"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
-                  <h3
-                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                   <h3
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                  style="line-height: normal;">
                     Public Performance & Street Art Activism
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                   <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We facilitate the creation of public performances, street
                     art installations, and other forms of creative protest to
                     engage the public, challenge the status quo, and inspire
@@ -247,21 +247,21 @@
               </div>
               <!-- disscuss 3 -->
               <div
-                class="border-b bg-secondary p-12 rounded-[16px] transition-[all] duration-700 md:w-1/2 mx-auto md:col-span-2"
+                class="border-b bg-secondary md:p-12 p-6 rounded-[16px] transition-[all] duration-700 md:w-1/2 mx-auto md:col-span-2"
               >
                 <div
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
-                  <h3
-                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
-                  >
+                   <h3
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                  style="line-height: normal;">
                     Interactive Simulations & Empathy Games
                   </h3>
                 </div>
                 <div
                   class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
-                  <p class="leading-7 mb-2 text-base">
+                   <p class="leading-7 mb-2 text-base" style="line-height: 28px;">
                     We design and lead interactive simulations and empathy games
                     that allow participants to walk a mile in someone else's
                     shoes, fostering an understanding of complex social issues
@@ -277,25 +277,22 @@
 
       <!-- Section Seven -->
       <section class="flex flex-col items-center bg-miscellanous py-16">
-         <div class="text-center w-full h-42 sm:h-52 md:text-6xl lg:h-64">
+       <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
           <h2
-            class="text-3xl md:text-5xl lg:text-[4rem] font-medium mb-4 font-playfair md:w-1/2 mx-auto"
+            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
           >
-           We don't just host events.
+          We don't just host events. <br> We ignite movements.
           </h2>
-             <h2
-            class="text-3xl md:text-5xl lg:text-[4rem] font-medium mb-4 font-playfair md:w-1/2 mx-auto"
-          >
-          We ignite movements.
-          </h2>
-          <p class="md:text-[24px] text-[16px] font-[400] mb-4 font-medium font-opensans"> 
-            Let's Make Impact Together
+          <p class="md:text-[24px] text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
+           Let's Make Impact Together
           </p>
-      <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+           <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
+          <span class="btn-text font-opensans" style="line-height: 20px; ">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
       </button>
         </div>
       </section>
+
+</main>
 </main>
 @include('components.footer')
         <script>

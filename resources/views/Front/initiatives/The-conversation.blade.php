@@ -110,39 +110,14 @@
                   />
                 </div>
               </div>
-              <!-- card 4 -->
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/tc-1.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350065/69431796_2360423254049472_1384818698862198784_n_rjvbiz.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 4 -->
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/tc-2.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 4 -->
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/tc-3.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
@@ -151,273 +126,175 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-5.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350065/69300642_1164861163697060_570726906538754048_n_inpdoq.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-6.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350125/19800101000031_IMG_3740_ekpkny.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-7.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350278/IMG_2819_pkpmzw.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-8.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350276/IMG_2818_edsmfn.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-9.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734779704/Frame_1618873206_of7aqz.png') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-10.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734779704/Frame_1618873204_iycifg.png') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-11.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350256/IMG_2011_bpdjwi.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-12.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350252/IMG_1980_kn6iuf.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-13.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350126/19800101001153_IMG_3678_hctmfq.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-14.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350237/IMG_1972_squcly.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-15.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350225/IMG_1000_2_fklaro.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-15.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734780161/Frame_1618873211_1_wojevy.png') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-16.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734780092/Frame_1618873213_ttcvap.png') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-17.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350232/IMG_0920_gexsaz.jpg') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+            
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-18.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734780274/Frame_1618873215_uxavsz.png') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
-               <div
+              <div
                 class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/impact-19.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734780274/Frame_1618873217_vif0pb.png') }}"
                     alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/impact-20.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/impact-21.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/impact-22.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/impact-23.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/impact-24.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/impact-25.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/impact-26.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/impact-27.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
-                  />
-                </div>
-              </div>
-               <div
-                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/impact-28.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                   class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
                 </div>
               </div>
