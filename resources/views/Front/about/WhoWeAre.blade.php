@@ -13,92 +13,87 @@
     <main class="bg-[#F8F8FF]">
        @include('components.header')
       <!-- Lolo Social Impact Venture is a dedicated force for positive change.  -->
-      <section class="md:py-16 md:p-6 p-2 rounded md:mt-0 mt-[30px]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <div class="flex flex-col lg:flex-row justify-between gap-8 md:mt-0 mt-[-30px]">
-            <!-- Image Section -->
-            <div class="lg:w-2/4 w-full lg:h-[38rem] hidden md:block">
-              <img
-                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734699680/Frame_1618873174_1_kvc2va.png') }}"
-                alt="the founder of LSIV "
-                class="w-full h-full object-cover object-center rounded-[20px]"
-              />
-            </div>
-            <div class="lg:w-1/2">
-              <h1
-                class="md:text-4xl lg:text-7xl text-[#000] text-[40px] mb-6 font-playfair font-[500]"
+      <section class="md:py-16 md:px-6 px-4 rounded md:mt-0 mt-[30px]">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-6">
+          <!-- Image Section (Desktop) -->
+          <div class="hidden md:block w-auto lg:h-[38rem]">
+            <img
+              src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734699680/Frame_1618873174_1_kvc2va.png') }}"
+              alt="The founder of LSIV"
+              class="w-[540px] h-full object-cover object-center rounded-[20px]"
+            />
+          </div>
+
+          <!-- Content Section -->
+          <div class="lg:w-1/2 w-full">
+            <h1
+              class="text-[#000] font-playfair font-medium mb-6 md:text-[72px] text-[40px] text-center lg:text-left"
               style="line-height: normal;">
-                Lolo Social Impact Venture is a dedicated force for positive
-                change.
-              </h1>
-            <div class="lg:w-2/4 w-full lg:h-[38rem] md:hidden mb-2">
+              Lolo Social Impact Venture is a dedicated force for positive change.
+            </h1>
+            
+            <!-- Image Section (Mobile) -->
+            <div class="block md:hidden w-full lg:h-[38rem] mb-4">
               <img
                 src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734699680/Frame_1618873174_1_kvc2va.png') }}"
-                alt="the founder of LSIV "
+                alt="The founder of LSIV"
                 class="w-full h-full object-cover object-center rounded-[20px]"
               />
             </div>
-              <p
-                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 md:text-xl md:mt-12 text-[16px] font-opensans"
+            
+            <p
+              class="text-accentTextDark font-opensans font-normal leading-[2rem] md:text-xl text-[16px] md:mt-12 mb-12 text-center lg:text-left"
               style="line-height: 32px;">
-                We drive impactful solutions through strategic advocacy,
-                multimedia campaigns, and community-centred initiatives. Founded
-                by renowned international communication strategist and social
-                entrepreneur Lolo Cynthia, our agency transforms challenges into
-                opportunities for sustainable development, gender equality,
-                health, education, and environmental sustainability.
-              </p>
-            </div>
+              We drive impactful solutions through strategic advocacy, multimedia campaigns, and community-centred initiatives. Founded by renowned international communication strategist and social entrepreneur Lolo Cynthia, our agency transforms challenges into opportunities for sustainable development, gender equality, health, education, and environmental sustainability.
+            </p>
           </div>
         </div>
       </section>
-      <!-- We connect grassroots voices with powerful platforms.  -->
-      <section class="bg-miscellanous py-16 md:p-6 p-2 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <div class="flex flex-col lg:flex-row-reverse justify-between gap-8">
-            <!-- Image Section -->
-            <div class="lg:w-2/4 w-full lg:h-[38rem] hidden lg:block">
-              <img
-                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734698859/Frame_1618873174_telomb.png') }}"
-                alt="the founder of LSIV "
-                class="w-full h-full object-cover object-center rounded-[20px]"
-              />
-            </div>
-            <div class="lg:w-1/2">
-              <h2
-                class="md:text-4xl lg:text-7xl text-[40px] mb-6 font-playfair font-[500] leading-normal"
-              style="line-height: normal;" >
-                We connect grassroots voices with powerful platforms.
-              </h2>
-              <div class="lg:w-2/4 w-full lg:h-[38rem] mb-6 lg:hidden">
-              <img
-                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734698859/Frame_1618873174_telomb.png') }}"
-                alt="the founder of LSIV "
-                class="w-[540px] h-full object-cover object-center rounded-[20px]"
-              />
-            </div>
-              <p
-                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-6 md:text-xl text-[16px] font-opensans"
-                style="line-height: 32px;">
-                At LSIV, we bridge the gap between grassroots efforts and
-                high-level advocacy, ensuring marginalized communities are not
-                only heard but compellingly represented. Our approach leverages
-                cutting-edge digital strategies and powerful storytelling to
-                create lasting impact.
-              </p>
-              <p
-                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-6 md:text-xl text-[16px] font-opensans"
-                style="line-height: 32px;">
-                Collaboration is at the heart of our mission. We partner with
-                organizations to co-create innovative solutions addressing the
-                root causes of social issues. Together, we strive to foster
-                enduring change and contribute to a brighter, more equitable
-                future for all.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
+<!-- We connect grassroots voices with powerful platforms. -->
+<section class="bg-miscellanous py-12 px-6 rounded flex items-center justify-center">
+  <div class="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse items-start gap-6">
+    <!-- Image Section (Desktop) -->
+    <div class="hidden lg:block lg:w-1/2 w-full lg:h-[38rem]">
+      <img
+        src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734698859/Frame_1618873174_telomb.png') }}"
+        alt="The founder of LSIV"
+        class="w-[540px] h-full object-cover object-center rounded-[20px]"
+      />
+    </div>
+
+    <!-- Content Section -->
+    <div class="lg:w-1/2 w-full">
+      <h2
+        class="text-[#000] font-playfair font-medium mb-6 md:text-4xl lg:text-[72px] text-[40px] text-center lg:text-left"
+        style="line-height: normal;">
+        We connect grassroots voices with powerful platforms.
+      </h2>
+
+      <!-- Image Section (Mobile) -->
+      <div class="block lg:hidden w-full lg:h-[38rem] mb-6">
+        <img
+          src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734698859/Frame_1618873174_telomb.png') }}"
+          alt="The founder of LSIV"
+          class="w-full h-full object-cover object-center rounded-[20px]"
+        />
+      </div>
+
+      <p
+        class="text-accentTextDark font-opensans font-normal leading-[2rem] md:text-xl text-[16px] mb-6 text-center lg:text-left"
+        style="line-height: 32px;">
+        At LSIV, we bridge the gap between grassroots efforts and high-level advocacy, ensuring marginalized communities are not only heard but compellingly represented. Our approach leverages cutting-edge digital strategies and powerful storytelling to create lasting impact.
+      </p>
+
+      <p
+        class="text-accentTextDark font-opensans font-normal leading-[2rem] md:text-xl text-[16px] mb-6 text-center lg:text-left"
+        style="line-height: 32px;">
+        Collaboration is at the heart of our mission. We partner with organizations to co-create innovative solutions addressing the root causes of social issues. Together, we strive to foster enduring change and contribute to a brighter, more equitable future for all.
+      </p>
+    </div>
+  </div>
+</section>
+
 
         <section class="md:p-6 p-2">
           <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 p-4">
@@ -647,7 +642,7 @@
             @foreach($blogs as $blog)
             <a href="{{ url('client/blog', $blog->id) }}">
             <div
-              class="bg-white rounded-lg overflow-hidden w-full relative group flex flex-col items-start"
+              class="bg-[F8F8FF] rounded-lg overflow-hidden w-full relative group flex flex-col items-start"
             >
               <img
                 src="{{ asset($blog->cover_image) }}"

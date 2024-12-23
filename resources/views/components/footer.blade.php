@@ -7,7 +7,7 @@
           <!-- Left Section: Heading and Subtext -->
           <div class="w-full md:w-lg">
             <h2
-              class="text-[40px] md:text-[96px] lg:text-[96px] font-playfair font-medium text-gray-900 leading-tight tracking-tight"
+              class="text-[40px] md:text-[96px] lg:text-[96px] font-playfair font-medium font-[400] leading-tight tracking-tight"
             >
               Ready to Amplify <br />
               Your Impact?

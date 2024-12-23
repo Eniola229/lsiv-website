@@ -266,16 +266,16 @@
 
           <!-- Section 1: Communications & Storytelling -->
           <div
-            class="sticky top-0 z-10 bg-[#C4E1A4] p-4 md:p-12 my-4 md:h-96 shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
+            class="sticky top-0 z-10 bg-[#C4E1A4] p-4 md:p-12 my-4 md:h-[580px] shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
           >
             <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B]"
+              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans" style="line-height: normal;"
             >
               Communications & Storytelling
             </h2>
             <hr class="border-none h-[1px] bg-gray-900 mb-4 md:mb-6" />
             <div class="flex flex-col md:flex-row">
-              <div class="md:w-2/3 text-left">
+              <div class="md:w-2/3 text-left md:mt-6">
                 <p
                   class="text-[#0B0B0B] font-opensans leading-[2.25rem] text-[16px] md:text-[24px] mb-4 md:mb-8 font-[400]"
              style="line-height: 36px;"   >
@@ -285,7 +285,7 @@
                 </p>
                 <a href="{{ url('Work-Communication') }}">
                   <button class="btn-bg-animation-learn hover-effect-arrow">
-                  <span class="btn-text font-[16px] font-[600]">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+                  <span class="btn-text font-[16px] font-[600] font-opensans" style="line-height: 20px;">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
                 </button>
               </a>
               </div>
@@ -293,7 +293,7 @@
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653963/5573511_2929905_1_gznlwy.png') }}"
                   alt="Illustration"
-                  class="w-full max-w-xs h-52"
+                  class="md:w-[400px] w-full max-w-xs md:h-[400px] h-52"
                 />
               </div>
             </div>
@@ -301,17 +301,17 @@
 
           <!-- Section 2: Branding & Design Services --> 
           <div
-            class="sticky top-6 z-20 bg-[#FFC6DB] p-4 md:p-12 my-4 md:h-96 shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
+            class="sticky top-6 z-20 bg-[#FFC6DB] p-4 md:p-12 my-4 md:h-[580px] shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
             id="des"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B]"
-            >
+              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+            style="line-height: normal;">
               Branding & Design Services
             </h2>
             <hr class="border-none h-[1px] bg-gray-900 mb-4 md:mb-6" />
             <div class="flex flex-col md:flex-row">
-              <div class="md:w-2/3 text-left">
+              <div class="md:w-2/3 text-left mt-6">
                 <p
                   class="text-[#0B0B0B] font-opensans leading-[2.25rem] text-[16px] md:text-[24px] mb-4 md:mb-8 font-[400]"
              style="line-height: 36px;"   >
@@ -320,15 +320,15 @@
                 </p>
                 <a href="{{ url('Work-Branding') }}">
                   <button class="btn-bg-animation-learn hover-effect-arrow">
-                  <span class="btn-text">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+                  <span class="btn-text font-[16px] font-[600] font-opensans" style="line-height: 20px;">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
                 </button>
               </a>
               </div>
-              <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
+              <div class=" flex justify-center mt-6 md:mt-20">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653991/Frame_40_oy0ifo.png') }}"
                   alt="Illustration"
-                  class="mt-8 w-full max-w-xs h-52"
+                  class="md:w-[1220px] w-full max-w-xs md:h-[300px] h-52"
                 />
               </div>
             </div>
@@ -336,16 +336,16 @@
 
           <!-- Section 3: Strategy Development and Implementation -->
           <div
-            class="sticky top-12 z-30 bg-[#F0D9B7] p-4 md:p-12 my-4 md:h-96 w-full md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] shadow-md"
+            class="sticky top-12 z-30 bg-[#F0D9B7] p-4 md:p-12 my-4 md:h-[580px] w-full md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] shadow-md"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B]"
-            >
+              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+            style="line-height: normal;">
               Strategy Development and Implementation
             </h2>
             <hr class="border-none h-[1px] bg-gray-900 mb-4 md:mb-6" />
             <div class="flex flex-col md:flex-row">
-              <div class="md:w-2/3 text-left">
+              <div class="md:w-2/3 text-left mt-6">
                 <p
                   class="text-[#0B0B0B] font-opensans leading-[2.25rem] text-[16px] md:text-[24px] mb-4 md:mb-8 font-[400]"
              style="line-height: 36px;"   >
@@ -355,15 +355,15 @@
                 </p>
                 <a href="{{ url('Work-Strategy') }}">
                   <button class="btn-bg-animation-learn hover-effect-arrow">
-                  <span class="btn-text">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+                  <span class="btn-text font-[16px] font-[600] font-opensans" style="line-height: 20px;">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
                 </button>
               </a>
               </div>
-              <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
+              <div class="md:w-1/3 flex justify-center mt-6 md:mt-20">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654117/Frame_42_pabkpx.png') }}"
                   alt="Illustration"
-                  class="w-full max-w-xs h-56"
+                 class="md:w-[308px] w-full max-w-xs md:h-[280px] h-52"
                 />
               </div>
             </div>
@@ -371,16 +371,16 @@
 
           <!-- Section 4: Training & Capacity Building -->
           <div
-            class="sticky top-20 z-40 bg-[#DDC2FF] p-4 md:p-12 my-4 md:h-96 shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
+            class="sticky top-20 z-40 bg-[#DDC2FF] p-4 md:p-12 my-4 md:h-[580px] shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B]"
-            >
+              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+            style="line-height: normal;">
               Training & Capacity Building
             </h2>
             <hr class="border-none h-[1px] bg-gray-900 mb-4 md:mb-6" />
             <div class="flex flex-col md:flex-row">
-              <div class="md:w-2/3 text-left">
+              <div class="md:w-2/3 text-left mt-6">
                 <p
                   class="text-[#0B0B0B] font-opensans leading-[2.25rem] text-[16px] md:text-[24px] mb-4 md:mb-8 font-[400]"
              style="line-height: 36px;"   >
@@ -390,15 +390,15 @@
                 </p>
                 <a href="{{ url('Work-Traning') }}">
                   <button class="btn-bg-animation-learn hover-effect-arrow">
-                  <span class="btn-text">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+                  <span class="btn-text font-[16px] font-[600] font-opensans" style="line-height: 20px;">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
                 </button>
               </a>
               </div>
-              <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
+              <div class=" flex justify-center mt-6 md:mt-0">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654157/OBJECTS_xyogj8.png') }}"
                   alt="Illustration"
-                  class="mt-6 w-full max-w-xs h-auto"
+                  class="md:w-[708px] w-full max-w-xs md:h-[300px] h-52 md:mt-6"
                 />
               </div>
             </div>
@@ -406,16 +406,16 @@
 
           <!-- Section 5: Engagement Events -->
           <div
-            class="sticky top-32 z-50 bg-[#FFE4BB] p-4 md:p-12 my-4 md:h-96 shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
+            class="sticky top-32 z-50 bg-[#FFE4BB] p-4 md:p-12 my-4 md:h-[580px] shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B]"
-            >
+              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+            style="line-height: normal;">
               Engagement Events
             </h2>
             <hr class="border-none h-[1px] bg-gray-900 mb-4 md:mb-6" />
             <div class="flex flex-col md:flex-row">
-              <div class="md:w-2/3 text-left">
+              <div class="md:w-2/3 text-left mt-6">
                  <p
                   class="text-[#0B0B0B] font-opensans leading-[2.25rem] text-[16px] md:text-[24px] mb-4 md:mb-8 font-[400]"
               style="line-height: 36px;"  >
@@ -424,7 +424,7 @@
                 </p>
                 <a href="{{ url('Work-Engagement')}}">
                   <button class="btn-bg-animation-learn hover-effect-arrow">
-                  <span class="btn-text">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+                  <span class="btn-text font-[16px] font-[600] font-opensans" style="line-height: 20px;">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
                 </button>
               </div>
             </a>
@@ -432,7 +432,7 @@
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654201/Frame_46_tfwyqr.png') }}"
                   alt="Illustration"
-                  class="mt-12 w-full max-w-xs h-auto"
+                  class="md:w-[400px] w-full max-w-xs md:h-[300px] h-52 md:mt-12"
                 />
               </div>
             </div>
@@ -440,16 +440,16 @@
 
           <!-- Section 6: Program Design and Implementation -->
           <div
-            class="sticky top-40 z-[60] bg-[#FFDED0] p-4 md:p-12 my-4 md:h-96 shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
+            class="sticky top-40 z-[60] bg-[#FFDED0] p-4 md:p-12 my-4 md:h-[580px] shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B]"
-            >
+              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+            style="line-height: normal;">
               Program Design and Implementation
             </h2>
             <hr class="border-none h-[1px] bg-gray-900 mb-4 md:mb-6" />
             <div class="flex flex-col md:flex-row">
-              <div class="md:w-2/3 text-left">
+              <div class="md:w-2/3 text-left mt-6">
                    <p
                   class="text-[#0B0B0B] font-opensans leading-[2.25rem] text-[16px] md:text-[24px] mb-4 md:mb-8 font-[400]"
                 style="line-height: 36px;">
@@ -459,7 +459,7 @@
                 </p>
                 <a href="{{ url('Work-Program')}}">
                 <button class="btn-bg-animation-learn hover-effect-arrow">
-                  <span class="btn-text">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
+                  <span class="btn-text font-[16px] font-[600] font-opensans" style="line-height: 20px;">Learn more <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
                 </button>
               </a>
               </div>
@@ -467,7 +467,7 @@
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654238/Frame_1618873210_ya68vg.png') }}"
                   alt="Illustration"
-                  class="w-full max-w-xs h-60 md:h-[240px]"
+                  class="md:w-[330px] w-full max-w-xs h-60 md:h-[280px] md:mt-20"
                 />
               </div>
             </div>
