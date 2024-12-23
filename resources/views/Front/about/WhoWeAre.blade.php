@@ -97,7 +97,7 @@
 
         <section class="md:p-6 p-2">
           <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 p-4">
-            <h2 class="text-[40px] font-[500] md:text-5xl font-playfair font-normal mb-4 md:mb-0">
+            <h2 class="text-[40px] font-[500] md:text-[72px] font-playfair font-normal mb-4 md:mb-0" style="line-height: normal;">
               Behind the Scenes
             </h2>
            <button

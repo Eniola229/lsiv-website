@@ -354,12 +354,13 @@
 </script>
 
 <script type="text/javascript">
-      const scrollButton = document.getElementById("scrollBtn");
+const scrollButton = document.getElementById("scrollBtn");
 const carouselTrack = document.getElementById("carouselTrack");
 
 let startX;
 let isDragging = false;
 let initialScrollPosition = 0;
+let scrollPosition = 0;
 
 // Function to determine the number of visible cards based on screen width
 function getVisibleCards() {
@@ -376,7 +377,6 @@ const totalCards = document.querySelectorAll(".card-image-container").length;
 let visibleCards = getVisibleCards();
 const cardWidth = document.querySelector(".card-image-container").offsetWidth;
 let maxScroll = (totalCards - visibleCards) * cardWidth;
-let scrollPosition = 0;
 
 function updateMaxScroll() {
   visibleCards = getVisibleCards();
@@ -389,7 +389,7 @@ function clampScrollPosition() {
 }
 
 function updateScrollPosition() {
-  carouselTrack.style.transition = "transform 0.2s ease-in-out";
+  carouselTrack.style.transition = "transform 0.5s ease-in-out";
   carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
 }
 
@@ -399,12 +399,10 @@ function scrollOn() {
   if (scrollPosition > maxScroll) {
     scrollPosition = maxScroll;
     // Allow scrolling down the page after reaching the end
-    carouselTrack.style.overflow = "hidden";
     return;
   }
 
-  carouselTrack.style.transition = "transform 0.5s ease-in-out";
-  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
+  updateScrollPosition();
 }
 
 scrollButton.addEventListener("click", scrollOn);
@@ -469,13 +467,21 @@ carouselTrack.addEventListener("touchend", () => {
 // Add trackpad and mouse wheel scrolling support
 carouselTrack.addEventListener("wheel", (e) => {
   // Prevent horizontal scroll on the page until carousel scrolls fully
-  if (scrollPosition < maxScroll) {
+  if (scrollPosition < maxScroll || scrollPosition > 0) {
     e.preventDefault();
-    let delta = e.deltaX || e.deltaY;
+
+    let delta = e.deltaX || e.deltaY; // Keep natural scrolling speed
     scrollPosition += delta;
 
     clampScrollPosition();
     updateScrollPosition();
   }
+
+  // If at the end of the carousel, allow the page scroll to continue
+  if (scrollPosition >= maxScroll) {
+    e.stopPropagation();
+    // Scroll page content as usual
+    window.scrollBy(0, e.deltaY);
+  }
 });
-    </script>
+</script>

@@ -78,10 +78,11 @@
         <hr class="border-none h-[1px] bg-[#4A5310] mb-4 md:mb-6" />
      <div class="container overflow-x-auto hide-scrollbar p-4">
   <!-- Wrapper for Responsive Grid -->
-  <div class="flex flex-row gap-4 items-stretch min-w-[120rem] divide-x divide-[#121D2F80]">
+ <div class="overflow-hidden w-full">
+  <div id="carouselTrack" class="flex flex-row min-w-[160rem] divide-x divide-[#121D2F80] overflow-x-auto scroll-snap-x snap-x">
     
     <!-- Card 1 -->
-    <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
+    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734695151/selfie_t5igug.jpg') }}"
@@ -98,7 +99,7 @@
     </div>
 
     <!-- Card 2 -->
-    <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
+    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734695517/24491159509abdc6f1220915d90df530_bebdfy.jpg') }}"
@@ -115,7 +116,7 @@
     </div>
 
     <!-- Card 3 -->
-    <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
+    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350018/54521716_2088500577908409_6915712892130033664_n_lkmuku.jpg') }}"
@@ -132,7 +133,7 @@
     </div>
 
     <!-- Card 4 -->
-    <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
+    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350125/19800101000428_IMG_3822_rxuczc.jpg') }}"
@@ -149,7 +150,7 @@
     </div>
 
     <!-- Card 5 -->
-    <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
+    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350003/51552833_1034622810054230_7910197635917545472_n_i5ihmr.jpg') }}"
@@ -166,7 +167,7 @@
     </div>
 
     <!-- Card 6 -->
-    <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
+    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734696412/Frame_16_1_nkzp1i.png') }}"
@@ -183,7 +184,7 @@
     </div>
 
     <!-- Card 7 -->
-    <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
+    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734696553/Frame_16_2_ns2qvr.png') }}"
@@ -199,12 +200,13 @@
       </div>
     </div>
   </div>
+  </div>
 </div>
   <div class="flex justify-between items-center mb-6">
               <h2 class="text-3xl md:text-5xl font-playfair font-normal">
                 <!-- Images of Impact -->
               </h2>
-              <button id="scrollBtn" class="text-xl font-semibold capitalize">
+              <button id="scrollBtn" class="text-[20px] font-[600] capitalize font-opensans" style="line-height: normal;">
                 Next &rarr;
               </button>
             </div>
@@ -238,14 +240,14 @@
                 <div>
                   <h2
                     class="md:text-[32px] text-[24px] mb-6 font-[600] font-opensans"
-                  style="line-height: 44px;">
+                  style="line-height: 44px; letter-spacing: 0.64px;">
                     Empowering Youth
                   </h2>
                   <ul
-                    class="custom-bullet-list text-accentTextDark font-[400] leading-[2.1675rem] md:text-xl md:mr-48"
-                  >
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-3">
+                    class="custom-bullet-list text-accentTextDark font-[400] leading-[2.1675rem] md:text-[16px] md:mr-48 font-opensans"
+                   style="font-weight: 400;">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal; letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -253,8 +255,8 @@
                        Trained over 3,000 secondary school students through the
                       "MyBodyIsMine" program.
                     </li>
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -262,8 +264,8 @@
                       Hosted a conference attended by over 100 students,
                       offering mentorship and learning opportunities.
                     </li>
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -271,8 +273,8 @@
                       Partnered with the Lagos State Juvenile Prison to provide
                       sex education classes for 80 juvenile boys.
                     </li>
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -281,8 +283,8 @@
                       used by over 10 million people across Africa, North
                       America, Europe & Asia.
                     </li>
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -296,11 +298,11 @@
             </div>
             <!-- flex card 2 -->
             <div
-              class="flex flex-col md:flex-row-reverse items-center justify-between gap-4 relative "
+              class="flex flex-col md:flex-row-reverse items-center justify-between gap-4 relative"
             >
               <!-- Image Section -->
               <div></div>
-              <div class="lg:mt-20 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
+              <div class="lg:mt-2 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350081/69990011_2378336112258186_7583249744500097024_n_tmty7l.jpg') }}"
                   alt="the founder of LSIV "
@@ -310,16 +312,16 @@
               <!-- Text Section -->
               <div class="lg:w-2/3 md:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
                 <div>
-                   <h2
-                    class="md:text-[32px] text-[24px] mb-6 font-[600] font-opensans"
-                  style="line-height: 44px;">
+                 <h2
+                    class="md:text-[32px] text-[24px] mb-6 mt-1 font-[600] font-opensans mt-16"
+                  style="line-height: 44px; letter-spacing: 0.64px;">
                     Improving Health Outcomes
                   </h2>
-                  <ul
-                    class="custom-bullet-list text-accentTextDark leading-[2.1675rem] md:text-xl md:mr-48"
-                  >
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                   <ul
+                    class="custom-bullet-list text-accentTextDark font-[400] leading-[2.1675rem] md:text-[16px] md:mr-48 font-opensans"
+                   style="font-weight: 400;">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -328,8 +330,8 @@
                       sex workers and community members through the Adopt a
                       Community initiative.
                     </li>
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -337,8 +339,8 @@
                       Delivered six sensitization programs on menstrual hygiene,
                       domestic abuse, and safe sex in Lagos State slums.
                     </li>
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -358,7 +360,7 @@
             >
               <!-- Image Section -->
               <div></div>
-              <div class="lg:mt-20 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
+              <div class="lg:mt-2 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350054/67416684_1135248263325017_6127027789867515904_n_pgaqox.jpg') }}"
                   alt="the founder of LSIV "
@@ -368,16 +370,16 @@
               <!-- Text Section -->
               <div class="lg:w-2/3 md:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
                 <div>
-                  <h2
+                 <h2
                     class="md:text-[32px] text-[24px] mb-6 font-[600] font-opensans"
-                  style="line-height: 44px;">
+                  style="line-height: 44px; letter-spacing: 0.64px;">
                     Media Influence & Community Transformation
                   </h2>
-                  <ul
-                    class="custom-bullet-list text-accentTextDark leading-[2.1675rem] md:text-xl md:mr-48"
-                  >
-                    <li class="flex gap-2 mb-2 mb-2">
-                       <span class="mt-4">
+                   <ul
+                    class="custom-bullet-list text-accentTextDark font-[400] leading-[2.1675rem] md:text-[16px] md:mr-48 font-opensans"
+                   style="font-weight: 400;">
+                    <li class="flex gap-2 mb-4">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -387,8 +389,8 @@
                       educational impacts, including a grant for an orphanage in
                       South Africa.
                     </li>
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -396,8 +398,8 @@
                       Produced documentaries under Stories Unheard, reaching
                       over 500,000 viewers and republished by CNN Africa.
                     </li>
-                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                    <li class="flex gap-2 mb-4 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -407,7 +409,7 @@
                       empowerment.
                     </li>
                     <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
-                       <span class="mt-4">
+                       <span class="mt-0">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -432,25 +434,135 @@
   </body>
 </html>
 
-<!-- Hide scrollbar CSS -->
-<style>
-  /* Hide scrollbar but keep scroll functionality */
-  .hide-scrollbar::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in WebKit browsers */
-  }
-  .hide-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;     /* Firefox */
-  }
-</style>
-
-<!-- JavaScript for horizontal scrolling on mouse wheel -->
 <script>
-  // Enable horizontal scroll with mouse wheel
-  const container = document.querySelector('.container');
+const scrollButton = document.getElementById("scrollBtn");
+const carouselTrack = document.getElementById("carouselTrackOne");
 
-  container.addEventListener('wheel', (event) => {
-    event.preventDefault();
-    container.scrollLeft += event.deltaY;  // Horizontal scroll based on vertical wheel movement
-  });
+let startX;
+let isDragging = false;
+let initialScrollPosition = 0;
+let scrollPosition = 0;
+
+// Function to determine the number of visible cards based on screen width
+function getVisibleCards() {
+  if (window.innerWidth >= 1024) {
+    return 3;
+  } else if (window.innerWidth >= 768) {
+    return 2;
+  } else {
+    return 1;
+  }
+}
+
+const totalCards = document.querySelectorAll(".card-image-container").length;
+let visibleCards = getVisibleCards();
+const cardWidth = document.querySelector(".card-image-container").offsetWidth;
+let maxScroll = (totalCards - visibleCards) * cardWidth;
+
+function updateMaxScroll() {
+  visibleCards = getVisibleCards();
+  maxScroll = (totalCards - visibleCards) * cardWidth;
+}
+
+function clampScrollPosition() {
+  if (scrollPosition < 0) scrollPosition = 0;
+  if (scrollPosition > maxScroll) scrollPosition = maxScroll;
+}
+
+function updateScrollPosition() {
+  carouselTrack.style.transition = "transform 0.5s ease-in-out";
+  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
+}
+
+function scrollOn() {
+  scrollPosition += cardWidth;
+
+  if (scrollPosition > maxScroll) {
+    scrollPosition = maxScroll;
+    // Allow scrolling down the page after reaching the end
+    return;
+  }
+
+  updateScrollPosition();
+}
+
+scrollButton.addEventListener("click", scrollOn);
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "ArrowRight") {
+    scrollOn();
+  }
+});
+
+window.addEventListener("resize", updateMaxScroll);
+
+// Drag and Swipe Functionality
+carouselTrack.addEventListener("mousedown", (e) => {
+  isDragging = true;
+  startX = e.pageX;
+  initialScrollPosition = scrollPosition;
+  carouselTrack.style.transition = "none";
+});
+
+carouselTrack.addEventListener("mousemove", (e) => {
+  if (!isDragging) return;
+  const deltaX = e.pageX - startX;
+  scrollPosition = initialScrollPosition - deltaX;
+
+  clampScrollPosition();
+  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
+});
+
+carouselTrack.addEventListener("mouseup", () => {
+  isDragging = false;
+  carouselTrack.style.transition = "transform 0.5s ease-in-out";
+});
+
+carouselTrack.addEventListener("mouseleave", () => {
+  isDragging = false;
+  carouselTrack.style.transition = "transform 0.5s ease-in-out";
+});
+
+// Touch events for mobile
+carouselTrack.addEventListener("touchstart", (e) => {
+  startX = e.touches[0].pageX;
+  initialScrollPosition = scrollPosition;
+  isDragging = true;
+  carouselTrack.style.transition = "none";
+});
+
+carouselTrack.addEventListener("touchmove", (e) => {
+  if (!isDragging) return;
+  const deltaX = e.touches[0].pageX - startX;
+  scrollPosition = initialScrollPosition - deltaX;
+
+  clampScrollPosition();
+  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
+});
+
+carouselTrack.addEventListener("touchend", () => {
+  isDragging = false;
+  carouselTrack.style.transition = "transform 0.5s ease-in-out";
+});
+
+// Add trackpad and mouse wheel scrolling support
+carouselTrack.addEventListener("wheel", (e) => {
+  // Prevent horizontal scroll on the page until carousel scrolls fully
+  if (scrollPosition < maxScroll || scrollPosition > 0) {
+    e.preventDefault();
+
+    let delta = e.deltaX || e.deltaY; // Keep natural scrolling speed
+    scrollPosition += delta;
+
+    clampScrollPosition();
+    updateScrollPosition();
+  }
+
+  // If at the end of the carousel, allow the page scroll to continue
+  if (scrollPosition >= maxScroll) {
+    e.stopPropagation();
+    // Scroll page content as usual
+    window.scrollBy(0, e.deltaY);
+  }
+});
 </script>

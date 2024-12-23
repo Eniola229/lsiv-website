@@ -66,7 +66,7 @@
                 class="border-b bg-[#DDC2FF] p-12 rounded-[16px] transition-[all] duration-700"
               >
                 <div
-                  class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
+                  class="text-accentTextDark flex justify-between items-center gap-2 cursor-pointer"
                 >
                   <h3
                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[32px]"
@@ -75,7 +75,7 @@
                   </h3>
                 </div>
                 <div
-                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                  class="mt-4 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
                   <p class="leading-7 mb-2 text-base font-[400] text-[16px]" style="line-height: 28px;">
                     We craft powerful narratives that go beyond statistics. We
@@ -100,7 +100,7 @@
                   </h3>
                 </div>
                 <div
-                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                  class="mt-4 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
                  <p class="leading-7 mb-2 text-base font-[400] text-[16px]" style="line-height: 28px;">
                     We leverage the power of social media platforms and online
@@ -123,7 +123,7 @@
                   </h3>
                 </div>
                 <div
-                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                  class="mt-4 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
                  <p class="leading-7 mb-2 text-base font-[400] text-[16px]" style="line-height: 28px;">
                     We go beyond awareness-raising. We design targeted
@@ -147,7 +147,7 @@
                   </h3>
                 </div>
                 <div
-                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                  class="mt-4 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
                 >
                  <p class="leading-7 mb-2 text-base font-[400] text-[16px]" style="line-height: 28px;">
                     We help you communicate effectively with diverse

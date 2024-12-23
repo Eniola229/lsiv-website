@@ -22,7 +22,7 @@
                   <polyline points="8 4 16 12 8 20" />
                 </svg>
               </a>
-               <p class="text-primary font-[600] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">The Lolo Cynthia Show</p>
+               <p class="text-primary font-[500] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">The Lolo Cynthia Show</p>
             </div>
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
@@ -35,7 +35,7 @@
               </h1>
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
+           <div class="lg:w-2/3 lg:pl-10 ml-auto">
                 <p
                 class="text-accentTextDark md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
               style="line-height: 31px; ">
@@ -280,7 +280,7 @@
           </h2>
          <ul class="custom-bullet-list md:pl-5 pl-3 font-opensans" style="line-height: normal;">
           <li class="flex items-start flex-wrap gap-1 text-[20px]">
-            <span class="flex-shrink-0 mt-2">
+            <span class="flex-shrink-0 mt-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                 <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
               </svg>
@@ -296,7 +296,7 @@
             </div>
           </li>
         <li class="flex items-start gap-1 text-[20px] mt-4">
-          <span class="flex-shrink-0 mt-2">
+          <span class="flex-shrink-0 mt-1">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
               <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
             </svg>

@@ -22,7 +22,7 @@
                   <polyline points="8 4 16 12 8 20" />
                 </svg>
               </a>
-               <p class="text-primary font-[600] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">No Day Off</p>
+               <p class="text-primary font-[500] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">No Day Off</p>
             </div>
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
@@ -33,7 +33,7 @@
               </h1>
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
+            <div class="lg:w-2/3 lg:pl-10 ml-auto">
               <p
                 class="text-accentTextDark md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
               style="line-height: 31px; ">

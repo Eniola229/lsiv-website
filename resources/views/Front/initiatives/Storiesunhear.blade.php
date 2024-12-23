@@ -22,7 +22,7 @@
                   <polyline points="8 4 16 12 8 20" />
                 </svg>
               </a>
-               <p class="text-primary font-[600] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">The Stories Unheard</p>
+               <p class="text-primary font-[500] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">The Stories Unheard</p>
             </div>
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
@@ -33,7 +33,7 @@
               </h1>
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
+            <div class="lg:w-2/3 lg:pl-10 ml-auto">
               <p
                 class="text-accentTextDark md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
               style="line-height: 31px; ">
@@ -268,11 +268,14 @@
         <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
           <!-- Our Approach List -->
           <h2
-            class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
+            class="md:text-[48px] text-[32px] md:mb-4 m-2 font-playfair font-[500] leading-normal md:p-2"
           style="line-height: normal;">
             <!-- note some are our aproach -->
             Our Approach
           </h2>
+          <p class="font-[400] font-[20px] font-opensans p-6 md:pl-5 pl-3" style="line-height: 31px;">
+           <span class="font-[600]"> We </span> use the power of documentary filmmaking to tackle sensitive social issues often ignored or silenced. We have created compelling documentaries that explore themes of:
+          </p>
           <ul class="custom-bullet-list p-6 md:pl-5 pl-3 md:mt-[-30px] font-opensans" style="line-height: normal;">
             <li class="flex items-start gap-2 mt-2 text-[20px]">
               <span class="flex-shrink-0 mt-1">
@@ -340,42 +343,42 @@
       </section>
       <!-- Images of Impact -->
       <section class="bg-accentTextLight py-6 rounded p-6">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-2">
 
           <!-- IMPACTS List -->
           <div class="mt-4">
-             <h2
-            class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
+              <h2
+            class="md:text-[48px] text-[32px] md:mb-4 m-2 font-playfair font-[500] leading-normal"
           style="line-height: normal;">
               Impact
             </h3>
             <ul class="custom-bullet-list font-opensans" style="line-height: normal;">
           <li class="flex flex-wrap gap-2 mt-2">
-               <span class="mt-1">
+               <span class="mt-0">
                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                       <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                    </svg>
               </span> <span class="font-[600]">Orphanage Grant</span></li>
           <li class="flex flex-wrap gap-2 mt-2">
-               <span class="mt-1">
+               <span class="mt-0">
                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                       <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                    </svg>
               </span> <span class="font-[600]">Widows Rights</span></li>
           <li class="flex flex-wrap gap-2 mt-2">
-               <span class="mt-1">
+               <span class="mt-0">
                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                       <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                    </svg>
               </span> <span class="font-[600]">KEKE Women Increased</span></li>
           <li class="flex flex-wrap gap-2 mt-2">
-               <span class="mt-1">
+               <span class="mt-0">
                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                       <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                    </svg>
               </span> <span class="font-[600]">Sugarcane Man Increased</span></li>
           <li class="flex flex-wrap gap-2 mt-2">
-               <span class="mt-1">
+               <span class="mt-0">
                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                       <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                    </svg>

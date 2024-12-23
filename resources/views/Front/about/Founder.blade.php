@@ -19,13 +19,13 @@
           style="line-height: normal;">
             About The Founder
           </h1>
-        <div class="flex flex-col lg:flex-row justify-between gap-4 py-16">
+        <div class="flex flex-col lg:flex-row justify-between gap-2 py-16">
           <!-- Image Section -->
           <div class="lg:w-1/3 text-xl md:sticky top-10 self-start">
               <img
                 src="https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350149/202407262026868551593312666_2_v5tjec.jpg"
                 alt="the founder of LSIV"
-                class="w-full md:h-[565px] h-full rounded-[16px] transform -scale-x-100"
+                class="w-full md:w-[424px] md:h-[565px] h-full rounded-[16px] transform -scale-x-100"
               />
             </div>
 
@@ -57,22 +57,21 @@
                 <ul
                   class="custom-bullet-list text-accentTextDark leading-[2.1675rem] mb-6 md:text-[16px] font-opensans"
                 >
-                    <li class="flex gap-2 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
+                    <li class="flex gap-4 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
                        <span class="mt-0">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
                         </span>
-                    Leading Ladies Africa 100 most influential, powerful, and
-                    innovative Nigerian women in Nigeria in 2020
+                    Leading Ladies Africa 100 Most Influential Nigerian Women, 2020
                   </li>
-                    <li class="flex gap-2 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
+                    <li class="flex gap-4 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
                        <span class="mt-0">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
                         </span>Aspen Institute New Voices Fellow</li>
-                    <li class="flex gap-2 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
+                    <li class="flex gap-4 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
                        <span class="mt-0">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -80,13 +79,13 @@
                         </span>
                    Y! Naija Media Person to Watch – New Establishment List, 2019
                   </li>
-                    <li class="flex gap-2 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
+                    <li class="flex gap-4 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
                        <span class="mt-0">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
                         </span>Social Media Person for Social Good 2019</li>
-                    <li class="flex gap-2 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
+                    <li class="flex gap-4 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
                        <span class="mt-0">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -95,7 +94,7 @@
                     UNHCR Media Influencer for the "Telling the Real Story"
                     program
                   </li>
-                    <li class="flex gap-2 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
+                    <li class="flex gap-4 mb-2 font-[400] text-[16px] md:text-[16px]" style="line-height: normal;">
                        <span class="mt-0">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -213,7 +212,7 @@
           style="line-height: normal;">
             Her Core Values
           </h2>
-          <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6" />
+          <hr class="border-none h-[1px] bg-[#4A5310] mb-4 md:mb-6" />
           <!-- GRID -->
           <div
             class="flex flex-wrap lg:flex-row lg:flex-nowrap gap-4 items-center"

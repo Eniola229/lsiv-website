@@ -25,10 +25,8 @@
               </h1>
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
-              <p
-                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 md:text-xl text-[16px] font-opensans"
-              >
+             <div class="lg:w-2/3  ml-auto">
+              <p class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 md:text-xl text-[16px] font-opensans">
                 Our organization is dedicated to advancing the United Nations
                 Sustainable Development Goals (SDGs) and working with our
                 partners to tackle pressing global issues that affect
@@ -37,6 +35,7 @@
                 promoting community development.
               </p>
             </div>
+
           </div>
         </div>
       </section>
