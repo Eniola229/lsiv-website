@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Keeping Girls in School: The No Day Off Initiative</title>
     <link rel="stylesheet" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
     <script src="./scroll.js" defer></script>
   </head>
   @vite('resources/css/app.css')
@@ -14,7 +19,7 @@
     <main>
       <!-- our innitiantives insider -->
       <section class="md:p-6 p-2 bg-white rounded md:mt-0 mt-[30px]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 p-6 md:mt-0 mt-[-50px]">
+        <div class="mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl px-4 sm:px-6 lg:px-6 p-6 md:mt-0 mt-[-50px]">
             <div class="flex gap-3 items-center mb-2 text-[16px] font-[400]">
              <a href="{{ url('Initiatives-Initiatives') }}" class="flex items-center gap-1 font-opensans font-[400] text-[16px]" style="line-height: normal; letter-spacing: -0.32px;">
                 Our initiative
@@ -26,16 +31,16 @@
             </div>
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
-              <h1
-                class="md:text-5xl lg:text-[3.5rem] text-[40px] md:mb-6 mb-2 font-playfair font-[00] leading-normal"
-              style="line-height: 80px;">
+            <h1
+                 class="md:text-5xl xl:text-[3.5rem] text-[40px] md:mb-6 mb-2 font-playfair font-medium leading-[53.32px] md:leading-[80px]"
+                 >
                 The No Day Off Initiative
               </h1>
             </div>
             <!-- Text Section -->
             <div class="lg:w-2/3 lg:pl-10 ml-auto">
               <p
-                class="text-accentTextDark md:mb-6 mb-0 md:text-[26px] text-[16px] font-opensans font-[400]"
+              class="text-accentTextDark md:mb-6 mb-0 md:text-[20px] xl:text-[20px] lg:text-lg md:leading-[31px] leading-[25px] text-[16px] font-opensans font-[400]"
               style="line-height: 31px; ">
                 <strong> The No Day Off</strong> Initiative empowers girls to
                 stay in school and manage their periods with dignity by
@@ -54,10 +59,10 @@
           </div> -->
         </div>
       </section>
-      <section class="p-6 mt-[-30px]">
-          <div class="overflow-hidden w-full">
+      <section class="p-6 overflow-hidden mt-[-30px]">
+      <div class="overflow-hidden w-full  lg:ml-[4.5rem] ">
             <div
-              class="flex transition-transform duration-500 ease-in-out p-4 w-max"
+              class="flex   transition-transform duration-500 ease-in-out md:p-4 w-max mt-[-20px]"
               id="carouselTrack"
             >
               <!-- card 1 -->
@@ -312,30 +317,40 @@
          
             </div>
           </div>
-        <div class="flex justify-between items-center mb-6 p-4 md:mt-0 mt-[-110px]">
-            <h2 class="text-3xl md:text-5xl font-playfair font-normal">
-             <!-- Images of Impact -->
-            </h2>
-           <button
-              id="scrollBtn"
-              class="text-xl font-semibold font-opensans capitalize md:ml-auto self-end md:self-auto"
-            >
-              <span class="md:hidden">Next &rarr;</span>
-              <span class="hidden md:inline">Scroll &rarr;</span>
-            </button>
-          </div>
+          <div class="flex justify-between items-center mb-6">
+              <h2 class="text-3xl md:text-5xl font-playfair font-normal">
+                <!-- Images of Impact -->
+              </h2>
+              <div class="md:ml-auto self-end my-4 md:self-auto  space-x-8">
+
+<button
+id="scrollBtn-prev"
+class="text-xl font-semibold font-opensans capitalize "
+>
+<span class="md:hidden"> &larr; Back</span>
+<span class="hidden md:inline">&larr; Back </span>
+</button>
+<button
+id="scrollBtn"
+class="text-xl font-semibold font-opensans capitalize "
+>
+<span class="md:hidden">Next &rarr;</span>
+<span class="hidden md:inline">Next &rarr;</span>
+</button>
+</div>
+            </div>
           </section>
       <!-- our approach  -->
         <section class="bg-secondary py-16 rounded">
-        <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
+        <div class="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
           <!-- Our Approach List -->
        <h2
-            class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
-          style="line-height: normal;">
+       class="md:text-[48px] xl:text-[48px] lg:text-[34px]  mb-8 leading-[42.66px] text-[32px] md:mb-6 m-2 font-playfair font-[500] md:leading-[63.98px] md:p-2"       style="line-height: normal;">
             Breaking the Cycle of Period Poverty
           </h2>
-            <ul class="custom-bullet-list md:pl-5">
-              <li class="flex items-start gap-2 mb-4 text-[20px] font-opensans" style="line-height: normal;">
+          <ul class="custom-bullet-list space-y-4 md:pl-5 font-opensans">
+
+              <li class="flex items-start gap-2 mb-4 text-base md:text-[20px] md:leading-[31px] leading-[25px] font-opensans" style="line-height: normal;">
                 <span class="flex-shrink-0 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                     <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -346,7 +361,7 @@
                 </div>
               </li>
 
-              <li class="flex items-start gap-2 mb-4 text-[20px] font-opensans">
+              <li class="flex items-start gap-2 mb-4 text-base md:text-[20px] md:leading-[31px] leading-[25px] font-opensans">
                 <span class="flex-shrink-0 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                     <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -366,17 +381,15 @@
       </section>
       <!-- Images of Impact -->
       <section class="bg-accentTextLight py-16 rounded">
-          <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
-
-          <!-- IMPACTS List -->
-          <div class="max-w-full mx-auto px-6 sm:px-6 md:px-6 md:p-4 p-1 mt-2">
+      <div class=" xl:max-w-[90rem] mx-auto lg:max-w-4xl  max-w-7xl px-4 sm:px-6 lg:px-6 md:p-4 p-1 md:mt-[-30px] mt-[-40px]">
+          <!-- Our Approach List -->
           <h2
-            class="md:text-[48px] text-[32px] md:mb-6 m-2 font-playfair font-[500] leading-normal md:p-2"
-          style="line-height: normal;">
+            class="md:text-[48px] xl:text-[48px] lg:text-[34px]  mb-8 leading-[42.66px] text-[32px] md:mb-6 m-2 font-playfair font-[500] md:leading-[63.98px] md:p-2"        
+             style="line-height: normal;">
               Impact
-            </h3>
-               <ul class="custom-bullet-list md:p-4 md:mt-[-30px] font-opensans">
-                  <li class="flex items-start gap-2 mb-4 text-[20px]">
+            </h2>
+            <ul class="custom-bullet-list space-y-4 md:pl-5 font-opensans">
+                  <li class="flex items-start gap-2 mb-4 text-[20px] text-base md:leading-[31px] leading-[25px] md:text-[20px]">
                     <span class="flex-shrink-0 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -387,7 +400,7 @@
                     </div>
                   </li>
 
-                  <li class="flex items-start gap-2 mb-4 text-[20px]">
+                  <li class="flex items-start gap-2 mb-4 text-[20px] text-base md:leading-[31px] leading-[25px] md:text-[20px]">
                     <span class="flex-shrink-0 mt-1">
                       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4" />
@@ -421,12 +434,12 @@
     <section class="flex flex-col items-center bg-miscellanous py-16">
        <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
           <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
+            class="text-3xl md:text-[60px] lg:text-[40px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
           >
             Invest in girls' education.
           </h2>
           <!-- NOTE in the first 2 before this there is no paragrah so handle them dynamically too -->
-          <p class=" lg:w-1/2 mx-auto md:text-[24px] text-[16px] font-[400] md:mb-0 mb-6 font-medium font-opensans">
+          <p class=" lg:w-1/2 mx-auto md:text-[24px] lg:text-lg xl:text-[24px] text-[16px] font-[400] md:mb-0 mb-6 font-medium font-opensans">
             Partner with the No Day Off Initiative to keep girls in school and
             break the cycle of period poverty.
           </p>
@@ -440,7 +453,7 @@
     @include('components.footer')
   </body>
 </html>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 const scrollButton = document.getElementById("scrollBtn");
 const carouselTrack = document.getElementById("carouselTrack");
 
@@ -543,4 +556,4 @@ carouselTrack.addEventListener("touchend", () => {
   isDragging = false;
   carouselTrack.style.transition = "transform 0.5s ease-in-out";
 });
-</script>
+</script> -->

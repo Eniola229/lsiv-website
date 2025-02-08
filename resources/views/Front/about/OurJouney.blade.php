@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - our journey</title>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css" />
   </head>
         @vite('resources/css/app.css')
@@ -13,16 +16,16 @@
     <main class="">
       <!-- about the founder Section -->
       <section class="bg-white md:py-16 rounded md:mt-0 mt-[20px]">
-        <div class="p-6 max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="p-6 lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <div class="flex flex-col lg:flex-row justify-between gap-4 md:mt-[-20px] mt-[-30px]">
             <h1
-              class="lg:text-7xl lg:w-1/3 md:text-5xl text-[40px] font-playfair text-left md:text-left md:mb-16 mb-4 font-[500]" style="line-height: normal;"
+              class="xl:text-7xl lg:w-1/3 md:text-5xl text-[40px] font-playfair text-left md:text-left md:mb-16 mb-4 font-[500]" style="line-height: normal;"
             >
               Our Journey
             </h1>
             <div class="lg:w-2/3 lg:pl-10 md:mt-0 mt-[-20px]">
               <p
-                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 md:text-[20px] text-[16px] font-opensans"
+                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 md:text-[20px] lg:text-lg xl:text-[20px] text-[16px] font-opensans"
               style="font-weight: 400; line-height: 30px;">
                 Lolo Social Impact Venture (LSIV) originally started as a
                 grassroots organization called LoloTalks in 2014. Through our
@@ -45,7 +48,7 @@
           <div class="flex flex-col lg:flex-col justify-between gap-4 mt-12">
           <div class="lg:w-[80%]">
             <h2
-              class="md:text-[60px] text-[32px] mb-6 font-playfair font-semibold leading-normal"
+              class="md:text-[60px] lg:text-[40px] xl:text-[60px] text-[32px] mb-6 font-playfair font-semibold leading-normal"
               style="font-weight: 500; line-height: normal;">
               However, in 2023, <br> we strategically shifted to become a social
               impact consulting firm.
@@ -54,7 +57,7 @@
             <!-- Text Section -->
             <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
               <p
-                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 md:text-[20px] text-[16px] font-opensans"
+                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 md:text-[20px] lg:text-lg xl:text-[20px] text-[16px] font-opensans"
               style="font-weight: 400; line-height: 30px;">
                 We leverage our deep understanding of the complex dynamics of
                 social impact work and practical, effective strategies for
@@ -68,21 +71,27 @@
 
     <!-- We’ve been pushing since 2014 click slider-->
     <section class="bg-miscellanous py-16 rounded">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+      <div class="lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
         <h2
-          class="md:text-[60px] text-[32px] mb-6 font-playfair font-semibold leading-normal"
+          class="md:text-[60px] lg:text-[40px] xl:text-[60px] text-[32px] mb-6 font-playfair font-semibold leading-normal"
           style="font-weight: 500; line-height: normal;"
         >
           We’ve been pushing since 2014
         </h2>
         <hr class="border-none h-[1px] bg-[#4A5310] mb-4 md:mb-6" />
-     <div class="container overflow-x-auto hide-scrollbar p-4">
+     <div class="container overflow-x-auto hide-scrollbar ">
   <!-- Wrapper for Responsive Grid -->
- <div class="overflow-hidden w-full">
-  <div id="carouselTrack" class="flex flex-row min-w-[160rem] divide-x divide-[#121D2F80] overflow-x-auto scroll-snap-x snap-x">
-    
+ <div class="overflow-hidden w-full ">
+  <div id="carouselTrack" class="flex w-full -ml-4   min-w-[160rem] divide-x divide-[#121D2F80] overflow-x-auto scroll-snap-x snap-x">
+  <!-- width: Fixed (250px)px;
+height: Hug (276px)px;
+top: 174.54px;
+left: 32px;
+gap: 16px;
+opacity: 0px;
+ -->
     <!-- Card 1 -->
-    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
+    <div class="p-6  items-center w-[30rem] font-opensans md:h-[574px] md:w-[379px] flex flex-col  h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734695151/selfie_t5igug.jpg') }}"
@@ -91,15 +100,16 @@
         />
       </div>
       <div class="my-6 space-y-4">
-        <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2014</h3>
-        <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
-          Founded as a grassroots organization empowering women, children, and youth.
-        </p>
+        <h3 class="md:text-3xl text-[20px] lg:text[42px] leading-[27.24px]  md:leading-[2.27rem] mt-2 font-semibold">2014</h3>
+         <p class="font-normal font-opensans " style="line-height: 36px;">
+         Founded as a grassroots organization empowering women, children, and youth.
+         </p>
       </div>
+   
     </div>
 
     <!-- Card 2 -->
-    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
+    <div class="p-6  items-center  w-[30rem] font-opensans md:h-[574px] md:w-[379px] flex flex-col  h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734695517/24491159509abdc6f1220915d90df530_bebdfy.jpg') }}"
@@ -108,15 +118,15 @@
         />
       </div>
       <div class="my-6 space-y-4">
-        <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2015</h3>
-         <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
+        <h3 class="md:text-3xl text-[20px] lg:text[42px] leading-[27.24px]  md:leading-[2.27rem] mt-2 font-semibold">2015</h3>
+         <p class="font-normal font-opensans " style="line-height: 36px;">
           Launched "The Conversation," our first youth conference, fostering mentorship and personal development.
         </p>
       </div>
     </div>
 
     <!-- Card 3 -->
-    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
+    <div class="p-6  items-center  w-[30rem] font-opensans md:h-[574px] md:w-[379px] flex flex-col  h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350018/54521716_2088500577908409_6915712892130033664_n_lkmuku.jpg') }}"
@@ -125,7 +135,7 @@
         />
       </div>
       <div class="my-6 space-y-4">
-        <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2017</h3>
+        <h3 class="md:text-3xl text-[20px] lg:text[42px] leading-[27.24px]  md:leading-[2.27rem] mt-2 font-semibold">2017</h3>
          <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Expanded through documentaries (Stories Untold) and community-based initiative - Adopt a Community, addressing the pressing needs in underserved communities.
         </p>
@@ -133,7 +143,7 @@
     </div>
 
     <!-- Card 4 -->
-    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
+    <div class="p-6  items-center  w-[30rem] font-opensans md:h-[574px] md:w-[379px] flex flex-col  h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350125/19800101000428_IMG_3822_rxuczc.jpg') }}"
@@ -142,7 +152,7 @@
         />
       </div>
       <div class="my-6 space-y-4">
-        <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2018</h3>
+        <h3 class="md:text-3xl text-[20px] lg:text[42px] leading-[27.24px]  md:leading-[2.27rem] mt-2 font-semibold">2018</h3>
          <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Introduced "MyBodyIsMine" program for comprehensive sexuality education and the "No Day Off" initiative to address period poverty.
         </p>
@@ -150,7 +160,7 @@
     </div>
 
     <!-- Card 5 -->
-    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
+    <div class="p-6  items-center  w-[30rem] font-opensans md:h-[574px] md:w-[379px] flex flex-col  h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350003/51552833_1034622810054230_7910197635917545472_n_i5ihmr.jpg') }}"
@@ -159,15 +169,15 @@
         />
       </div>
       <div class="my-6 space-y-4">
-        <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2019</h3>
-         <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
+        <h3 class="md:text-3xl text-[20px] lg:text[42px] leading-[27.24px]  md:leading-[2.27rem] mt-2 font-semibold">2019</h3>
+         <p class="font-normal font-opensans " style="line-height: 36px;">
           Launched the "Muta" educational platform and "Unveil with Lolo" interview series.
         </p>
       </div>
     </div>
 
     <!-- Card 6 -->
-    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
+    <div class="p-6  items-center  w-[30rem] font-opensans md:h-[574px] md:w-[379px] flex flex-col  h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734696412/Frame_16_1_nkzp1i.png') }}"
@@ -176,7 +186,7 @@
         />
       </div>
       <div class="my-6 space-y-4">
-        <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2020</h3>
+        <h3 class="md:text-3xl text-[20px] lg:text[42px] leading-[27.24px]  md:leading-[2.27rem] mt-2 font-semibold">2020</h3>
          <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Managed "Women Crisis Centre" in response to COVID-19, providing funds for women entrepreneurs and GBV Prevention sensitisation programs.
         </p>
@@ -184,7 +194,7 @@
     </div>
 
     <!-- Card 7 -->
-    <div class="p-6 items-center w-[30rem] font-opensans flex flex-col justify-between h-full card-image-container">
+    <div class="p-6  items-center  w-[30rem] font-opensans md:h-[574px] md:w-[379px] flex flex-col  h-full card-image-container">
       <div class="w-full h-[14.125rem]">
         <img
           src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734696553/Frame_16_2_ns2qvr.png') }}"
@@ -193,7 +203,7 @@
         />
       </div>
       <div class="my-6 space-y-4">
-        <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2023</h3>
+        <h3 class="md:text-3xl text-[20px] lg:text[42px] leading-[27.24px]  md:leading-[2.27rem] mt-2 font-semibold">2023</h3>
          <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Transitioned to a consulting firm, expanding impact through strategic partnerships and advocacy.
         </p>
@@ -206,37 +216,52 @@
               <h2 class="text-3xl md:text-5xl font-playfair font-normal">
                 <!-- Images of Impact -->
               </h2>
-              <button id="scrollBtn" class="text-[20px] font-[600] capitalize font-opensans" style="line-height: normal;">
-                Next &rarr;
-              </button>
+              <div class="md:ml-auto self-end my-4 md:self-auto  space-x-8">
+
+<button
+id="scrollBtn-prev"
+class="text-xl font-semibold font-opensans capitalize "
+>
+<span class="md:hidden"> &larr; Back</span>
+<span class="hidden md:inline">&larr; Back </span>
+</button>
+<button
+id="scrollBtn"
+class="text-xl font-semibold font-opensans capitalize "
+>
+<span class="md:hidden">Next &rarr;</span>
+<span class="hidden md:inline">Next &rarr;</span>
+</button>
+</div>
             </div>
 </section>
 
       <!-- Our Key Achievements -->
       <section class="bg-accentTextLight py-16 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <h2
-            class="md:text-6xl text-[32px] mb-12 font-playfair font-medium leading-normal"
+            class="md:text-6xl lg:text-5xl xl:text-6xl text-[32px] mb-12 font-playfair font-medium leading-normal"
           style="font-weight: 500;">
             Our Key Achievements
           </h2>
+<!--  -->
           <!-- COnatainner flex -->
           <div class="flex flex-col gap-12">
             <!-- flex card 1 -->
             <div
-              class="flex flex-col md:flex-row-reverse items-center justify-between gap-4 relative"
+              class="flex flex-col lg:flex-row-reverse lg:items-center justify-between gap-4 relative"
             >
               <!-- Image Section -->
               <div></div>
-              <div class="lg:mt-18 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
+              <div class="lg:mt-18 z-30 xl:w-1/2 h-auto md:h-80 text-xl lg:absolute">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349991/43773372_1864694993622303_7392058420620165120_n_dq1skt.jpg') }}"
                   alt="the founder of LSIV "
-                  class="w-full h-full object-cover rounded-[20px]"
+                  class="w-full h-full object-cover rounded-t-[20px] lg:rounded-[20px]"
                 />
               </div>
               <!-- Text Section -->
-              <div class="lg:w-2/3 md:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
+              <div class="xl:w-2/3 lg:w-3/4 -mt-8 lg:-m-0  w-full lg:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
                 <div>
                   <h2
                     class="md:text-[32px] text-[24px] mb-6 font-[600] font-opensans"
@@ -298,22 +323,22 @@
             </div>
             <!-- flex card 2 -->
             <div
-              class="flex flex-col md:flex-row-reverse items-center justify-between gap-4 relative"
+              class="flex flex-col lg:flex-row-reverse lg:items-center justify-between gap-4 relative"
             >
               <!-- Image Section -->
               <div></div>
-              <div class="lg:mt-2 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
+              <div class="lg:mt-12 z-30  lg:w-1/2 h-auto md:h-80 text-xl lg:absolute">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350081/69990011_2378336112258186_7583249744500097024_n_tmty7l.jpg') }}"
                   alt="the founder of LSIV "
-                  class="w-full h-full object-cover rounded-[20px]"
+                  class="w-full h-full object-cover rounded-t-[20px] lg:rounded-[20px]"
                 />
               </div>
               <!-- Text Section -->
-              <div class="lg:w-2/3 md:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
+              <div class="xl:w-2/3 lg:w-3/4 -mt-8 lg:-m-0  w-full lg:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
                 <div>
                  <h2
-                    class="md:text-[32px] text-[24px] mb-6 mt-1 font-[600] font-opensans mt-16"
+                    class="md:text-[32px] text-[24px] mb-6 md:mt-4 font-[600] font-opensans "
                   style="line-height: 44px; letter-spacing: 0.64px;">
                     Improving Health Outcomes
                   </h2>
@@ -356,19 +381,19 @@
             </div>
             <!-- flex card 3 -->
             <div
-              class="flex flex-col md:flex-row-reverse items-center justify-between gap-4 relative"
+              class="flex flex-col lg:flex-row-reverse lg:items-center justify-between gap-4 relative"
             >
               <!-- Image Section -->
               <div></div>
-              <div class="lg:mt-2 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
+              <div class="lg:mt-2 z-30  lg:w-1/2 h-auto md:h-80 text-xl lg:absolute">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350054/67416684_1135248263325017_6127027789867515904_n_pgaqox.jpg') }}"
                   alt="the founder of LSIV "
-                  class="w-full h-full object-cover rounded-[20px]"
+                  class="w-full h-full object-cover rounded-t-[20px] lg:rounded-[20px]"
                 />
               </div>
               <!-- Text Section -->
-              <div class="lg:w-2/3 md:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
+              <div class="xl:w-2/3 lg:w-3/4 -mt-8 lg:-m-0  w-full lg:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
                 <div>
                  <h2
                     class="md:text-[32px] text-[24px] mb-6 font-[600] font-opensans"
@@ -378,7 +403,7 @@
                    <ul
                     class="custom-bullet-list text-accentTextDark font-[400] leading-[2.1675rem] md:text-[16px] md:mr-48 font-opensans"
                    style="font-weight: 400;">
-                    <li class="flex gap-2 mb-4">
+                    <li class="flex gap-2 mb-4 leading-[1.5rem]">
                        <span class="mt-2">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -433,7 +458,7 @@
     @include('components.footer')
   </body>
 </html>
-
+<!-- 
 <script>
 const scrollButton = document.getElementById("scrollBtn");
 const carouselTrack = document.getElementById("carouselTrackOne");
@@ -565,4 +590,4 @@ carouselTrack.addEventListener("wheel", (e) => {
     window.scrollBy(0, e.deltaY);
   }
 });
-</script>
+</script> -->

@@ -1,99 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-      .animate-rotate {
-        animation: rotatetext 10s linear infinite;
-        transform-origin: 50% 50%;
-        /* transition: all 500ms; */
-      }
+.animate-rotate {
+    animation: rotatetext 10s linear infinite;
+    transform-origin: 50% 50%;
+    /* transition: all 500ms; */
+}
 
-      .orange-circle {
-        position: relative;
-        background-color: #E76A35;
-        border-radius: 50%;
-        color: white;
-        overflow: hidden;
-      }
- 
-      /* Using ::before for the black background layer */
-      .orange-circle::before {
-        content: "";
-        position: absolute;
-        top: -100%; /* Initially above the element */
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-        color: white;
-        border-radius: 50%;
-        transition: top 0.5s ease-in-out; /* Smooth transition for sliding */
-      }
+.orange-circle {
+    position: relative;
+    background-color: #e76a35;
+    border-radius: 50%;
+    color: white;
+    overflow: hidden;
+}
 
-      /* Using ::after for the arrow styling */
-   .orange-circle::after {
-          content: "";
-          position: absolute;
-          z-index: 1;
-          width: 80px;
-          height: 104px;
-          top: -100%;
-          left: 50%;
-          transform: translate(-50%, 0);
-          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='104' viewBox='0 0 80 104' fill='none'%3E%3Cpath d='M42.8284 102.828C41.2663 104.391 38.7337 104.391 37.1716 102.828L11.7157 77.3726C10.1536 75.8105 10.1536 73.2778 11.7157 71.7157C13.2778 70.1536 15.8105 70.1536 17.3726 71.7157L40 94.3431L62.6274 71.7157C64.1895 70.1536 66.7222 70.1536 68.2843 71.7157C69.8464 73.2778 69.8464 75.8105 68.2843 77.3726L42.8284 102.828ZM44 0L44 100H36L36 0L44 0Z' fill='white'/%3E%3C/svg%3E");
-          background-size: contain;
-          background-repeat: no-repeat;
-          transition: top 0.5s ease-in-out, color 0.5s ease-in-out;
-        }
+/* Using ::before for the black background layer */
+.orange-circle::before {
+    content: "";
+    position: absolute;
+    top: -100%; /* Initially above the element */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    transition: top 0.5s ease-in-out; /* Smooth transition for sliding */
+}
 
-      /* Translate and fade out the original arrow when hovered */
-      .orange-circle:hover .original-arrow {
-        transform: translateY(
-          100%
-        ); /* Move the original arrow downwards out of view */
-        opacity: 0; /* Hide the original arrow */
-        transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out; /* Smoothly translate and fade out */
-      }
+/* Using ::after for the arrow styling */
+.orange-circle::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 80px;
+    height: 104px;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='104' viewBox='0 0 80 104' fill='none'%3E%3Cpath d='M42.8284 102.828C41.2663 104.391 38.7337 104.391 37.1716 102.828L11.7157 77.3726C10.1536 75.8105 10.1536 73.2778 11.7157 71.7157C13.2778 70.1536 15.8105 70.1536 17.3726 71.7157L40 94.3431L62.6274 71.7157C64.1895 70.1536 66.7222 70.1536 68.2843 71.7157C69.8464 73.2778 69.8464 75.8105 68.2843 77.3726L42.8284 102.828ZM44 0L44 100H36L36 0L44 0Z' fill='white'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: top 0.5s ease-in-out, color 0.5s ease-in-out;
+}
 
-      /* When mouse leaves, smoothly return the original arrow to its original position */
-      .orange-circle:not(:hover) .original-arrow {
-        transform: translateY(
-          0
-        ); /* Move the original arrow back to its original position */
-        opacity: 1; /* Show the original arrow */
-        transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out 0.5s; /* Delay the opacity to match the background */
-      }
+/* Translate and fade out the original arrow when hovered */
+.orange-circle:hover .original-arrow {
+    transform: translateY(
+        100%
+    ); /* Move the original arrow downwards out of view */
+    opacity: 0; /* Hide the original arrow */
+    transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out; /* Smoothly translate and fade out */
+}
 
-      /* Hover effect for sliding down the black background */
-      .orange-circle:hover::before {
-        top: 0; /* Slide down to fully cover the element */
-      }
+/* When mouse leaves, smoothly return the original arrow to its original position */
+.orange-circle:not(:hover) .original-arrow {
+    transform: translateY(
+        0
+    ); /* Move the original arrow back to its original position */
+    opacity: 1; /* Show the original arrow */
+    transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out 0.5s; /* Delay the opacity to match the background */
+}
 
-      /* Hover effect for sliding down the new arrow */
-      .orange-circle:hover::after {
-        top: 50%; /* Move the arrow to the center */
-        transform: translate(-50%, -50%); /* Adjust to perfectly center it */
-        color: white; /* Optionally change the arrow color */
-      }
+/* Hover effect for sliding down the black background */
+.orange-circle:hover::before {
+    top: 0; /* Slide down to fully cover the element */
+}
 
-      /* Reverse the background and arrow when the mouse leaves */
-      .orange-circle:not(:hover)::before {
-        top: -100%; /* Slide the black background back up */
-        transition: top 0.5s ease-in-out; /* Match the reverse transition */
-      }
+/* Hover effect for sliding down the new arrow */
+.orange-circle:hover::after {
+    top: 50%; /* Move the arrow to the center */
+    transform: translate(-50%, -50%); /* Adjust to perfectly center it */
+    color: white; /* Optionally change the arrow color */
+}
 
-      .orange-circle:not(:hover)::after {
-        top: -100%; /* Slide the new arrow back up */
-        transition: top 0.5s ease-in-out; /* Match the reverse transition */
-      }
-      @keyframes rotatetext {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-      }
+/* Reverse the background and arrow when the mouse leaves */
+.orange-circle:not(:hover)::before {
+    top: -100%; /* Slide the black background back up */
+    transition: top 0.5s ease-in-out; /* Match the reverse transition */
+}
+
+.orange-circle:not(:hover)::after {
+    top: -100%; /* Slide the new arrow back up */
+    transition: top 0.5s ease-in-out; /* Match the reverse transition */
+}
+@keyframes rotatetext {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 .animate-rotate {
     animation: rotatetext 10s linear infinite;
@@ -102,12 +104,11 @@
 
 .orange-round-down {
     position: relative;
-    background-color: #E76A35;
+    background-color: #e76a35;
     border-radius: 50%;
     color: white;
     overflow: hidden;
 }
-
 
 /* Black background layer using ::before */
 .orange-round-down::before {
@@ -154,7 +155,7 @@
 }
 
 .btn-bg-animation {
-    background-color: #E76A35;
+    background-color: #e76a35;
     position: relative;
     overflow: hidden;
     padding: 0.5rem 1rem;
@@ -214,53 +215,52 @@
 .hover-effect-arrow .hover-arrow {
     opacity: 0;
     position: relative;
-    left: -10px; 
-    transition: all 0.3s ease-in-out; 
+    left: -10px;
+    transition: all 0.3s ease-in-out;
     color: darkorange;
 }
 
 .hover-effect-arrow:hover {
-    color: #E76A35; 
+    color: #e76a35;
 }
 
 .hover-effect-arrow:hover .hover-arrow {
-    opacity: 1; 
-    left: 5px;   
+    opacity: 1;
+    left: 5px;
 }
 
-  .hover-text-underline {
+.hover-text-underline {
     position: relative;
     display: inline-block;
     color: black;
-    transition: color 0.5s ease; 
-  }
+    transition: color 0.5s ease;
+}
 
-  /* The underline effect */
-  .hover-text-underline:after {
-    content: '';
+/* The underline effect */
+.hover-text-underline:after {
+    content: "";
     position: absolute;
     bottom: -3px;
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #E76A35;
-    transform: scaleX(0); 
+    background-color: #e76a35;
+    transform: scaleX(0);
     transform-origin: left;
     transition: transform 0.5s ease;
-  }
+}
 
+.hover-text-underline:hover {
+    color: #e76a35;
+}
 
-  .hover-text-underline:hover {
-    color: #E76A35;
-  }
+.hover-text-underline:hover:after {
+    transform: scaleX(1);
+}
 
-  .hover-text-underline:hover:after {
-    transform: scaleX(1); 
-  }
-
-  /*-------Learn more-------*/
-   .btn-bg-animation-learn {
-    background-color: #E76A35;
+/*-------Learn more-------*/
+.btn-bg-animation-learn {
+    background-color: #e76a35;
     position: relative;
     overflow: hidden;
     padding: 0.5rem 1rem;
@@ -276,7 +276,7 @@
 }
 
 /* Background animation */
- .btn-bg-animation-learn::before {
+.btn-bg-animation-learn::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -291,12 +291,12 @@
 }
 
 /* Hover effect */
- .btn-bg-animation-learn:hover::before {
+.btn-bg-animation-learn:hover::before {
     transform: translateY(0) translateX(0);
 }
 
 /* Ensure text remains white on hover */
- .btn-bg-animation-learn .btn-text {
+.btn-bg-animation-learn .btn-text {
     position: relative;
     z-index: 2; /* Ensures text is above background */
     color: white;
@@ -307,76 +307,74 @@
     transition: color 0.3s ease;
 }
 
- .btn-bg-animation-learn:hover .btn-text {
+.btn-bg-animation-learn:hover .btn-text {
     color: white; /* Keeps text color white */
 }
 
- 
 .scroll-container {
-   scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-ul li a 
-{
-   font-family: Open Sans;   
-   align-self: stretch;
+ul li a {
+    font-family: Open Sans;
+    align-self: stretch;
 }
 p {
-   font-family: "Open Sans";
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: normal;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .impact-styles {
-   color: #000;
-   font-family: "Open Sans";
-   font-style: normal;
-   font-weight: 600;
-   line-height: normal;
+    color: #000;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .footer-text-header {
-        color: var(--accent-text-collour-2, #0B0B0B);
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
+    color: var(--accent-text-collour-2, #0b0b0b);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 ul {
-          display: flex;
-        flex-direction: column;
-/*        gap: 20px;*/
-        align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    /*        gap: 20px;*/
+    align-self: stretch;
 }
 .last-footer a {
-        color: var(--accent-text-collour-2, #0B0B0B);
-        font-family: "Open Sans";
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
+    color: var(--accent-text-collour-2, #0b0b0b);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 .efore-inner-footer {
-        color: var(--accent-text-collour-2, #0B0B0B);
-        font-family: "Open Sans";
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
+    color: var(--accent-text-collour-2, #0b0b0b);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.thematic-area  h3{
-        color: var(--fore-allways---white, #FFF);
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+.thematic-area h3 {
+    color: var(--fore-allways---white, #fff);
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.div-the  {
-        width: 293px;
+.div-the {
+    width: 293px;
 }
 button {
-        font-family: "Open Sans";
+    font-family: "Open Sans";
 }
 
 /* Custom style to hide scrollbar */
@@ -393,90 +391,91 @@ button {
 }
 
 @media (max-width: 480px) {
-   .achievements {
+    .achievements {
         position: none;
-   }
+    }
 }
 
-  .group:hover .dropdown-menu {
+.group:hover .dropdown-menu {
     display: block;
-  }
+}
 
-  /* Delay for hover effect */
-  .dropdown-menu {
+/* Delay for hover effect */
+.dropdown-menu {
     display: none;
     transition: all 0.9s ease; /* You can adjust the time (0.3s) */
-  }
+}
 
-  .group:hover .dropdown-menu {
+.group:hover .dropdown-menu {
     display: block;
     transition-delay: 0.2s; /* Adjust delay before appearing */
-  }
+}
 
-  /* Optional: Add transition for smooth hide effect */
-  .dropdown-menu {
+/* Optional: Add transition for smooth hide effect */
+.dropdown-menu {
     opacity: 0;
     transform: translateY(10px); /* Start from slightly lower position */
-  }
+}
 
-  .group:hover .dropdown-menu {
+.group:hover .dropdown-menu {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 0.9s ease, transform 0.9s ease;
-  }
-
+}
 
 /* ckeditor-content.css */
 .ck-content {
-  font-family: 'Open sans'; 
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
+    font-family: "Open sans";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
 }
 
-.ck-content h1, .ck-content h2, .ck-content h3 {
-  font-weight: bold;
-  margin: 1rem 0;
-  font-family: "Playfair Display", serif;
+.ck-content h1,
+.ck-content h2,
+.ck-content h3 {
+    font-weight: bold;
+    margin: 1rem 0;
+    font-family: "Playfair Display", serif;
 }
 
 .ck-content p {
-  margin: 0.5rem 0;
+    margin: 0.5rem 0;
 }
 
 .ck-content a {
-  color: #1a73e8;
-  text-decoration: none;
+    color: #1a73e8;
+    text-decoration: none;
 }
 
 .ck-content a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .ck-content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
 
 .ck-content blockquote {
-  border-left: 4px solid #ddd;
-  padding-left: 1rem;
-  font-style: italic;
-  color: #666;
-}
-/* Initial state */
-/* Hidden by default */
-.mobile-hidden {
-  display: none !important;
+    border-left: 4px solid #ddd;
+    padding-left: 1rem;
+    font-style: italic;
+    color: #666;
 }
 
-#mobile-menu {
-  transform: translateX(-100%); /* Initial position off-screen */
-  transition: transform 0.5s ease-in-out; /* Adjust duration and easing as needed */
+#carouselTrack {
+    display: flex; /* Ensures child elements are arranged horizontally */
+    width: max-content; /* Adjusts to fit the total width of child elements */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
 }
 
-#mobile-menu.translate-x-0 {
-  transform: translateX(0); /* Slide into view when class is applied */
+.card-image-container {
+    flex: 0 0 auto; /* Prevents child elements from resizing */
+    user-select: none; /* Prevents accidental text selection */
 }
 
+#mobile-menu.open {
+    transform: translateX(0);
+}

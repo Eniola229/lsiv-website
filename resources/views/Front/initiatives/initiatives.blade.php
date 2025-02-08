@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - our initiatives</title>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="../style.css" />
   </head>
   @vite('resources/css/app.css')
@@ -13,10 +18,10 @@
       @include('components.header')
       <!-- our initialtives  -->
     <section class="bg-secondary py-16 rounded text-accentTextDark max-w-7xl mx-auto md:mt-0 mt-[-10px]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 justify-center items-center md:mt-0 mt-[-40px]">
+        <div class="mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl px-4 sm:px-6 lg:px-6 justify-center items-center md:mt-0 mt-[-40px]">
           <div class="mb-12 space-y-2">
             <h1
-              class="md:text-[72px] lg:text-[72px] text-[40px] font-playfair font-medium leading-normal"
+              class="md:text-[72px] lg:text-[36px] xl:text-[72px] text-[40px] font-playfair font-medium leading-normal"
             style="line-height: normal;">
               Driving Change,One <span class="text-primary"> Initiative </span>
               at a Time.
@@ -27,14 +32,14 @@
           </div>
         <div class="container mt-8">
           <!-- GRID -->
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-y-8">
+          <div class="grid md:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-y-8">
             <!-- card one -->
             <div class="px-4 h-auto w-full font-opensans flex flex-col">
               <!-- Image Section -->
               <div class="w-full h-[17.8125rem]">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350125/19800101000031_IMG_3740_ekpkny.jpg') }}"
-                  alt="the founder of LSIV"
+                  alt="MyBodyIsMine"
                   class="w-full h-full  md:w-[424px] md:h-[285px] object-cover rounded-lg object-center"
                 />
               </div>
@@ -72,7 +77,8 @@
               <div class="w-full h-[17.8125rem]">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350018/54521716_2088500577908409_6915712892130033664_n_lkmuku.jpg') }}"
-                  alt="the founder of LSIV"
+                  alt=" Adopt a Community
+"
                   class="w-full h-full  md:w-[424px] md:h-[285px] object-cover rounded-lg object-center"
                 />
               </div>
@@ -83,7 +89,7 @@
                 <p class="leading-[1.625rem] font-[400] text-[16px] font-opensans flex-1" style="line-height: 26px;">
                   A collaborative effort to empower grassroots and marginalised communities through participatory development programs, addressing issues like menstrual hygiene, safe sex, gender-based violence, and vocational skills training.
                 </p>
-                <a href="{{ url('Initiatives-AdoptCommunity') }}"  class="hover-effect-arrow font-[600] text-[1.125rem] flex items-center space-x-2"
+                <a href="{{ url('Initiatives-Adopt') }}"  class="hover-effect-arrow font-[600] text-[1.125rem] flex items-center space-x-2"
                 >
                  <span class="btn-text" style="line-height: 20px;">Learn more</span>
                   <span class="hover-arrow" style="color: orange;">
@@ -110,7 +116,7 @@
               <div class="w-full h-[17.8125rem]">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734734920/Frame_1618873260_kaogz9.png') }}"
-                  alt="the founder of LSIV"
+                  alt="No Day Off"
                   class="w-full h-full  md:w-[424px] md:h-[285px] object-cover rounded-lg object-center"
                 />
               </div>
@@ -148,7 +154,7 @@
               <div class="w-full h-[17.8125rem]">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734695517/24491159509abdc6f1220915d90df530_bebdfy.jpg') }}"
-                  alt="the founder of LSIV"
+                  alt="The Conversation"
                   class="w-full h-full  md:w-[424px] md:h-[285px] object-cover rounded-lg object-center"
                 />
               </div>
@@ -186,7 +192,7 @@
               <div class="w-full h-[17.8125rem]">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350391/Stories_Unheard_xnblxp.jpg') }}"
-                  alt="the founder of LSIV"
+                  alt="Stories Untold"
                   class="w-full h-full  md:w-[424px] md:h-[285px] object-cover rounded-lg object-center"
                 />
               </div>
@@ -224,7 +230,7 @@
               <div class="w-full h-[17.8125rem]">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350003/51552833_1034622810054230_7910197635917545472_n_i5ihmr.jpg') }}"
-                  alt="the founder of LSIV"
+                  alt="The Lolo Cynthia Show"
                   class="w-full h-full  md:w-[424px] md:h-[285px] object-cover rounded-lg object-center"
                 />
               </div>

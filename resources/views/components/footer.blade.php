@@ -2,12 +2,12 @@
        <!-- Section Eight -->
       <section class="w-full px-0 py-16 relative bg-[#F8F8FF]">
         <div
-          class="flex mx-auto max-w-7xl p-2 md:p-4 lg:px-4 flex-col md:flex-row justify-center items-center w-full relative"
+          class="flex mx-auto space-y-12 lg:max-w-4xl xl:max-w-7xl max-w-7xl p-2 md:p-4 lg:px-4 flex-col md:flex-row justify-center items-center w-full relative"
         >
           <!-- Left Section: Heading and Subtext -->
           <div class="w-full md:w-lg">
             <h2
-              class="text-[40px] md:text-[96px] lg:text-[96px] font-playfair font-medium font-[400] leading-tight tracking-tight"
+              class="text-[40px] md:text-[96px] lg:text-[54px] xl:text-[96px] font-playfair font-medium font-[400] leading-tight tracking-tight"
             >
               Ready to Amplify <br />
               Your Impact?
@@ -37,11 +37,11 @@
           <img
             src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349188/LSIV_Logo-13_df4e3b.png') }}"
             alt="LSIV Logo"
-            class="w-24 md:mx-0 mb-4"
+            class="w-24 md:mx-0 mb-4 cursor-pointer"
+            id="logo-footer"
           />
           <p
-            class="text-gray-700 font-medium text-base font-opensans"
-            style="font-weight: 400; line-height: 26px"
+            class="text-gray-700 font-normal text-base font-opensans md:leading-[31px] leading-[26px]"
           >
             A strategic advocacy and communications agency dedicated to creating
             a more equitable world.
@@ -64,11 +64,11 @@
         <!-- About us section -->
         <div>
           <h3
-            class="text-gray-800 font-semibold mb-3 footer-text-header font-opensans"
+            class="text-gray-800 font-semibold mb-3 footer-text-header font-opensans  md:text-[20px] text-[16px] leading-[21px] md:leading-[27px]"
           >
             About us
           </h3>
-          <ul class="text-gray-600 space-y-2">
+          <ul class="text-gray-600 md:leading-[25px] space-y-2.5  text-[14px] leading-[19.07px] md:text-[16px]">
             <li>
               <a
                 href="{{ url('About-WhoWeAre') }}"
@@ -99,15 +99,39 @@
             </li>
           </ul>
         </div>
+         <!-- Work with us section -->
+         <div>
+          <h3
+            class="text-gray-800 font-semibold mb-3 footer-text-header font-opensans  md:text-[20px] text-[16px] leading-[21px] md:leading-[27px]"
+          >
+            Work with us
+          </h3>
+          <ul class="text-gray-600 md:leading-[25px] space-y-2.5  text-[14px] leading-[19.07px] md:text-[16px]">
+            <li>
+              <a
+                href="{{ url('Work-Services') }}"
+                class="hover:text-orange-600 font-opensans"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="{{ url('Work-Work') }}"
+                class="hover:text-orange-600 font-opensans"
+                >How we Work</a
+              >
+            </li>
+          </ul>
+        </div>
 
         <!-- Initiatives section -->
         <div>
           <h3
-            class="text-gray-800 font-semibold mb-3 footer-text-header font-opensans"
+            class="text-gray-800 font-semibold mb-3 footer-text-header font-opensans  md:text-[20px] text-[16px] leading-[21px] md:leading-[27px]"
           >
             Initiatives
           </h3>
-          <ul class="text-gray-600 space-y-2">
+          <ul class="text-gray-600 md:leading-[25px] space-y-2.5  text-[14px] leading-[19.07px] md:text-[16px]">
             <li>
               <a
                 href="{{ url('Initiatives-MyBodyIsMine') }}"
@@ -153,39 +177,16 @@
           </ul>
         </div>
 
-        <!-- Work with us section -->
-        <div>
-          <h3
-            class="text-gray-800 font-semibold mb-3 footer-text-header font-opensans"
-          >
-            Work with us
-          </h3>
-          <ul class="text-gray-600 space-y-2">
-            <li>
-              <a
-                href="{{ url('Work-Services') }}"
-                class="hover:text-orange-600 font-opensans"
-                >Services</a
-              >
-            </li>
-            <li>
-              <a
-                href="{{ url('Work-Work') }}"
-                class="hover:text-orange-600 font-opensans"
-                >How we Work</a
-              >
-            </li>
-          </ul>
-        </div>
+       
 
         <!-- Insights section -->
         <div>
           <h3
-            class="text-gray-800 font-semibold mb-3 footer-text-header font-opensans"
+            class="text-gray-800 font-semibold mb-3 footer-text-header font-opensans  md:text-[20px] text-[16px] leading-[21px] md:leading-[27px]"
           >
             Insights
           </h3>
-          <ul class="text-gray-600 space-y-2">
+          <ul class="text-gray-600 md:leading-[25px] space-y-2.5  text-[14px] leading-[19.07px] md:text-[16px]">
             <li>
               <a
                 href="{{ url('Insights-Case') }}"
@@ -351,10 +352,12 @@
       }
     }, interval);
   });
-</script>
 
-<script type="text/javascript">
-const scrollButton = document.getElementById("scrollBtn");
+  document.getElementById("logo-footer").addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+const scrollButtonNext = document.getElementById("scrollBtn");
+const scrollButtonPrev = document.getElementById("scrollBtn-prev");
 const carouselTrack = document.getElementById("carouselTrack");
 
 let startX;
@@ -364,7 +367,7 @@ let scrollPosition = 0;
 
 // Function to determine the number of visible cards based on screen width
 function getVisibleCards() {
-  if (window.innerWidth >= 1024) {
+  if (window.innerWidth > 1024) {
     return 3;
   } else if (window.innerWidth >= 768) {
     return 2;
@@ -389,82 +392,93 @@ function clampScrollPosition() {
 }
 
 function updateScrollPosition() {
+  console.log({maxScroll,cardWidth,scrollPosition})
   carouselTrack.style.transition = "transform 0.5s ease-in-out";
   carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
 }
 
 function scrollOn() {
   scrollPosition += cardWidth;
-
   if (scrollPosition > maxScroll) {
-    scrollPosition = maxScroll;
-    // Allow scrolling down the page after reaching the end
-    return;
+    scrollPosition = 0;
+    scrollPosition += cardWidth;
   }
 
   updateScrollPosition();
 }
+function scrollBack() {
+  // decrease when scroll position is greater
+  if (scrollPosition > 0) {
+    scrollPosition -= cardWidth;
+  }
 
-scrollButton.addEventListener("click", scrollOn);
+  updateScrollPosition();
+}
+if(scrollButtonPrev)scrollButtonPrev.addEventListener("click",scrollBack)
+scrollButtonNext.addEventListener("click", scrollOn);
 
 document.addEventListener("keyup", (e) => {
   if (e.key === "ArrowRight") {
     scrollOn();
   }
+  if (e.key === "ArrowLeft") {
+    scrollBack();
+  }
+
 });
 
 window.addEventListener("resize", updateMaxScroll);
 
 // Drag and Swipe Functionality
-carouselTrack.addEventListener("mousedown", (e) => {
-  isDragging = true;
-  startX = e.pageX;
-  initialScrollPosition = scrollPosition;
-  carouselTrack.style.transition = "none";
-});
+ carouselTrack.addEventListener("mousedown", (e) => {
+   isDragging = true;
+   startX = e.pageX;
+   initialScrollPosition = scrollPosition;
+   carouselTrack.style.transition = "none";
+ });
 
-carouselTrack.addEventListener("mousemove", (e) => {
-  if (!isDragging) return;
-  const deltaX = e.pageX - startX;
-  scrollPosition = initialScrollPosition - deltaX;
+ carouselTrack.addEventListener("mousemove", (e) => {
+   if (!isDragging) return;
+   const deltaX = e.pageX - startX;
+   scrollPosition = initialScrollPosition - deltaX;
 
-  clampScrollPosition();
-  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
-});
+   clampScrollPosition();
+   carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
+ });
 
-carouselTrack.addEventListener("mouseup", () => {
-  isDragging = false;
-  carouselTrack.style.transition = "transform 0.5s ease-in-out";
-});
+ carouselTrack.addEventListener("mouseup", () => {
+   isDragging = false;
+   carouselTrack.style.transition = "transform 0.5s ease-in-out";
+ });
 
-carouselTrack.addEventListener("mouseleave", () => {
-  isDragging = false;
-  carouselTrack.style.transition = "transform 0.5s ease-in-out";
-});
+ carouselTrack.addEventListener("mouseleave", () => {
+   isDragging = false;
+   carouselTrack.style.transition = "transform 0.5s ease-in-out";
+ });
 
-// Touch events for mobile
-carouselTrack.addEventListener("touchstart", (e) => {
-  startX = e.touches[0].pageX;
-  initialScrollPosition = scrollPosition;
-  isDragging = true;
-  carouselTrack.style.transition = "none";
-});
+ // Touch events for mobile
+ carouselTrack.addEventListener("touchstart", (e) => {
+   startX = e.touches[0].pageX;
+   initialScrollPosition = scrollPosition;
+   isDragging = true;
+   carouselTrack.style.transition = "none";
+ });
 
-carouselTrack.addEventListener("touchmove", (e) => {
-  if (!isDragging) return;
-  const deltaX = e.touches[0].pageX - startX;
-  scrollPosition = initialScrollPosition - deltaX;
+ carouselTrack.addEventListener("touchmove", (e) => {
+   if (!isDragging) return;
+   const deltaX = e.touches[0].pageX - startX;
+   scrollPosition = initialScrollPosition - deltaX;
 
-  clampScrollPosition();
-  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
-});
+   clampScrollPosition();
+   carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
+ });
 
-carouselTrack.addEventListener("touchend", () => {
-  isDragging = false;
-  carouselTrack.style.transition = "transform 0.5s ease-in-out";
-});
+ carouselTrack.addEventListener("touchend", () => {
+   isDragging = false;
+   carouselTrack.style.transition = "transform 0.5s ease-in-out";
+ });
 
-// Add trackpad and mouse wheel scrolling support
+ // Add trackpad and mouse wheel scrolling support
 carouselTrack.addEventListener("wheel", (e) => {
   // Prevent horizontal scroll on the page until carousel scrolls fully
   if (scrollPosition < maxScroll || scrollPosition > 0) {

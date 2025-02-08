@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - Case Study Aspen New Voices Fellowship</title>
     <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
   </head>
   @vite('resources/css/app.css')
   @vite('resources/js/app.js')
@@ -15,16 +20,16 @@
       <section class="bg-[#F1DAB7]">
             @include('components.header')
         <div
-          class="flex mx-auto max-w-7xl p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 mt-[-50px]"
+          class="flex mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 mt-[-50px]"
         >
           <!-- Left Section: Heading and Subtext -->
           <div class="md:w-4/5">
             <h1
-              class="md:text-[48px] text-[32px] capitalize md:leading-normal text-accentTextDark font-playfair font-[500]"
+              class="md:text-[48px] xl:text-[48px] lg:text-[34px] text-[32px] capitalize md:leading-normal text-accentTextDark font-playfair font-[500]"
             >
               building roadmap for impact: strategy development & implementation
             </h1>
-            <p class="mt-4 text-accentTextDark md:w-full md:text-[20px] text-[16px] font-opensans font-[400]" style="line-height: 33px;">
+            <p class="mt-4 text-accentTextDark md:w-full lg:text-lg xl:text-[20px] md:text-[20px] text-[16px] font-opensans font-[400]" style="line-height: 33px;">
                <span class="italic font-[600]">
                 We don't just tell stories. We help create effective strategies
                 by combining data-driven insight with an understanding of human
@@ -52,7 +57,7 @@
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
               <h2
-                class="md:text-5xl lg:text-[3.5rem] text-center md:w-4/5 mx-auto text-[32px] mb-2 font-playfair font-medium leading-normal"
+                class="md:text-5xl lg:text-[40px] xl:text-[3.5rem] text-center md:w-4/5 mx-auto text-[32px] mb-2 font-playfair font-medium leading-normal"
               >
               Our strategy services 
               </h2>
@@ -70,7 +75,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                    class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
+                    class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem] lg:text-[1.5rem] xl:text-[2rem]"
                   >
                     Advocacy Strategies
                   </h3>
@@ -96,7 +101,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
+                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem] lg:text-[1.5rem] xl:text-[2rem]"
                   >
                     Communication Strategies
                   </h3>
@@ -120,7 +125,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
+                     class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem] lg:text-[1.5rem] xl:text-[2rem]"
                   >
                     Digital Strategy
                   </h3>
@@ -148,11 +153,11 @@
       <section class="flex flex-col items-center bg-miscellanous py-16">
        <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
           <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
+            class="text-3xl md:text-[60px] lg:text-[40px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
           >
           Partner with us to drive long-term <br> change in your community.
           </h2>
-          <p class="md:text-[24px] text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
+          <p class="md:text-[24px] xl:text-[24px] lg:text-lg text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
            Let's Make Impact Together
           </p>
            <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">

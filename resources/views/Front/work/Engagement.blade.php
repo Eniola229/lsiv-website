@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - Case Study Aspen New Voices Fellowship</title>
     <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
   </head>
   @vite('resources/css/app.css')
   @vite('resources/js/app.js')
@@ -16,16 +21,16 @@
       <section class="bg-[#FFE4BB]">
          @include('components.header')
         <div
-          class="flex mx-auto max-w-7xl p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 md:mt-0 mt-[-50px]"
+          class="flex mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 md:mt-0 mt-[-50px]"
         >
           <!-- Left Section: Heading and Subtext -->
           <div class="md:w-3/5">
             <h1
-              class="md:text-[48px] text-[32px] capitalize md:leading-normal text-accentTextDark font-playfair font-[500]"
+              class="md:text-[48px] lg:text-[34px] xl:text-[48px] text-[32px] capitalize md:leading-normal text-accentTextDark font-playfair font-[500]"
             >
               cultivating connections:<br> our engagement events
             </h1>
-             <p class="mt-4 text-accentTextDark md:w-full md:text-[20px] text-[16px] font-opensans font-[400]" style="line-height: 33px;">
+             <p class="mt-4 text-accentTextDark md:w-full md:text-[20px] xl:text-[20px] lg:text-lg text-[16px] font-opensans font-[400]" style="line-height: 33px;">
                <span class="italic font-[600]">
                 Meaningful social change thrives on connection and
                 collaboration.
@@ -48,11 +53,11 @@
       </section>
       <!--Impact Summits & Forums  -->
       <section class="py-16 rounded bg-accentTextLight">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl px-4 sm:px-6 lg:px-6">
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
               <h2
-                class="md:text-[48px] lg:text-[3.5rem] text-center text-[32px] mb-2 font-playfair font-[500] leading-normal"
+                class="md:text-[48px] lg:text-[34px]  xl:text-[3.5rem] text-center text-[32px] mb-2 font-playfair font-[500] leading-normal"
               >
                 Impact Summits & Forums
               </h2>
@@ -76,7 +81,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem] xl:text-[2rem] lg:text-[1.6rem]"
                   style="line-height: normal;">
                     Conferences & Seminars
                   </h3>
@@ -101,7 +106,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                    <h3
-                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem] xl:text-[2rem] lg:text-[1.6rem]"
                   style="line-height: normal;">
                     Focus Group Discussions
                   </h3>
@@ -127,7 +132,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                    <h3
-                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem] xl:text-[2rem] lg:text-[1.6rem]"
                   style="line-height: normal;">
                     Webinars & Online Forums
                   </h3>
@@ -151,7 +156,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                    <h3
-                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem] xl:text-[2rem] lg:text-[1.6rem]"
                   style="line-height: normal;">
                     Community Dialogues
                   </h3>
@@ -174,16 +179,16 @@
 
       <!--Multi-Media Engagement  -->
       <section class="md:py-16 rounded bg-accentTextLight">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl px-4 sm:px-6 lg:px-6">
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
               <h2
-                class="md:text-5xl lg:text-[3.5rem] text-center md:w-4/5 mx-auto text-3xl mb-2 font-playfair font-medium leading-normal"
+                class="md:text-5xl lg:text-[34px] xl:text-[3.5rem] text-center md:w-4/5 mx-auto text-3xl mb-2 font-playfair font-medium leading-normal"
               >
                 Multi-Media Engagement
               </h2>
               <p
-                class="mt-4 font-[400] md:w-3/4 mx-auto text-center text-[20px]  font-opensans"
+                class="mt-4 font-[400] md:w-3/4 mx-auto text-center lg:text-lg md:text-[20px] text-base xl:text-[20px]  font-opensans"
              style="line-height: 33px;" >
                 We believe in pushing the boundaries of traditional event
                 formats. In addition to the options above, we offer:
@@ -202,7 +207,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                    <h3
-                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem] xl:text-[2rem] lg:text-[1.6rem]"
                   style="line-height: normal;">
                     Art Exhibitions & Multi-Media Experiences
                   </h3>
@@ -229,7 +234,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                    <h3
-                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem] xl:text-[2rem] lg:text-[1.6rem]"
                   style="line-height: normal;">
                     Public Performance & Street Art Activism
                   </h3>
@@ -253,7 +258,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                    <h3
-                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem]"
+                     class="capitalize font-[600] text-left text-[20px] md:text-[2rem] xl:text-[2rem] lg:text-[1.6rem]"
                   style="line-height: normal;">
                     Interactive Simulations & Empathy Games
                   </h3>
@@ -279,11 +284,11 @@
       <section class="flex flex-col items-center bg-miscellanous py-16">
        <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
           <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
+            class="text-3xl md:text-[60px] lg:text-[34px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
           >
           We don't just host events. <br> We ignite movements.
           </h2>
-          <p class="md:text-[24px] text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
+          <p class="md:text-[24px] xl:text-[24px] lg:text-lg text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
            Let's Make Impact Together
           </p>
            <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">

@@ -11,7 +11,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $blogs = Blog::all(); 
+        $blogs = Blog::orderBy('created_at', 'desc')->take(6)->get(); 
         return view('welcome', compact('blogs'));
     }
     public function blog($id)

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - Designing Campaigns For a Better Tomorrow</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
     <script src="./app.js" defer></script>
   </head>
    @vite('resources/css/app.css')
@@ -21,7 +23,7 @@
               <img
                 src="{{ asset($blog->cover_image) }}"
                 alt="climate change advocacy"
-                class="md:w-[588px] w-full h-[380px] object-cover rounded-[16px]"
+                class="md:w-[588px] w-full h-[380px] object-cover rounded-[16px] md:mb-0 mb-8"
               />
             </div>
             <!-- Text Section -->
@@ -34,7 +36,7 @@
                   <polyline points="8 4 16 12 8 20" />
                 </svg>
               </a>
-              <p class="text-primary font-[600] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">{{ $blog->sub_title }}</p>
+              <p class="text-primary font-[500] font-[16px] font-opensans" style="line-height: normal; letter-spacing: -0.32px;">{{ $blog->sub_title }}</p>
             </div>
                 <h1
                  class="md:text-[56px] lg:text-[56px] text-[40px] md:mb-6 mb-2 font-playfair font-[500] leading-normal"
@@ -53,7 +55,7 @@
             class="grid lg:grid-cols-[1fr_25rem_20rem] grid-cols-1 gap-12 relative"
           >
             <!-- descrition -->
-             <div class="lg:col-span-2 w-full lg:w-auto md">
+             <div class="lg:col-span-2 md:w-4/5 w-full md">
             <iframe 
                 srcdoc="{!! htmlspecialchars($blog->content) !!}" 
                 class="w-full border-none" 
@@ -93,12 +95,12 @@
                 <div class="py-4">
                   <h2 class="text-[16px] font-opensans font-[600]" style="line-height: normal;">Other Case Studies:</h3>
                   <ul class="list-disc">
-                   @foreach($blogs as $blogging)
+                  @foreach($blogs->take(3) as $blogging)
                   <a href="{{ url('client/blog', $blogging->id) }}">
-                    <p class="font-opensans font-[400] text-[14px] mt-1" style="line-height: normal;">
+                    <p class="font-opensans font-[400] text-[14px] mt-2" style="line-height: normal;">
                      {{ $blogging->title }}
                     </p>
-                  </a>.
+                  </a>
                     @endforeach
                   </ul>
                   <a
@@ -132,17 +134,16 @@
         @endif
 
         <!-- Case study numbers -->
-        <div class="flex justify-center flex-wrap gap-2 md:space-x-4">
-          @foreach($blogs as $index => $blogging)
-            <a
-              href="{{ url('client/blog', $blogging->id) }}"
-              class="bg-primary text-white py-2 px-4 rounded-full hover:bg-primary-light"
-            >
-              {{ $index + 1 }}
-            </a>
-          @endforeach
-        </div>
-
+          <div class="flex justify-center flex-wrap gap-2 md:space-x-4">
+            @foreach($blogs as $index => $blogging)
+              <a
+                href="{{ url('client/blog', $blogging->id) }}"
+                class="{{ request()->route('id') == $blogging->id ? 'bg-primary text-white' : 'bg-gray-200 text-black' }} py-2 px-4 rounded-full hover:bg-primary-light"
+              >
+                {{ $index + 1 }}
+              </a>
+            @endforeach
+          </div>
         <!-- Next Button -->
         @if ($currentBlogIndex < count($blogs) - 1)
           <a

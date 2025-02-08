@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - Designing Campaigns For a Better Tomorrow</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
     <script src="./app.js" defer></script>
   </head>
    @vite('resources/css/app.css')
@@ -16,15 +21,15 @@
       <section class="bg-miscellanous">
         @include('components.header')
         <div
-          class="flex mx-auto max-w-7xl p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 "
+          class="flex md:mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 "
         >
           <!-- Left Section: Heading and Subtext -->
-          <div class="w-lg">
-            <h1 class="text-6xl sm:text-5xl md:text-[72px] lg:text-[72px] text-accentTextDark font-playfair font-semibold md:mt-0 mt-[-30px]" style="font-weight: 500; line-height: normal;">
+          <div class="md:w-lg w-full">
+            <h1 class="text-4xl text-center md:text-left  md:text-[72px] lg:text-5xl xl:text-[72px] text-accentTextDark font-playfair font-semibold md:mt-0 mt-[-30px]" style="font-weight: 500; line-height: normal;">
               Designing <span class="text-primary">Campaigns</span> <br />
               For a Better <span class="text-primary">Tomorrow</span>
             </h1>
-           <p class="mt-4 text-[16px] sm:text-base md:text-xl font-opensans w-full md:w-9/12 text-[#0B0B0B] font-[400]" style="line-height: normal;">
+           <p class="mt-4 text-[16px] md:text-left text-center  md:text-xl font-opensans w-full md:w-9/12 text-[#0B0B0B] font-[400]" style="line-height: normal;">
               We craft compelling advocacy, multimedia, and community campaigns
               for organizations committed to social impact and lasting change.
             </p>
@@ -72,12 +77,12 @@
 
       <!-- Driving Social Justice Section -->
       <section class="bg-[#F8F8FF] py-16 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <div class="flex flex-col lg:flex-row items-start md:items-center justify-between">
             <!-- Image Section -->
-            <div class="mb-8 lg:mb-0 lg:w-1/3 text-xl">
+            <div class="mb-8 lg:mb-0 lg:w-1/2 xl:w-1/3 text-xl">
               <h2
-               class="text-[32px] md:text-[64px] font-[500] font-playfair text-gray-900 text-left mb-6" style="line-height: normal;">
+               class="text-[32px] md:text-[64px] xl:text-[64px] lg:mb-4 lg:text-5xl font-[500] font-playfair text-gray-900 text-left mb-6" style="line-height: normal;">
                 Driving Social Justice
               </h2>
               <div class="flex justify-center md:justify-start">
@@ -89,27 +94,27 @@
               </div>
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 lg:pl-10">
+            <div class="xl:w-2/3 lg:w-3/4 lg:pl-10">
               <p
-                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 text-[16px] sm:text-base md:text-[20px] font-opensans"
+                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 text-[16px] sm:text-base lg:text-lg md:text-[20px] font-opensans"
               style="line-height: 34px;">
                 LSIV is a strategic advocacy and communications agency dedicated to creating a more equitable world. Our approach combines the energy of grassroots activism with the strategic expertise of high-level advocacy to ensure that our communication efforts are practical and grounded in real-world experiences.
               </p>
               <p
-                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 text-[16px] sm:text-base md:text-[20px] font-opensans"
+                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 lg:text-lg text-[16px] sm:text-base md:text-[20px] font-opensans"
               style="line-height: 34px;">
                We empower organizations to achieve social change goals through innovative solutions, compelling storytelling, and community-focused initiatives.
                 By integrating education, advocacy, and storytelling, we help our clients convey their impact in inspiring ways.
               </p>
               <p
-                class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 text-[16px] sm:text-base md:text-[20px] font-opensans"
+                class="text-accentTextDark font-[400] lg:text-lg leading-[2.1675rem] mb-12 text-[16px] sm:text-base md:text-[20px] font-opensans"
               style="line-height: 34px;">
               So, whether you're a nonprofit seeking to expand your reach, a corporation aiming to enhance its social responsibility, or a government agency striving for positive impact, LSIV is your partner in building a better future. Let's create lasting change together.
               </p>
              
               <a
                 href="#"
-                class="hover-text-underline font-opensans font-bold text-[24px]" style="line-height: 38px;"
+                class="hover-text-underline font-opensans font-bold xl:txet-[24px] lg:text-lg text-[24px]" style="line-height: 38px;"
                 >Learn more about us</a
               >
             </div>
@@ -121,11 +126,11 @@
       <section class="py-16 bg-secondary">
         <div class="container mx-auto text-center md:text-center">
           <h2
-            class="text-[32px] md:text-6xl text-accentTextDark p-2 font-playfair font-[600]"  style="line-height: normal;">
+            class="text-[32px] xl:text-6xl lg:text-3xl md:text-6xl text-accentTextDark p-2 font-playfair font-[600]"  style="line-height: normal;">
             What Makes Us Unique?
           </h2>
           <p
-            class="text-[18px] md:text-[24px] text-[#0B0B0B] w-11/12 md:w-3/5 mx-auto font-opensans font-[400]"
+            class="text-[18px] md:text-[24px] xl:text-[24px] lg:text-lg text-[#0B0B0B] w-11/12 md:w-3/5 mx-auto font-opensans font-[400]"
             style="font-weight: 400; line-height: normal;"
           >
             Unlike traditional communications agencies, our team possesses
@@ -152,15 +157,15 @@
       </section>
       <!-- OUR THEMATIC AREAS -->
       <section class="bg-[#F8F8FF] py-16 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="lg:max-w-4xl xl:max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <div class="container mx-auto text-center md:text-center">
             <h2
-              class="text-[32px] md:text-[60px] text-accentTextDark p-2 font-playfair font-[600]"
+              class="text-[32px] md:text-[60px] xl:text-[60px] lg:text-3xl lg:mb-4 text-accentTextDark p-2 font-playfair font-[600]"
             style="line-height: normal;">
               OUR THEMATIC AREAS
             </h2>
             <p
-              class="text-[18px] md:text-[20px] text-[#0B0B0B] w-full md:w-4/5 mx-auto text-accentTextDark font-opensans"
+              class="text-[18px] md:text-[20px] lg:text-lg xl:text-[20px]  w-full md:w-4/5 mx-auto text-accentTextDark font-opensans"
               style="font-weight: 400; line-height: normal;"
             >
               Our organization is dedicated to advancing the United Nations
@@ -180,7 +185,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653236/959192906101dc997360ba4328e8f28c_cjmpnm.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
+              <h3 class="text-[20px] lg:text-xl xl:text-[25px]  md:leading-[32.66px] leading-[27.24px] md:text-[24px] text-white text-left font-opensans font-bold">
                 Gender Equality & Empowerment
               </h3>
             </div>
@@ -192,7 +197,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350092/70195222_2378336455591485_5319670050997665792_n_zul9pe.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
+              <h3 class="text-[20px] lg:text-xl xl:text-[25px] md:leading-[32.66px] leading-[27.24px] md:text-[24px] text-white text-left font-opensans font-bold">
                 Health and Well-Being
               </h3>
             </div>
@@ -204,7 +209,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349991/43207440_1858496167575519_5673215072856440832_n_e4ao8m.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
+              <h3 class="text-[20px] lg:text-xl xl:text-[25px] md:leading-[32.66px] leading-[27.24px] md:text-[24px] text-white text-left font-opensans font-bold">
                 Social Development & Education
               </h3>
             </div>
@@ -216,7 +221,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350331/IMG_6548_stgyc7.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
+              <h3 class="text-[20px] lg:text-xl xl:text-[25px] md:leading-[32.66px] leading-[27.24px] md:text-[24px] text-white text-left font-opensans font-bold">
                 Sustainable Livelihoods & Poverty Alleviation
               </h3>
             </div>
@@ -228,7 +233,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653809/6ab738988f8bd42af33dbbc5ba99243b_eibfw4.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
-              <h3 class="text-[24px] text-white text-left font-opensans font-[700]" style="line-height: normal; font-style: normal;">
+              <h3 class="text-[20px] lg:text-xl xl:text-[25px] md:leading-[32.66px] leading-[27.24px] md:text-[24px] text-white text-left font-opensans font-bold">
                 Climate Change & Environmental Sustainability
               </h3>
             </div>
@@ -240,7 +245,7 @@
             style="background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653870/8d524a8cd314a359847e22e30557f637_vhcpvq.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-6 text-center">
-              <h3 class="text-[24px] font-bold mb-4 font-opensans">
+              <h3 class="text-[24px] xl:text-[24px] lg:text-xl font-bold mb-4 font-opensans">
                 We'd love to help amplify your social impact
               </h3>
               <a href="#" class="text-sm font-semibold leading-6 text-gray-900">
@@ -257,9 +262,9 @@
 
       <!-----Offering Solutions for Impact Section---->
       <section class="px-6 py-6 rounded relative md:mt-0 mt-[-60px] bg-[#F8F8FF]" id="div-e">
-        <div class="md:max-w-7xl mx-auto md:px-6 lg:px-6">
+        <div class="lg:max-w-4xl max-w-7xl xl:max-w-7xl mx-auto md:px-6 lg:px-6">
           <h2
-            class="md:text-6xl text-[32px] text-accentTextDark p-2 font-playfair font-medium"
+            class="md:text-6xl text-[32px] lg:text-5xl xl:text-6xl text-accentTextDark p-2 font-playfair font-medium"
           >
             Offering Solutions for Impact
           </h2>
@@ -269,7 +274,7 @@
             class="sticky top-0 z-10 bg-[#C4E1A4] p-4 md:p-12 my-4 md:h-[580px] shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
           >
             <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans" style="line-height: normal;"
+              class="text-2xl md:text-[48px] xl:text-[48px] lg:text-3xl text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans" style="line-height: normal;"
             >
               Communications & Storytelling
             </h2>
@@ -289,11 +294,11 @@
                 </button>
               </a>
               </div>
-              <div class="md:w-1/3 flex justify-center md:mt-0">
+              <div class="md:w-1/3 flex justify-center md:-mt-12">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653963/5573511_2929905_1_gznlwy.png') }}"
                   alt="Illustration"
-                  class="md:w-[400px] w-full max-w-xs md:h-[400px] h-52"
+                  class="md:w-[400px] w-full max-w-xs object-contain object-center md:h-[400px] h-52"
                 />
               </div>
             </div>
@@ -305,7 +310,7 @@
             id="des"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+              class="text-2xl md:text-[48px] xl:text-[48px] lg:text-3xl text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
             style="line-height: normal;">
               Branding & Design Services
             </h2>
@@ -324,12 +329,16 @@
                 </button>
               </a>
               </div>
-              <div class=" flex justify-center mt-6 md:mt-20">
+              <!-- <div class="md:w-1/3 flex justify-center md:-mt-12"> -->
+
+              <div class=" flex justify-center mt-6 md:mt-20 md:w-[400px] md:h-[280px] w-full h-52 max-w-xs">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653991/Frame_40_oy0ifo.png') }}"
                   alt="Illustration"
-                  class="md:w-[1220px] w-full max-w-xs md:h-[300px] h-52"
-                />
+                  class="h-full w-full  object-contain object-center transform md:scale-125"
+
+                  />
+                  <!-- class="md:w-[1220px] object-contain object-center w-full max-w-xs md:h-[300px] h-52" -->
               </div>
             </div>
           </div>
@@ -339,7 +348,7 @@
             class="sticky top-12 z-30 bg-[#F0D9B7] p-4 md:p-12 my-4 md:h-[580px] w-full md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] shadow-md"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+              class="text-2xl md:text-[48px] lg:text-3xl xl:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
             style="line-height: normal;">
               Strategy Development and Implementation
             </h2>
@@ -363,7 +372,7 @@
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654117/Frame_42_pabkpx.png') }}"
                   alt="Illustration"
-                 class="md:w-[308px] w-full max-w-xs md:h-[280px] h-52"
+                 class="md:w-[308px] object-contain object-center w-full max-w-xs md:h-[280px] h-52"
                 />
               </div>
             </div>
@@ -374,7 +383,7 @@
             class="sticky top-20 z-40 bg-[#DDC2FF] p-4 md:p-12 my-4 md:h-[580px] shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+              class="text-2xl md:text-[48px] lg:text-3xl xl:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
             style="line-height: normal;">
               Training & Capacity Building
             </h2>
@@ -398,7 +407,7 @@
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654157/OBJECTS_xyogj8.png') }}"
                   alt="Illustration"
-                  class="md:w-[708px] w-full max-w-xs md:h-[300px] h-52 md:mt-6"
+                  class="md:w-[708px] md:scale-105 transform object-contain object-center w-full max-w-xs md:h-[300px] h-52 md:mt-6"
                 />
               </div>
             </div>
@@ -409,7 +418,7 @@
             class="sticky top-32 z-50 bg-[#FFE4BB] p-4 md:p-12 my-4 md:h-[580px] shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+              class="text-2xl md:text-[48px] lg:text-3xl xl:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
             style="line-height: normal;">
               Engagement Events
             </h2>
@@ -432,7 +441,7 @@
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654201/Frame_46_tfwyqr.png') }}"
                   alt="Illustration"
-                  class="md:w-[400px] w-full max-w-xs md:h-[300px] h-52 md:mt-12"
+                  class="md:w-[400px] object-contain object-center md:scale-125 transform w-full max-w-xs md:h-[300px] h-52 md:mt-12"
                 />
               </div>
             </div>
@@ -443,7 +452,7 @@
             class="sticky top-40 z-[60] bg-[#FFDED0] p-4 md:p-12 my-4 md:h-[580px] shadow-md md:rounded-t-[50px] rounded-t-[32px] rounded-b-[0px] w-full"
           >
              <h2
-              class="text-2xl md:text-[48px] text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
+              class="text-2xl md:text-[48px] xl:text-[48px] lg:text-3xl text-[24px] font-[600]  mb-4 md:mb-6 text-left text-[#0B0B0B] font-opensans"
             style="line-height: normal;">
               Program Design and Implementation
             </h2>
@@ -467,7 +476,7 @@
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654238/Frame_1618873210_ya68vg.png') }}"
                   alt="Illustration"
-                  class="md:w-[330px] w-full max-w-xs h-60 md:h-[280px] md:mt-20"
+                  class="md:w-[250px] object-contain object-center md:scale-125 transform w-full max-w-xs h-60 md:h-[280px] md:mt-20"
                 />
               </div>
             </div>
@@ -477,9 +486,9 @@
 
       <!-----Six Section--->
       <section>
-        <div class="container max-w-7xl mx-auto px-4 sm:px-6 bg-[#F8F8FF]">
+        <div class="container lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto px-4 sm:px-6 bg-[#F8F8FF]">
           <h2
-            class="text-4xl md:text-[60px] font-playfair font-[500] text-gray-900 text-left md:mb-12 mb-4 leading-normal">
+            class="text-4xl md:text-[60px] xl:text-[60px] lg:text-5xl font-playfair font-[500] text-gray-900 text-left md:mb-12 mb-4 leading-normal">
             Our Impact in Action
           </h2>
  

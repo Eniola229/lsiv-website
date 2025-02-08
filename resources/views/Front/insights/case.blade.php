@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - case studies</title>
     <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
   </head>
    @vite('resources/css/app.css')
    @vite('resources/js/app.js')
@@ -13,9 +15,9 @@
     <main>
       <!-- our work in action -->
       <section class="md:py-16 py-6 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl px-4 sm:px-6 lg:px-6">
           <h1
-            class="md:text-5xl lg:text-7xl text-3xl mb-6 font-playfair font-normal md:w-1/2" style="line-height: normal;"
+            class="md:text-5xl xl:text-6xl text-3xl mb-6 font-playfair font-normal md:w-1/2" style="line-height: normal;"
           >
             A Collection Of Our <span class="text-primary"> Impact </span>
             In Action

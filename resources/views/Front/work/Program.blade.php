@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - Case Study Aspen New Voices Fellowship</title>
     <link rel="stylesheet" href="../style.css" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
   </head>
   @vite('resources/css/app.css')
   @vite('resources/js/app.js')
@@ -14,16 +19,16 @@
       <section class="bg-[#FFDED0]">
              @include('components.header')
         <div
-          class="flex mx-auto max-w-7xl p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full "
+          class="flex mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full "
         >
           <!-- Left Section: Heading and Subtext -->
           <div class="md:w-3/5">
             <h1
-              class="md:text-[48px] text-[32px] capitalize md:leading-[3.2rem] text-accentTextDark font-playfair font-[500]"
+              class="md:text-[48px] lg:text-[34px] xl:text-[48px] text-[32px] capitalize md:leading-[3.2rem] text-accentTextDark font-playfair font-[500]"
             >
               building bridges for change:<br> program design & implementation
             </h1>
-              <p class="mt-4 text-accentTextDark md:w-full md:text-[20px] text-[16px] font-opensans font-[400]" style="line-height: 33px;">
+              <p class="mt-4 text-accentTextDark md:w-full md:text-[20px] lg:text-lg xl:text-[20px] text-[16px] font-opensans font-[400]" style="line-height: 33px;">
                <span class="italic font-[600]">
                 Effective social impact requires innovative programming.
               </span>
@@ -38,23 +43,23 @@
             <img
               src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654238/Frame_1618873210_ya68vg.png') }}"
               alt="Illustration"
-              class="w-full h-auto sm:w-[300px] sm:h-[250px] md:w-[447.857px] md:h-[380px]"
+              class="w-full h-auto sm:w-[300px] object-contain sm:h-[250px] md:w-[447.857px] md:h-[380px]"
             />
           </div>
         </div>
       </section>
       <!--Tailored Programs for Real-World Impact  -->
       <section class="py-16 rounded bg-accentTextLight">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl px-4 sm:px-6 lg:px-6">
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
              <h2
-                class="md:text-[48px] lg:text-[3.5rem] text-center text-[32px] mb-2 font-playfair font-[500]" style="line-height: normal;"
+                class="md:text-[48px] lg:text-[34px] xl:text-[3.5rem] text-center text-[32px] mb-2 font-playfair font-[500]" style="line-height: normal;"
               >
                 Tailored Programs for Real-World Impact
               </h2>
               <p
-                class="mt-4 md:w-3/4 mx-auto text-center text-[20px] font-opensans font-[400]"
+                class="mt-4 md:w-3/4 mx-auto text-center text-[20px] md:text-[20px] xl:text-[20px] lg:text-lg font-opensans font-[400]"
               style="line-height: 33px;">
                 We believe in creating programs that are community-driven,
                 evidence-based, and culturally relevant. Here are the kind of
@@ -74,7 +79,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                   class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
+                   class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem] lg:text-[1.6rem] xl:text-[2rem]"
                   style="line-height: normal;">
                     Advocacy Programs
                   </h3>
@@ -97,7 +102,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                   class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
+                   class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem] lg:text-[1.6rem] xl:text-[2rem]"
                   style="line-height: normal;">
                     Community Programs
                   </h3>
@@ -118,7 +123,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                   class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem]"
+                   class="capitalize font-[600] text-left md:leading-[2.72375rem] text-[20px] md:text-[2rem] lg:text-[1.6rem] xl:text-[2rem]"
                   style="line-height: normal;">
                     Grassroots Mobilization
                   </h3>
@@ -139,16 +144,16 @@
       </section>
       <!--Our Comprehensive Program Design Services  -->
       <section class="md:py-16 rounded bg-accentTextLight">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="mx-auto lg:max-w-4xl xl:max-w-7xl max-w-7xl px-4 sm:px-6 lg:px-6">
           <div class="flex flex-col lg:flex-col justify-between gap-4">
             <div class="w-full">
               <h2
-                class="md:text-[48px] lg:text-[48px] text-center w-full mx-auto text-3xl mb-2 font-playfair font-medium leading-normal"
+                class="md:text-[48px] lg:text-[34px] xl:text-[48px] text-center w-full mx-auto text-3xl mb-2 font-playfair font-medium leading-normal"
               >
                 Our Comprehensive Program Design Services
               </h2>
               <p
-                class="mt-4 md:w-3/4 mx-auto text-center text-[20px] font-opensans font-[400]"
+                class="mt-4 md:w-3/4 mx-auto text-center text-[20px] lg:text-lg xl:text-[20px] font-opensans font-[400]"
               style="line-height: 33px;">
                 We offer a comprehensive suite of program design services
                 tailored to your specific needs
@@ -167,7 +172,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem] lg:text-[1.6rem] xl:text-[2rem]"
                   style="line-height: normal;">
                     Program Design & Theory of Change Development
                   </h3>
@@ -192,7 +197,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem] lg:text-[1.6rem] xl:text-[2rem]"
                   style="line-height: normal;">
                     Curriculum Design & Implementation
                   </h3>
@@ -218,7 +223,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem] lg:text-[1.6rem] xl:text-[2rem]"
                   style="line-height: normal;">
                     Concept Development
                   </h3>
@@ -241,7 +246,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem] lg:text-[1.6rem] xl:text-[2rem]"
                   style="line-height: normal;">
                     Community Needs Assessments
                   </h3>
@@ -266,7 +271,7 @@
                   class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
                   <h3
-                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem] lg:text-[1.6rem] xl:text-[2rem]"
                   >
                     Stakeholder Engagement
                   </h3>
@@ -291,11 +296,11 @@
       <section class="flex flex-col items-center bg-miscellanous py-16">
        <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
           <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
+            class="text-3xl md:text-[60px] lg:text-[34px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair leading-normal"
           >
           We can turn program ideas into tangible <br> solutions that create lasting social change
           </h2>
-          <p class="md:text-[24px] text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
+          <p class="md:text-[24px] lg:text-lg xl:text-[24px] text-[16px] font-[400] md:mb-0 mb-4 font-medium font-opensans"> 
          Contact us today to discuss how our program design and implementation <br> services can help your organization achieve its social impact goals.
           </p>
            <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">

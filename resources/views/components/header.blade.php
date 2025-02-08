@@ -1,6 +1,6 @@
-<header class="">
-<nav class="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8" aria-label="Global">
-  <div class="flex lg:flex-1">
+<header class="z-50">
+<nav class="mx-auto flex lg:max-w-4xl xl:max-w-7xl max-w-7xl items-center justify-between p-4 lg:px-8" aria-label="Global">
+  <div class="flex lg:flex-1  z-[999]">
     <a href="{{ url('/') }}" class="-m-1.5 p-1.5">
       <span class="sr-only">LSIV</span>
       <img class="md:h-16 h-12 w-auto" src="https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349188/LSIV_Logo-13_df4e3b.png" alt="LSIV LOGO" />
@@ -21,7 +21,7 @@
     <div class="relative">
       <button
         type="button"
-        class="flex items-center gap-x-1 font-[600] leading-6 text-[16px] font-opensans"
+        class="flex font-semibold items-center gap-x-1  leading-6 text-[16px] font-opensans"
         onmouseenter="showDropdown('aboutDropdown')"
         onmouseleave="scheduleHideDropdown('aboutDropdown')"
         style="line-height: 20px;"
@@ -37,7 +37,7 @@
         onmouseleave="scheduleHideDropdown('aboutDropdown')"
       >
         <ul class="py-1 text-sm text-gray-700 font-opensans">
-          <li><a href="{{ url('About-WhoWeAre') }}" class="block font-[600] leading-6 text-[16px] px-4 py-2 hover-effect-arrow font-opensans font-[600]">Who we are <span class="hover-arrow">&rarr;</span></a></li>
+          <li><a href="{{ url('About-WhoWeAre') }}" class="block  leading-6 text-[16px] px-4 py-2 hover-effect-arrow font-opensans font-[600]">Who we are <span class="hover-arrow">&rarr;</span></a></li>
           <li><a href="{{ url('About-OurJouney') }}" class="block font-[600] leading-6 text-[16px] px-4 py-2 hover-effect-arrow font-opensans">Our Journey <span class="hover-arrow">&rarr;</span></a></li>
           <li><a href="{{ url('About-Thematics') }}" class="block font-[600] leading-6 text-[16px] px-4 py-2 hover-effect-arrow font-opensans">Our Thematic areas <span class="hover-arrow">&rarr;</span></a></li>
           <li><a href="{{ url('About-Founder') }}" class="block font-[600] leading-6 text-[16px] px-4 py-2 hover-effect-arrow font-opensans">About the Founder <span class="hover-arrow">&rarr;</span></a></li>
@@ -112,10 +112,10 @@
   </div>
 </nav>
 
-
+<!-- =====================================7177 -->
   <!-- Mobile Menu -->
 <!-- Mobile Menu -->
-<div id="mobile-menu" class="fixed inset-0 z-50 bg-white transform -translate-x-full transition-transform duration-2000 ease-in-out lg:hidden">
+<div id="mobile-menu" class="fixed top-0 right-0 left-0 bottom-0 z-[99999] bg-white transform -translate-x-full transition-transform duration-700 ease-in-out ">
   <div class="fixed inset-0 z-10 bg-black opacity-50"></div>
   <div class="fixed inset-0 z-20 w-full bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
     <div class="flex items-center justify-between mb-16">
@@ -130,77 +130,119 @@
         </svg>
       </button>
     </div>
-    <div class="mt-6 flow-root">
-      <div class="-my-6 divide-y divide-gray-700">
-        <!-- About Us Dropdown -->
-        <div class="-mx-3 mb-3">
-          <button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-[400] leading-7 text-gray-900 hover:bg-gray-50 font-opensans dropdown" aria-controls="about-dropdown" aria-expanded="false" onclick="toggleDropdown('about-dropdown')" style="font-size: 20px;">
-            About Us
-            <svg class="h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-            </svg>
-          </button>
-          <div id="about-dropdown" class="dropdown-content pl-6 font-opensans hidden">
-            <a href="{{ url('About-WhoWeAre') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-bold">Who we are <span class="hover-arrow">&rarr;</span></a>
-            <a href="{{ url('About-OurJouney') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-bold">Our Journey <span class="hover-arrow">&rarr;</span></a>
-            <a href="{{ url('About-Thematics') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">Our Thematic Areas <span class="hover-arrow">&rarr;</span></a>
-            <a href="{{ url('About-Founder') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">About the Founder <span class="hover-arrow">&rarr;</span></a>
-          </div>
-        </div>
-
-        <!-- Work with Us Dropdown -->
-        <div class="-mx-3 border-b-[1px] border-gray-900 mb-3">
-          <button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-[400] leading-7 text-gray-900 hover:bg-gray-50 font-opensans" aria-controls="work-dropdown" aria-expanded="false" onclick="toggleDropdown('work-dropdown')" style="font-size: 20px;">
-            Work with Us
-            <svg class="h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-            </svg>
-          </button>
-          <div id="work-dropdown" class="dropdown-content pl-6 font-opensans hidden">
-            <a href="{{ url('Work-Services') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">Services <span class="hover-arrow">&rarr;</span></a>
-            <a href="{{ url('Work-Work') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">How we work <span class="hover-arrow">&rarr;</span></a>
-          </div>
-        </div>
-
-        <!-- Our Initiatives Dropdown -->
-        <div class="-mx-3 border-b-[1px] border-gray-900 mb-3">
-          <button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-[400] leading-7 text-gray-900 hover:bg-gray-50 font-opensans " aria-controls="Initiatives-dropdown" aria-expanded="false" onclick="toggleDropdown('Initiatives-dropdown')" style="font-size: 20px;">
-            Our Initiatives
-            <svg class="h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-            </svg>
-          </button>
-          <div id="Initiatives-dropdown" class="dropdown-content pl-6 font-opensans hidden">
-            <a href="{{ url('Initiatives-MyBodyIsMine') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">MyBodyIsMine</a>
-            <a href="{{ url('Initiatives-AdoptCommunity') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">Adopt a Community</a>
-            <a href="{{ url('Initiatives-Nodaysoff') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">No Day Off</a>
-            <a href="{{ url('Initiatives-Conversation') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">The Conversation</a>
-            <a href="{{ url('Initiatives-Storiesunhear') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">Stories Untold</a>
-            <a href="{{ url('Initiatives-Lolocythia') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">The Lolo Cynthia Show</a>
-          </div>
-        </div>
-
-        <!-- Insights Dropdown -->
-        <div class="-mx-3 border-b-[1px] border-gray-900 mb-3">
-          <button type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-[400] leading-7 text-gray-900 hover:bg-gray-50 font-opensans" aria-controls="insights-dropdown" aria-expanded="false" onclick="toggleDropdown('insights-dropdown')" style="font-size: 20px;">
-            Insights
-            <svg class="h-5 w-5 flex-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
-            </svg>
-          </button>
-          <div id="insights-dropdown" class="dropdown-content pl-6 font-opensans hidden">
-            <a href="{{ url('Insights-Case') }}" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">Case Studies <span class="hover-arrow">&rarr;</span></a>
-            <a href="#" class="block px-4 py-2 hover-effect-arrow font-bold font-opensans">Media & Knowledge Hub <span class="hover-arrow">&rarr;</span></a>
-          </div>
-        </div>
+    <div class="mt-6 flow-root" x-data="{ selected: 1 }">
+  <div class="-my-6 divide-y divide-gray-700">
+    <!-- About Us Dropdown -->
+    <div class="-mx-3 mb-3">
+      <button 
+        type="button" 
+        class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 font-opensans" 
+        @click="selected !== 1 ? selected = 1 : selected = null" 
+        style="font-size: 20px;">
+        About Us
+        <svg 
+          class="h-5 w-5 flex-none transition-transform duration-300" 
+          :class="selected === 1 ? 'rotate-180' : ''" 
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      <div 
+        class="relative overflow-hidden transition-all max-h-0 duration-700 ml-4" 
+        x-ref="container1" 
+        x-bind:style="selected === 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+        <a href="{{ url('About-WhoWeAre') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">Who we are <span class="hover-arrow">&rarr;</span></a>
+        <a href="{{ url('About-OurJouney') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">Our Journey <span class="hover-arrow">&rarr;</span></a>
+        <a href="{{ url('About-Thematics') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">Our Thematic Areas <span class="hover-arrow">&rarr;</span></a>
+        <a href="{{ url('About-Founder') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">About the Founder <span class="hover-arrow">&rarr;</span></a>
       </div>
     </div>
-    <!-- Full-screen width button at the bottom -->
-<div class="fixed bottom-0 left-0 right-0 flex justify-center mb-6">
-  <a href="#contact-us" class="w-[328px] px-8 py-3 text-center bg-[#E76A35] text-white font-semibold hover:bg-orange-600 rounded-full">
-    Contact Us
-  </a>
+
+    <!-- Work with Us Dropdown -->
+    <div class="-mx-3 mb-3">
+      <button 
+        type="button" 
+        class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 font-opensans" 
+        @click="selected !== 2 ? selected = 2 : selected = null" 
+        style="font-size: 20px;">
+        Work with Us
+        <svg 
+          class="h-5 w-5 flex-none transition-transform duration-300" 
+          :class="selected === 2 ? 'rotate-180' : ''" 
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      <div 
+        class="relative overflow-hidden transition-all max-h-0 duration-700 ml-4" 
+        x-ref="container2" 
+        x-bind:style="selected === 2 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
+        <a href="{{ url('Work-Services') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">Services <span class="hover-arrow">&rarr;</span></a>
+        <a href="{{ url('Work-Work') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">How we work <span class="hover-arrow">&rarr;</span></a>
+      </div>
+    </div>
+
+    <!-- Our Initiatives Dropdown -->
+    <div class="-mx-3 mb-3">
+      <button 
+        type="button" 
+        class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 font-opensans" 
+        @click="selected !== 3 ? selected = 3 : selected = null" 
+        style="font-size: 20px;">
+        Our Initiatives
+        <svg 
+          class="h-5 w-5 flex-none transition-transform duration-300" 
+          :class="selected === 3 ? 'rotate-180' : ''" 
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      <div 
+        class="relative overflow-hidden transition-all max-h-0 duration-700 ml-4" 
+        x-ref="container3" 
+        x-bind:style="selected === 3 ? 'max-height: ' + $refs.container3.scrollHeight + 'px' : ''">
+        <a href="{{ url('Initiatives-MyBodyIsMine') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">MyBodyIsMine</a>
+        <a href="{{ url('Initiatives-AdoptCommunity') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">Adopt a Community</a>
+        <a href="{{ url('Initiatives-Nodaysoff') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">No Day Off</a>
+        <a href="{{ url('Initiatives-Conversation') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">The Conversation</a>
+        <a href="{{ url('Initiatives-Storiesunhear') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">Stories Untold</a>
+        <a href="{{ url('Initiatives-Lolocythia') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">The Lolo Cynthia Show</a>
+      </div>
+    </div>
+
+    <!-- Insights Dropdown -->
+    <div class="-mx-3 mb-3">
+      <button 
+        type="button" 
+        class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 font-opensans" 
+        @click="selected !== 4 ? selected = 4 : selected = null" 
+        style="font-size: 20px;">
+        Insights
+        <svg 
+          class="h-5 w-5 flex-none transition-transform duration-300" 
+          :class="selected === 4 ? 'rotate-180' : ''" 
+          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      <div 
+        class="relative overflow-hidden transition-all max-h-0 duration-700 ml-4" 
+        x-ref="container4" 
+        x-bind:style="selected === 4 ? 'max-height: ' + $refs.container4.scrollHeight + 'px' : ''">
+        <a href="{{ url('Insights-Case') }}" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">Case Studies <span class="hover-arrow">&rarr;</span></a>
+        <a href="#" class="block px-4 py-2 hover-effect-arrow font-opensans font-semibold">Media & Knowledge Hub <span class="hover-arrow">&rarr;</span></a>
+      </div>
+    </div>
+  </div>
 </div>
+
+<!-- Full-screen width button at the bottom -->
+<div class="mt-48 flex justify-center mb-6">
+<a href="#contact-us" class="w-[328px] px-8 py-3 text-center bg-[#E76A35] text-white font-semibold hover:bg-orange-600 rounded-full">
+Contact Us
+</a>
+</div>
+    </div>
 
   </div>
 </div>
@@ -246,19 +288,27 @@
     });
   });
 
-  const menu = document.getElementById("mobile-menu");
-  const openButton = document.getElementById("mobile-menu-toggle");
-  const closeButton = document.getElementById("close-menu");
+  document.getElementById('mobile-menu-toggle').addEventListener('click', function () {
+  document.getElementById('mobile-menu').classList.add('open');
+});
 
-  openButton.addEventListener("click", function() {
-    menu.classList.remove("-translate-x-full");  // Slide the menu in
-    menu.classList.add("translate-x-0");         // Ensure it's fully visible
-  });
+document.getElementById('close-menu').addEventListener('click', function () {
+  document.getElementById('mobile-menu').classList.remove('open');
+});
 
-  closeButton.addEventListener("click", function() {
-     menu.classList.remove("translate-x-0");  
-    menu.classList.add("-translate-x-full");     // Slide the menu out
-  });
+  // const menu = document.getElementById("mobile-menu");
+  // const openButton = document.getElementById("mobile-menu-toggle");
+  // const closeButton = document.getElementById("close-menu");
+
+  // openButton.addEventListener("click", function() {
+  //   menu.classList.remove("-translate-x-full");  // Slide the menu in
+  //   menu.classList.add("translate-x-0");         // Ensure it's fully visible
+  // });
+
+  // closeButton.addEventListener("click", function() {
+  //    menu.classList.remove("translate-x-0");  
+  //   menu.classList.add("-translate-x-full");     // Slide the menu out
+  // });
 
   // Function to toggle dropdown visibility
   function toggleDropdown(id) {

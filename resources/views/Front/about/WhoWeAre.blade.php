@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - who we are</title>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="../style.css" />
   </head>
           @vite('resources/css/app.css')
@@ -14,20 +19,20 @@
        @include('components.header')
       <!-- Lolo Social Impact Venture is a dedicated force for positive change.  -->
       <section class="md:py-16 md:px-6 px-4 rounded md:mt-0 mt-[30px]">
-        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-6">
+        <div class="lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto flex flex-col lg:flex-row items-start gap-6">
           <!-- Image Section (Desktop) -->
-          <div class="hidden md:block w-auto lg:h-[38rem]">
+          <div class="hidden md:block w-full lg:w-auto lg:h-[38rem]">
             <img
               src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734699680/Frame_1618873174_1_kvc2va.png') }}"
               alt="The founder of LSIV"
-              class="w-[540px] h-full object-cover object-center rounded-[20px]"
+              class="lg:w-[540px] w-full h-full object-cover object-center rounded-[20px]"
             />
           </div>
 
           <!-- Content Section -->
           <div class="lg:w-1/2 w-full">
             <h1
-              class="text-[#000] font-playfair font-medium mb-6 md:text-[72px] text-[40px] text-center lg:text-left"
+              class="text-[#000] font-playfair leading-[53.32px] font-medium mb-6 md:text-6xl lg:leading-[95.98px] lg:text-4xl xl:text-[72px] text-[40px] text-left"
               style="line-height: normal;">
               Lolo Social Impact Venture is a dedicated force for positive change.
             </h1>
@@ -42,7 +47,7 @@
             </div>
             
             <p
-              class="text-accentTextDark font-opensans font-normal leading-[2rem] md:text-xl text-[16px] md:mt-12 mb-12 text-center lg:text-left"
+              class="text-accentTextDark font-opensans font-normal leading-[1.5rem]  md:leading-[2rem] md:text-xl lg:text-lg xl:text-xl text-[16px] md:mt-12 mb-12 text-left"
               style="line-height: 32px;">
               We drive impactful solutions through strategic advocacy, multimedia campaigns, and community-centred initiatives. Founded by renowned international communication strategist and social entrepreneur Lolo Cynthia, our agency transforms challenges into opportunities for sustainable development, gender equality, health, education, and environmental sustainability.
             </p>
@@ -52,7 +57,7 @@
 
 <!-- We connect grassroots voices with powerful platforms. -->
 <section class="bg-miscellanous py-12 px-6 rounded flex items-center justify-center">
-  <div class="max-w-7xl mx-auto flex flex-col lg:flex-row-reverse items-start gap-6">
+  <div class="lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto flex flex-col lg:flex-row-reverse items-start gap-6">
     <!-- Image Section (Desktop) -->
     <div class="hidden lg:block lg:w-1/2 w-full lg:h-[38rem]">
       <img
@@ -65,7 +70,7 @@
     <!-- Content Section -->
     <div class="lg:w-1/2 w-full">
       <h2
-        class="text-[#000] font-playfair font-medium mb-6 md:text-4xl lg:text-[72px] text-[40px] text-center lg:text-left"
+        class="text-[#000] font-playfair leading-[53.32px] font-medium mb-6 md:text-6xl lg:leading-[95.98px] lg:text-4xl xl:text-[72px] text-[40px]  text-left"
         style="line-height: normal;">
         We connect grassroots voices with powerful platforms.
       </h2>
@@ -80,13 +85,13 @@
       </div>
 
       <p
-        class="text-accentTextDark font-opensans font-normal leading-[2rem] md:text-xl text-[16px] mb-6 text-center lg:text-left"
+        class="text-accentTextDark  font-opensans font-normal leading-[1.5rem]  md:leading-[2rem] md:text-xl lg:text-lg xl:text-xl text-[16px] mb-6 text-left"
         style="line-height: 32px;">
         At LSIV, we bridge the gap between grassroots efforts and high-level advocacy, ensuring marginalized communities are not only heard but compellingly represented. Our approach leverages cutting-edge digital strategies and powerful storytelling to create lasting impact.
       </p>
 
       <p
-        class="text-accentTextDark font-opensans font-normal leading-[2rem] md:text-xl text-[16px] mb-6 text-center lg:text-left"
+        class="text-accentTextDark font-opensans font-normal leading-[1.5rem]  md:leading-[2rem] md:text-xl lg:text-lg xl:text-xl text-[16px] mb-6 text-left"
         style="line-height: 32px;">
         Collaboration is at the heart of our mission. We partner with organizations to co-create innovative solutions addressing the root causes of social issues. Together, we strive to foster enduring change and contribute to a brighter, more equitable future for all.
       </p>
@@ -95,14 +100,14 @@
 </section>
 
 
-        <section class="md:p-6 p-2">
-          <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 p-4">
-            <h2 class="text-[40px] font-[500] md:text-[72px] font-playfair font-normal mb-4 md:mb-0" style="line-height: normal;">
+        <section class="md:p-6 p-2 overflow-hidden">
+          <div class="flex lg:ml-20 flex-col md:flex-row items-start md:items-center justify-between mb-6 p-4">
+            <h2 class="text-[40px] md:font-[500] lg:text-[40px] xl:text-[72px] md:text-[72px] font-playfair font-normal mb-4 md:mb-0" style="line-height: normal;">
               Behind the Scenes
             </h2>
+            <!-- id="scrollBtn" -->
            <button
-              id="scrollBtn"
-              class="text-xl font-semibold font-opensans capitalize md:ml-auto self-end md:self-auto"
+              class="text-xl font-semibold md:mr-20 font-opensans capitalize md:ml-auto self-end md:self-auto"
             >
               <span class="md:hidden">Next &rarr;</span>
               <span class="hidden md:inline">Scroll &rarr;</span>
@@ -110,9 +115,9 @@
           </div>
 
 
-          <div class="overflow-hidden w-full">
+          <div class="overflow-hidden w-full  lg:ml-[4.5rem] ">
             <div
-              class="flex transition-transform duration-500 ease-in-out md:p-4 w-max mt-[-20px]"
+              class="flex   transition-transform duration-500 ease-in-out md:p-4 w-max mt-[-20px]"
               id="carouselTrack"
             >
               <!-- card 1 -->
@@ -330,10 +335,32 @@
 
             </div>
           </div>
+          <div class="flex justify-between items-center mb-6">
+              <h2 class="text-3xl md:text-5xl font-playfair font-normal">
+                <!-- Images of Impact -->
+              </h2>
+              <div class="md:ml-auto self-end my-4 md:self-auto  space-x-8">
+
+<button
+id="scrollBtn-prev"
+class="text-xl font-semibold font-opensans capitalize "
+>
+<span class="md:hidden"> &larr; Back</span>
+<span class="hidden md:inline">&larr; Back </span>
+</button>
+<button
+id="scrollBtn"
+class="text-xl font-semibold font-opensans capitalize "
+>
+<span class="md:hidden">Next &rarr;</span>
+<span class="hidden md:inline">Next &rarr;</span>
+</button>
+</div>
+            </div>
           </section>
       <!-- Our vision and mission -->
       <section class="bg-[#F8F8FF] md:py-16 md:p-6 p-2 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <!-- COnatainner flex -->
           <div class="flex flex-col gap-12">
             <!-- flex card  -->
@@ -341,10 +368,10 @@
                 <!-- Vision Section -->
                 <div class="lg:w-2/3 md:p-8 p-6 rounded-[16px] bg-[#FFC6DB] flex flex-col h-82">
                   <div class="flex-grow">
-                    <h2 class="md:text-5xl text-[32px] mb-6 font-playfair leading-normal font-[500]">
+                    <h2 class="md:text-5xl text-[32px] lg:text-[32px] xl:text-5xl mb-6 font-playfair leading-normal font-[500]">
                       Our Vision
                     </h2>
-                    <p class="text-accentTextDark font-[400] font-opensans leading-[2.1675rem] mb-6 md:text-xl text-[16px] font-[400]">
+                    <p class="text-accentTextDark font-[400] font-opensans leading-[2.1675rem] mb-6 md:text-xl text-[16px] lg:text-lg xl:text-xl ">
                       We envision a world where every individual and community has
                       the opportunity to thrive. A world where gender equality is
                       the norm, health and well-being are prioritized, educational
@@ -357,10 +384,10 @@
                 <!-- Mission Section -->
                 <div class="lg:w-2/3 md:p-8 p-6 rounded-[16px] bg-[#FFDED0] flex flex-col h-82">
                   <div class="flex-grow">
-                    <h2 class="md:text-5xl text-[32px] mb-6 font-playfair leading-normal font-[500]">
+                    <h2 class="md:text-5xl text-[32px] lg:text-[32px] xl:text-5xl mb-6 font-playfair leading-normal font-[500]">
                       Our Mission
                     </h2>
-                    <p class="text-accentTextDark font-[400] font-opensans leading-[2.1675rem] mb-6 md:text-xl text-[16px] font-[400]">
+                    <p class="text-accentTextDark font-[400] font-opensans leading-[2.1675rem] mb-6 md:text-xl text-[16px] lg:text-lg xl:text-xl ">
                       Our mission is to support our partners in driving positive
                       social change through strategic advocacy, effective
                       communication, and community-centered approaches. We aim to
@@ -378,12 +405,12 @@
       </section>
       <!-- What Makes Us Unique ? -->
       <section class=" py-16 md:p-6 p-2 rounded md:mt-0 mt-[-40px]">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+        <div class="lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <!-- GRID -->
           <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
             <div class="p-4 md:h-[15.9375rem] h-auto w-full">
               <h2
-                class="md:text-7xl md:text-6xl text-[40px] mb-6 font-playfair leading-normal font-[500]"
+                class="md:text-7xl xl:text-7xl lg:text-5xl text-[40px] mb-6 font-playfair leading-normal font-[500]"
               >
                 What Makes Us Unique ?
               </h2>
@@ -393,7 +420,7 @@
               class="p-6 bg-secondary rounded-[16px] h-[15.9375rem] w-full font-opensans flex flex-col justify-between"
             >
               <h3
-                class="md:text-[2rem] text-[24px] leading-[2.272375rem] font-[600] md:font-[600]"
+                class="md:text-[2rem] text-[24px] lg:text-2xl xl:text-[2rem] leading-[2.272375rem] font-[600] md:font-[600]"
               >
                 Deep-rooted Expertise
               </h3>
@@ -408,7 +435,7 @@
               class="p-6 bg-miscellanous rounded-[16px] h-[15.9375rem] w-full font-opensans flex flex-col justify-between"
             >
               <h3
-                class="md:text-[2rem] text-[24px] leading-[2.272375rem] font-[600] md:font-[600]"
+                class="md:text-[2rem] text-[24px] lg:text-2xl xl:text-[2rem] leading-[2.272375rem] font-[600] md:font-[600]"
               >
                 Collaborative Approach
               </h3>
@@ -422,7 +449,7 @@
               class="p-6 bg-[#FFDED0] rounded-[16px] h-[15.9375rem] w-full font-opensans flex flex-col justify-between"
             >
               <h3
-                class="md:text-[2rem] text-[24px] leading-[2.272375rem] font-[600] md:font-[600]"
+                class="md:text-[2rem] text-[24px] lg:text-2xl xl:text-[2rem] leading-[2.272375rem] font-[600] md:font-[600]"
               >
                 Global Impact
               </h3>
@@ -437,7 +464,7 @@
               class="p-6 bg-[#DDC2FF] rounded-[16px] h-[15.9375rem] w-full font-opensans flex flex-col justify-between"
             >
               <h3
-                class="md:text-[2rem] text-[24px] leading-[2.272375rem] font-[600] md:font-[600]"
+                class="md:text-[2rem] text-[24px] lg:text-2xl xl:text-[2rem] leading-[2.272375rem] font-[600] md:font-[600]"
               >
                 Results-Driven
               </h3>
@@ -452,7 +479,7 @@
               class="p-6 bg-[#FFE4BB] rounded-[16px] h-[15.9375rem] w-full font-opensans flex flex-col justify-between"
             >
               <h3
-                class="md:text-[2rem] text-[24px] leading-[2.272375rem] font-[600] md:font-[600]"
+                class="md:text-[2rem] text-[24px] lg:text-2xl xl:text-[2rem] leading-[2.272375rem] font-[600] md:font-[600]"
               >
                 Holistic Approach
               </h3>
@@ -469,15 +496,15 @@
       <section class="bg-secondary py-16 rounded ">
         <div class="max-w-7xl mx-auto px-2 sm:px-2 lg:px-6">
           <h2
-            class="md:text-7xl text-5xl md:mb-4 mb-2 font-playfair text-center leading-normal font-[500]"
+            class="lg:max-w-4xl xl:max-w-7xl max-w-7xl lg:text-4xl xl:text-5xl md:text-5xl md:mb-4 mb-2 font-playfair text-center leading-normal font-[500]"
           >
             Meet The Team
           </h2>
           <div class="container mx-auto px-4 py-16 justify-items-center md:mt-[-20px] mt-[-30px]">
             <!-- team grid -->
-            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 justify-items-center">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-4 grid-cols-1 md:gap-10 lg:gap-x-[40px] lg:gap-y-[25px]">
               <!-- Team Member Card 1 -->
-              <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
+              <div class="bg-white rounded-[30px] p-12 text-center shadow-md  lg:h-[354px]">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710333/Ellipse_20_ptje7f.png') }}"
                   alt="Team member photo"
@@ -489,7 +516,7 @@
                 >
                   Lolo Cynthia
                 </h2>
-                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Executive Director</p>
+                <p class="mb-4 mt-4 font-opensans font-[400] text-base" style="line-height: normal; letter-spacing: 0.32px;">Executive Director</p>
                 <a
                   href="https://www.linkedin.com/in/lolocynthia/ "
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -502,7 +529,7 @@
               </div>
 
               <!-- Team Member Card 2 -->
-              <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
+              <div class="bg-white rounded-[30px] p-12 text-center shadow-md  lg:h-[354px]">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710427/image_1_qcjudm.png') }}"
                   alt="Team member photo"
@@ -514,7 +541,7 @@
                 >
                 Bumai Blessing
                 </h2>
-                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Social Media and Communications Officer</p>
+                <p class="mb-4 mt-4 font-opensans font-[400] text-base" style="line-height: normal; letter-spacing: 0.32px;">Social Media and Communications Officer</p>
                 <a
                   href="https://bumaiblessing.com/"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -528,7 +555,7 @@
               </div>
 
               <!-- Team Member Card 3 -->
-              <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
+              <div class="bg-white rounded-[30px] p-12 text-center shadow-md  lg:h-[354px]">
                 <img
                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710468/image_2_syq20p.png') }}"
                   alt="Team member photo"
@@ -540,7 +567,7 @@
                 >
                   Sherine Achieng
                 </h2>
-                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Senior Advocacy Officer</p>
+                <p class="mb-4 mt-4 font-opensans font-[400] text-base" style="line-height: normal; letter-spacing: 0.32px;">Senior Advocacy Officer</p>
                 <a
                   href="https://www.linkedin.com/in/sherine-achieng-96bb602a7/?trk=people-guest_people_search-card&originalSubdomain=ke"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -552,7 +579,7 @@
                 </a>
               </div>
               <!-- Team Member Card 5 -->
-              <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
+              <div class="bg-white rounded-[30px] p-12 text-center shadow-md  lg:h-[354px]">
                 <img
                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710502/image_3_whmfja.png') }}"
                   alt="Team member photo"
@@ -564,7 +591,7 @@
                 >
                   Eunice Gatonye
                 </h2>
-                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">PR and Media Specialist</p>
+                <p class="mb-4 mt-4 font-opensans font-[400] text-base" style="line-height: normal; letter-spacing: 0.32px;">PR and Media Specialist</p>
                 <a
                   href="https://www.linkedin.com/in/eunice-gatonye/"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -576,7 +603,7 @@
                 </a>
               </div>
               <!-- Team Member Card 6 -->
-              <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
+              <div class="bg-white rounded-[30px] p-12 text-center shadow-md  lg:h-[354px]">
                 <img
                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710536/image_4_hfhb0p.png') }}"
                   alt="Team member photo"
@@ -588,7 +615,7 @@
                 >
                   Martha Aosa
                 </h2>
-                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Digital Communications Manager</p>
+                <p class="mb-4 mt-4 font-opensans font-[400] text-base" style="line-height: normal; letter-spacing: 0.32px;">Digital Communications Manager</p>
                 <a
                   href="https://www.linkedin.com/in/martha-aosa-9a1b64163/?originalSubdomain=ke"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -599,7 +626,7 @@
 
                 </a>
               </div>
-                <div class="bg-white rounded-[30px] p-6 text-center shadow-md w-72">
+                <div class="bg-white rounded-[30px] p-12 text-center shadow-md  lg:h-[354px]">
                 <img
                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734710569/Ellipse_20_1_nolgw2.png') }}"
                   alt="Team member photo"
@@ -611,7 +638,7 @@
                 >
                  Akogun Elizabeth
                 </h2>
-                <p class="mb-4 mt-4 font-opensans font-[400]" style="line-height: normal; letter-spacing: 0.32px;">Product Designer</p>
+                <p class="mb-4 mt-4 font-opensans font-[400] text-base" style="line-height: normal; letter-spacing: 0.32px;">Product Designer</p>
                 <a
                   href="https://www.linkedin.com/in/akogun-elizabeth/"
                   class="inline-block mt-4 text-black hover:text-orange-500"
@@ -628,9 +655,9 @@
       </section>
            <!-----Six Section--->
       <section>
-        <div class="container max-w-7xl mx-auto px-4 sm:px-6 md:mt-12 mt-12">
+        <div class="container lg:max-w-4xl xl:max-w-7xl max-w-7xl mx-auto px-4 sm:px-6 md:mt-12 mt-12">
           <h2
-            class="md:text-6xl text-4xl font-playfair font-bold text-gray-900 text-left mb-12 leading-normal"
+            class="md:text-6xl lg:text-5xl xl:text-6xl text-4xl font-playfair font-bold text-gray-900 text-left mb-12 leading-normal"
           style="font-weight: 500;">
             Our Impact in Action
           </h2>
